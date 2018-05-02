@@ -1,3 +1,5 @@
+import os
+
 from watchdog import observers
 from watchdog import events
 
@@ -9,10 +11,18 @@ class FileObserver(object):
         self.event_handler.on_any_event = self.on_any_event
 
     def addFile(self,filename):
-        self.patterns.append(filename)
-        self.fileobserver.schedule(self.event_handler,'.',recursive=False)
+        if os.path.isfile(filename):
+            self.patterns.append(filename)
+            self.fileobserver.schedule(self.event_handler, os.path.dirname(filename) ,recursive=False)
+            return 0
+        else:
+            return 1
     def addDir(self,dirname):
-        self.fileobserver.schedule(self.event_handler,dirname,recursive=True)
+        if os.path.isdir(dirname):
+            self.fileobserver.schedule(self.event_handler,dirname,recursive=True)
+            return 0
+        else:
+            return 1
     def start(self):
         self.fileobserver.start()
     def stop(self):
