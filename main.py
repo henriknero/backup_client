@@ -1,15 +1,16 @@
 import tkinter
 from backup_client.filehandler import observer
-#import pdb;pdb.set_trace()
+
 observer = observer.FileObserver()
-observer.addDir('.')
+observer.add_dir('.')
 observer.start()
 
-def doStuffPls():
-    observer.addFile('.\\fuckme.txt')
-    
+
+def do_stuff_pls():
+    observer.add_file('.\\fuckme.txt')
+
 
 top = tkinter.Tk()
-button = tkinter.Button(top,text='Pls press me', command=doStuffPls)
+button = tkinter.Button(top, text='Pls press me', command=do_stuff_pls)
 button.pack()
 top.mainloop()
