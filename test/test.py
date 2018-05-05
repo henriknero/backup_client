@@ -1,8 +1,9 @@
 import unittest
 import os
+import sys
 import shutil
 
-from context import backup_client
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from backup_client.filehandler import observer
 
 
