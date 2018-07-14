@@ -37,7 +37,6 @@ def commit_and_push_all(repository):
         tree = repository.index.write_tree()
         master = repository.lookup_branch('master')
         commit = repository.create_commit(ref, author, author, time.strftime("%d/%m/%Y"), tree, [master.target])
-        repository.head.set_target(commit)
 
 #http://www.pygit2.org/repository.html
 git.Branch.target
