@@ -65,7 +65,7 @@ class MainWindow(tkinter.Frame):
         """
 
         file_path = filedialog.askopenfilename()
-        if isinstance(file_path, str):
+        if isinstance(file_path, str) and file_path not in self.observer.patterns.values():
             self.observer.add_file(file_path)
             self.monitored_files.insert(tkinter.END, file_path)
 
@@ -74,7 +74,7 @@ class MainWindow(tkinter.Frame):
         """
 
         dir_path = filedialog.askdirectory()
-        if isinstance(dir_path, str):
+        if isinstance(dir_path, str) and dir_path not in self.observer.patterns.values():
             self.observer.add_dir(dir_path)
             self.monitored_files.insert(tkinter.END, dir_path)
 

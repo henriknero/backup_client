@@ -29,14 +29,16 @@ def find_repository(path):
     if repo is not None:
         return Repository(repo)
 def commit_and_push_all(repository):
-    if any(value > 0 for value in repository.status().values()): #pylint: disable=E1101
+    if repository.status(): #pylint: disable=E1101
         repository.index.add_all()
         repository.index.write()
         ref = "refs/heads/master"
         author = git.Signature("Henrik Nero", "henriknero@gmail.com") #pylint: disable=E1101
         tree = repository.index.write_tree()
-        master = repository.lookup_branch('master')
-        commit = repository.create_commit(ref, author, author, time.strftime("%d/%m/%Y"), tree, [master.target])
+        try:
+            repository.create_commit(ref, author, author, time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [])
+        except:
+            master = repository.lookup_branch('master')
+            repository.create_commit(ref, author, author, time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [master.target])
 
 #http://www.pygit2.org/repository.html
-git.Branch.target

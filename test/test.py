@@ -53,7 +53,7 @@ class TestNetworkModule(unittest.TestCase):
         repo_url = "https://gitlab.com/backup-project/backup_client.git"
         repo_name = os.path.basename(repo_url)
         gitcom.add_remote_repository(repo_url, os.path.join(self.test_env, repo_name), "henriknero", "h1tl3rg1ll4rb4js")
-    
+
 
 if __name__ == '__main__':
     unittest.main()
