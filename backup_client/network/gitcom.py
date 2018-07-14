@@ -33,9 +33,11 @@ def commit_and_push_all(repository):
         repository.index.add_all()
         repository.index.write()
         ref = "refs/heads/master"
-        author = git.Signature("Henrik Nero", "henriknero@gmail.com")
+        author = git.Signature("Henrik Nero", "henriknero@gmail.com") #pylint: disable=E1101
         tree = repository.index.write_tree()
-        commit = repository.create_commit(ref, author, author, time.strftime("%d/%m/%Y"), tree, [])
+        master = repository.lookup_branch('master')
+        commit = repository.create_commit(ref, author, author, time.strftime("%d/%m/%Y"), tree, [master.target])
         repository.head.set_target(commit)
+
 #http://www.pygit2.org/repository.html
-Repository
+git.Branch.target
