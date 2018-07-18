@@ -1,6 +1,8 @@
-import tkinter as tk
-from tkinter import filedialog
+"""LoginWindow module
+"""
 
+import tkinter as tk
+import requests
 
 class LoginWindow(object):
     """Gui Class
@@ -16,7 +18,7 @@ class LoginWindow(object):
         self.username_entry = tk.Entry(self.parent)
         password_label = tk.Label(self.parent, text="Password")
         self.password_entry = tk.Entry(self.parent)
-        login = tk.Button(parent, text="Login", command= self.apply)
+        login = tk.Button(parent, text="Login", command=self.apply)
         username_label.pack()
         self.username_entry.pack()
         password_label.pack()
@@ -27,6 +29,8 @@ class LoginWindow(object):
     def apply(self):
         """Check against server
         """
-        self.result = {self.username_entry.get(), self.password_entry.get()}
-        self.parent.destroy()
-
+        credentials = (self.username_entry.get(),self.password_entry.get())
+        response = requests.get('https://www.nerobp.xyz/gogs/user/login', auth=credentials)
+        if response.url == 'https://www.nerobp.xyz/gogs/':
+            self.result = {self.username_entry.get(), self.password_entry.get()}
+            self.parent.destroy()
