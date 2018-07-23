@@ -32,5 +32,5 @@ class LoginWindow(object):
         credentials = (self.username_entry.get(),self.password_entry.get())
         response = requests.get('https://www.nerobp.xyz/gogs/user/login', auth=credentials)
         if response.url == 'https://www.nerobp.xyz/gogs/':
-            self.result = {self.username_entry.get(), self.password_entry.get()}
+            self.result = (self.username_entry.get(), self.password_entry.get())
             self.parent.destroy()

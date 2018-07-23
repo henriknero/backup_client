@@ -2,6 +2,7 @@ import unittest
 import os
 import sys
 import shutil
+import requests
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from backup_client.filehandler import observer
@@ -12,7 +13,7 @@ from backup_client.network import gitcom
 
 class TestFileHandler(unittest.TestCase):
     def setUp(self):
-        self.file_observer = observer.FileObserver()
+        self.file_observer = observer.FileObserver('test_user','cisco123')
         self.test_env = os.path.join(os.getcwd(), 'filhandler')
         os.mkdir(self.test_env)
 
@@ -35,12 +36,19 @@ class TestFileHandler(unittest.TestCase):
     """
 class TestNetworkModule(unittest.TestCase):
     def setUp(self):
-        self.file_observer = observer.FileObserver()
+        self.file_observer = observer.FileObserver('test_user', 'cisco123')
+
         self.test_env = os.path.join(os.getcwd(), 'network')
         os.mkdir(self.test_env)
 
+        self.test_repo = os.path.join(self.test_env, 'test_repo')
+        os.mkdir(self.test_repo)
+        self.server = 'https://nerobp.xyz/gogs/api/v1/user/repos'
+
     def tearDown(self):
         shutil.rmtree(self.test_env)
+        requests.delete('https://nerobp.xyz/gogs/api/v1/repos/test_user/' + self.test_repo.replace('/', '_'), auth=('test_user', 'cisco123'))
+
 
     def test_add_remote_repository(self):
         """Self-explanary
@@ -52,7 +60,9 @@ class TestNetworkModule(unittest.TestCase):
         #With Password
         repo_url = "https://gitlab.com/backup-project/backup_client.git"
         repo_name = os.path.basename(repo_url)
-        gitcom.add_remote_repository(repo_url, os.path.join(self.test_env, repo_name), "henriknero", "h1tl3rg1ll4rb4js")
+
+    def test_create_new_repo(self):
+        gitcom.create_new_repository(self.test_repo, ('test_user','cisco123'))
 
 
 if __name__ == '__main__':

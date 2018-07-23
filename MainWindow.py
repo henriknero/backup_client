@@ -2,8 +2,18 @@
     docstring here
 """
 import tkinter
-from tkinter import filedialog
+import pickle
+import os
+from tkinter import filedialog, messagebox
 
+
+def save_obj(obj, name ):
+    with open('obj/'+ name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+
+def load_obj(name ):
+    with open('obj/' + name + '.pkl', 'rb') as f:
+        return pickle.load(f)
 
 class MainWindow(tkinter.Frame):
     """Gui Class
@@ -59,7 +69,7 @@ class MainWindow(tkinter.Frame):
         current_directory = tkinter.Listbox(parent, exportselection=0)
         current_directory.grid(
             row=0, column=2, rowspan=2, sticky="nswe", padx=1, pady=1)
-
+        self.load_stored_patterns()
     def add_file(self):
         """Add File function
         """
@@ -72,11 +82,24 @@ class MainWindow(tkinter.Frame):
     def add_folder(self):
         """Add Folder function
         """
-
         dir_path = filedialog.askdirectory()
+        if not os.path.isdir(dir_path):
+            return
+        
         if isinstance(dir_path, str) and dir_path not in self.observer.patterns.values():
             self.observer.add_dir(dir_path)
             self.monitored_files.insert(tkinter.END, dir_path)
+    def load_stored_patterns(self):
+        try:
+            self.observer.patterns = load_obj("patterns")
+            for obj in self.observer.patterns.keys():
+                self.observer.file_observer.schedule(self.observer.event_handler, obj)
+                self.monitored_files.insert(tkinter.END, obj)
+
+        except FileNotFoundError:
+            pass
+        except BaseException as error:
+            print("Unexpected error:", error)
 
     def on_selected_dir(self, event):
         """Function to redraw current_window when changing monitored_files list item.
