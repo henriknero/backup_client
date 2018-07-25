@@ -2,18 +2,18 @@
     docstring here
 """
 import tkinter
+from tkinter import filedialog
 import pickle
 import os
-from tkinter import filedialog, messagebox
 
 
-def save_obj(obj, name ):
-    with open('obj/'+ name + '.pkl', 'wb') as f:
-        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+def save_obj(obj, name):
+    with open('obj/'+ name + '.pkl', 'wb') as file:
+        pickle.dump(obj, file, pickle.HIGHEST_PROTOCOL)
 
-def load_obj(name ):
-    with open('obj/' + name + '.pkl', 'rb') as f:
-        return pickle.load(f)
+def load_obj(name):
+    with open('obj/' + name + '.pkl', 'rb') as file:
+        return pickle.load(file)
 
 class MainWindow(tkinter.Frame):
     """Gui Class
@@ -74,7 +74,7 @@ class MainWindow(tkinter.Frame):
         """Add File function
         """
 
-        file_path = filedialog.askopenfilename()
+        file_path = tkinter.filedialog.askopenfilename()
         if isinstance(file_path, str) and file_path not in self.observer.patterns.values():
             self.observer.add_file(file_path)
             self.monitored_files.insert(tkinter.END, file_path)
@@ -85,7 +85,7 @@ class MainWindow(tkinter.Frame):
         dir_path = filedialog.askdirectory()
         if not os.path.isdir(dir_path):
             return
-        
+
         if isinstance(dir_path, str) and dir_path not in self.observer.patterns.values():
             self.observer.add_dir(dir_path)
             self.monitored_files.insert(tkinter.END, dir_path)
@@ -107,9 +107,9 @@ class MainWindow(tkinter.Frame):
         Arguments:
             event {Virtualevent} -- Event containing Listobject
         """
-
+        pass
         #This is retarded but who a I to judge
-        path = event.widget.get(event.widget.curselection()[0])
+        #path = event.widget.get(event.widget.curselection()[0])
         #Do stuff to current_dir window
 
 

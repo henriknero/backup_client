@@ -4,16 +4,20 @@
 """
 import tkinter
 from LoginWindow import LoginWindow
-from MainWindow import MainWindow, save_obj
+from MainWindow import MainWindow, save_obj,load_obj
 from backup_client.filehandler import observer
 
 
 def main():
-    login = tkinter.Tk()
-    dialog = LoginWindow(login)
-    login.wait_window()
-    if dialog.result is not None:
-        myobserver = observer.FileObserver(dialog.result[0],dialog.result[1])
+    try:
+        credentials = load_obj("udata")
+    except FileNotFoundError:
+        login = tkinter.Tk()
+        dialog = LoginWindow(login)
+        login.wait_window()
+        credentials = dialog.result
+    if credentials is not None:
+        myobserver = observer.FileObserver(credentials[0], credentials[1])
         myobserver.start()
 
         top = tkinter.Tk()

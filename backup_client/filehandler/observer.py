@@ -20,7 +20,7 @@ class FileObserver(object):
         self.event_handler = events.FileSystemEventHandler()
         self.event_handler.on_modified = self.on_modified
         self.event_handler.on_moved = self.on_moved
-        self.credentials = (username,password)
+        self.credentials = (username, password)
 
     def add_dir(self, dirname):
         """Add dir function
