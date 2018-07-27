@@ -5,6 +5,7 @@ import tkinter
 from tkinter import filedialog, simpledialog
 import pickle
 import os
+from backup_client.network.gitcom import get_reponame_from_path
 
 
 def save_obj(obj, name):
@@ -75,11 +76,9 @@ class MainWindow(tkinter.Frame):
     def load_stored_patterns(self):
         try:
             self.observer.patterns = load_obj("patterns")
-            self.listitems = load_obj("listitems")
             for obj in self.observer.patterns.keys():
                 self.observer.file_observer.schedule(self.observer.event_handler, obj)
-            for obj in self.listitems:
-                self.monitored_files.insert(tkinter.END, obj)
+                self.monitored_files.insert(tkinter.END, get_reponame_from_path(obj))
 
         except FileNotFoundError:
             pass

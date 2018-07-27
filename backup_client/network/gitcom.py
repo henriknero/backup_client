@@ -1,6 +1,7 @@
 """ Functions for communicating with git server
 """
 import time
+import os
 from json import loads
 
 import pygit2 as git
@@ -23,7 +24,7 @@ def create_new_repository(path, git_name, credentials):
         return
     clone_url = loads(response.text)['clone_url']
     repo.remotes.set_push_url("origin", clone_url)
-
+    repo.remotes.set_url("origin", clone_url)
     commit_and_push_all(repo, credentials)
 
 
@@ -86,5 +87,9 @@ def commit_and_push_all(repository, credentials):
                                        UserPass(credentials[0],
                                                 credentials[1])))
 
+
+def get_reponame_from_path(path):
+    repo = Repository(path)
+    return os.path.basename(repo.remotes[0].url).replace(".git","")
 
 #http://www.pygit2.org/repository.html

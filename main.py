@@ -25,7 +25,6 @@ def main():
         main_window = MainWindow(top, myobserver)
         top.mainloop()
         save_obj(myobserver.patterns, "patterns")
-        save_obj(main_window.listitems,"listitems")
         myobserver.stop()
 
 
