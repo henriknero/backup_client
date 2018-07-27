@@ -10,9 +10,9 @@ import requests as req
 API_URL = 'https://nerobp.xyz/gogs/api/v1/user/repos'
 
 
-def create_new_repository(path, credentials):
+def create_new_repository(path, git_name, credentials):
     repo = git.init_repository(path)
-    repo_name = path.replace('/', '_')
+    repo_name = git_name
     response = req.post(
         API_URL, data={
             'name': repo_name,

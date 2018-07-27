@@ -22,9 +22,10 @@ def main():
 
         top = tkinter.Tk()
         top.geometry("800x500")
-        MainWindow(top, myobserver)
+        main_window = MainWindow(top, myobserver)
         top.mainloop()
         save_obj(myobserver.patterns, "patterns")
+        save_obj(main_window.listitems,"listitems")
         myobserver.stop()
 
 

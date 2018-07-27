@@ -22,7 +22,7 @@ class FileObserver(object):
         self.event_handler.on_moved = self.on_moved
         self.credentials = (username, password)
 
-    def add_dir(self, dirname):
+    def add_dir(self, dirname, git_name):
         """Add dir function
 
         Arguments:
@@ -34,7 +34,7 @@ class FileObserver(object):
             self.file_observer.schedule(self.event_handler, dirname, recursive=True)
 
             if not gitcom.is_repo(dirname):
-                gitcom.create_new_repository(dirname, self.credentials)
+                gitcom.create_new_repository(dirname, git_name, self.credentials)
             else:
                 repository = gitcom.find_repository(dirname)
                 gitcom.commit_and_push_all(repository, self.credentials)
