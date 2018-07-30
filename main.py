@@ -21,7 +21,8 @@ def main():
         myobserver.start()
 
         top = tkinter.Tk()
-        top.geometry("800x500")
+        top.geometry("250x350")
+        top.title("gibc")
         main_window = MainWindow(top, myobserver)
         top.mainloop()
         save_obj(myobserver.patterns, "patterns")

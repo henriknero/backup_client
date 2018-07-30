@@ -5,7 +5,7 @@ import tkinter
 from tkinter import filedialog, simpledialog
 import pickle
 import os
-from backup_client.network.gitcom import get_reponame_from_path
+from backup_client.network.gitcom import get_reponame_from_path, remove_remote_repo
 
 
 def save_obj(obj, name):
@@ -41,20 +41,11 @@ class MainWindow(tkinter.Frame):
 
         self.create_monitored_folders_box()
 
-        current_directory = tkinter.Listbox(parent, exportselection=0)
-        current_directory.grid(
-            row=0,
-            column=2,
-            rowspan=2,
-            sticky="nswe",
-            padx=1,
-            pady=1
-            )
         #Reloads stored patterns into the GUI
         self.load_stored_patterns()
 
         #Setting weights for grid, makes stuff look good, dont know how it works...
-        self.parent.grid_columnconfigure(2, weight=1)
+        self.parent.grid_columnconfigure(0, weight=1)
         self.parent.grid_rowconfigure(0, weight=1)
 
     def add_folder(self):
@@ -78,7 +69,10 @@ class MainWindow(tkinter.Frame):
             self.observer.patterns = load_obj("patterns")
             for obj in self.observer.patterns.keys():
                 self.observer.file_observer.schedule(self.observer.event_handler, obj)
-                self.monitored_files.insert(tkinter.END, get_reponame_from_path(obj))
+                reponame = get_reponame_from_path(obj)
+                self.monitored_files.insert(tkinter.END, reponame)
+                self.listitems[reponame] = obj
+
 
         except FileNotFoundError:
             pass
@@ -91,8 +85,7 @@ class MainWindow(tkinter.Frame):
         Arguments:
             event {Virtualevent} -- Event containing Listobject
         """
-        #path = event.widget.get(event.widget.curselection()[0])
-        pass
+        path = event.widget.get(event.widget.curselection()[0])
 
     def create_menu(self):
         menu = tkinter.Menu(self.parent)
@@ -106,11 +99,10 @@ class MainWindow(tkinter.Frame):
     def create_monitored_folders_box(self):
         self.monitored_files = tkinter.Listbox(
             self.parent,
-            exportselection=0,
-            width=30
+            exportselection=0
             )
         self.monitored_files.bind('<<ListboxSelect>>', self.on_selected_dir)
-        self.monitored_files.grid(row=0, column=0, sticky="ns")
+        self.monitored_files.grid(row=0, column=0, sticky="nswe")
         mf_yscroll = tkinter.Scrollbar(self.parent)
         mf_yscroll.grid(row=0, column=1, sticky="ns")
         mf_yscroll.config(command=self.monitored_files.yview)
@@ -126,6 +118,26 @@ class MainWindow(tkinter.Frame):
             xscrollcommand=mf_xscroll.set
             )
         
+        self.monitored_files.bind("<Button-3>", self.mf_menu_popup)
+        self.mf_menu = tkinter.Menu(self.parent)
+        self.mf_menu.add_command(label="Remove from Remote", command=self.remove_folder_git)
+
+    def mf_menu_popup(self, event):
+        event.widget.selection_clear(0,tkinter.END)
+        event.widget.select_set(event.widget.nearest(event.y))
+        event.widget.activate(event.widget.nearest(event.y))
+        try:
+            self.mf_menu.tk_popup(event.x_root, event.y_root)
+        finally:
+            self.mf_menu.grab_release()
+    def remove_folder_git(self):
+        repo_name = self.monitored_files.get(self.monitored_files.curselection())
+        try:
+            self.observer.unmonitor_folder(repo_name, self.listitems[repo_name])
+            self.monitored_files.delete(self.monitored_files.curselection())
+        except NameError:
+            print("Repository was not found pls handle") # Create option to remove .git folder and clean up cause remote repository doesnt exist
+
 
 # Hides window to the user and redraws it after 5 sec.
 #self.parent.wm_state("withdrawn")

@@ -2,6 +2,7 @@
 """
 
 import os
+import shutil
 import datetime
 
 from watchdog import observers
@@ -40,6 +41,18 @@ class FileObserver(object):
                 gitcom.commit_and_push_all(repository, self.credentials)
         else:
             print("This is not a folder")
+    def unmonitor_folder(self, repo_name, path):
+        #Create some kind of verification that the remote branch has been found and deleted.
+        try:
+            gitcom.remove_remote_repo(repo_name, self.credentials)
+            for watch in self.file_observer._watches:
+                if watch.path == path:
+                    self.file_observer.remove_handler_for_watch(self.event_handler, watch)
+            shutil.rmtree(os.path.join(path,".git"))
+        except NameError:
+            raise 
+        except BaseException:
+            pass
 
     def start(self):
         """Start

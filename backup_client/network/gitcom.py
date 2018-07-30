@@ -92,4 +92,11 @@ def get_reponame_from_path(path):
     repo = Repository(path)
     return os.path.basename(repo.remotes[0].url).replace(".git","")
 
+def remove_remote_repo(repo_name, credentials):
+    response = req.delete('https://nerobp.xyz/gogs/api/v1/repos/' + credentials[0] + '/' + repo_name, auth=credentials)
+    if response.status_code == 404:
+        raise NameError("Repository not found")
+    elif response != 204:
+        raise Exception("Unexpected Error, make sure that you have connection to the server.")
+    
 #http://www.pygit2.org/repository.html
