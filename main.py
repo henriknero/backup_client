@@ -1,11 +1,11 @@
 #! /usr/bin/python3
+#coding=utf-8
 """
     docstring here
 """
 import tkinter
 from LoginWindow import LoginWindow
-from MainWindow import MainWindow, save_obj,load_obj
-from backup_client.filehandler import observer
+from MainWindow import MainWindow, load_obj
 
 
 def main():
@@ -16,17 +16,13 @@ def main():
         dialog = LoginWindow(login)
         login.wait_window()
         credentials = dialog.result
-    if credentials is not None:
-        myobserver = observer.FileObserver(credentials[0], credentials[1])
-        myobserver.start()
 
+    if credentials is not None:
         top = tkinter.Tk()
         top.geometry("250x350")
-        top.title("gibc")
-        main_window = MainWindow(top, myobserver)
+        top.title("Git Backup Client")
+        MainWindow(top, credentials)
         top.mainloop()
-        save_obj(myobserver.patterns, "patterns")
-        myobserver.stop()
 
 
 if __name__ == "__main__":

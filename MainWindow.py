@@ -5,7 +5,8 @@ import tkinter
 from tkinter import filedialog, simpledialog
 import pickle
 import os
-from backup_client.network.gitcom import get_reponame_from_path, remove_remote_repo
+from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository
+from backup_client.filehandler import observer
 
 
 def save_obj(obj, name):
@@ -23,7 +24,7 @@ class MainWindow(tkinter.Frame):
         tkinter {Frame} --
     """
 
-    def __init__(self, parent, observer, *args, **kwargs):
+    def __init__(self, parent, credentials, *args, **kwargs):
         """Gui for app
 
         Arguments:
@@ -31,14 +32,14 @@ class MainWindow(tkinter.Frame):
             parent {Frame} -- Root Window
             observer {Observer} -- Fileobserver to handle files.
         """
-
         tkinter.Frame.__init__(self, parent, *args, **kwargs)
         self.parent = parent
-        self.observer = observer
+        self.parent.protocol("WM_DELETE_WINDOW", self.quit)
+        self.observer = observer.FileObserver(credentials[0], credentials[1])
+        self.observer.start()
         self.listitems = {}
 
         self.create_menu()
-
         self.create_monitored_folders_box()
 
         #Reloads stored patterns into the GUI
@@ -47,6 +48,11 @@ class MainWindow(tkinter.Frame):
         #Setting weights for grid, makes stuff look good, dont know how it works...
         self.parent.grid_columnconfigure(0, weight=1)
         self.parent.grid_rowconfigure(0, weight=1)
+
+    def quit(self):
+        self.parent.destroy()
+        save_obj(self.observer.patterns, "patterns")
+        self.observer.stop()
 
     def add_folder(self):
         """Add Folder function
@@ -68,10 +74,11 @@ class MainWindow(tkinter.Frame):
         try:
             self.observer.patterns = load_obj("patterns")
             for obj in self.observer.patterns.keys():
-                self.observer.file_observer.schedule(self.observer.event_handler, obj)
                 reponame = get_reponame_from_path(obj)
-                self.monitored_files.insert(tkinter.END, reponame)
-                self.listitems[reponame] = obj
+                if reponame is not None:
+                    self.observer.file_observer.schedule(self.observer.event_handler, obj)
+                    self.monitored_files.insert(tkinter.END, reponame)
+                    self.listitems[reponame] = obj
 
 
         except FileNotFoundError:
@@ -85,7 +92,8 @@ class MainWindow(tkinter.Frame):
         Arguments:
             event {Virtualevent} -- Event containing Listobject
         """
-        path = event.widget.get(event.widget.curselection()[0])
+        pass
+        #path = event.widget.get(event.widget.curselection()[0])
 
     def create_menu(self):
         menu = tkinter.Menu(self.parent)
@@ -93,6 +101,7 @@ class MainWindow(tkinter.Frame):
 
         file_menu = tkinter.Menu(menu)
         file_menu.add_command(label="Add Folder", command=self.add_folder)
+        file_menu.add_command(label="Connect to existing Remote", command=self.connect_remote)
 
         menu.add_cascade(label="File", menu=file_menu)
 
@@ -105,19 +114,20 @@ class MainWindow(tkinter.Frame):
         self.monitored_files.grid(row=0, column=0, sticky="nswe")
         mf_yscroll = tkinter.Scrollbar(self.parent)
         mf_yscroll.grid(row=0, column=1, sticky="ns")
-        mf_yscroll.config(command=self.monitored_files.yview)
+        mf_yscroll.config(
+            command=self.monitored_files.yview
+            )
         mf_xscroll = tkinter.Scrollbar(self.parent)
         mf_xscroll.grid(row=1, column=0, sticky="we")
         mf_xscroll.config(
             command=self.monitored_files.xview,
             orient=tkinter.HORIZONTAL
             )
-
         self.monitored_files.config(
             yscrollcommand=mf_yscroll.set,
             xscrollcommand=mf_xscroll.set
             )
-        
+
         self.monitored_files.bind("<Button-3>", self.mf_menu_popup)
         self.mf_menu = tkinter.Menu(self.parent)
         self.mf_menu.add_command(label="Remove from Remote", command=self.remove_folder_git)
@@ -130,6 +140,7 @@ class MainWindow(tkinter.Frame):
             self.mf_menu.tk_popup(event.x_root, event.y_root)
         finally:
             self.mf_menu.grab_release()
+
     def remove_folder_git(self):
         repo_name = self.monitored_files.get(self.monitored_files.curselection())
         try:
@@ -137,6 +148,23 @@ class MainWindow(tkinter.Frame):
             self.monitored_files.delete(self.monitored_files.curselection())
         except NameError:
             print("Repository was not found pls handle") # Create option to remove .git folder and clean up cause remote repository doesnt exist
+
+    def connect_remote(self):
+        dir_path = filedialog.askdirectory(title="Folder to download repository too")
+        if not is_repo(dir_path): # If local repository does not exist download repository to folder
+            repo_name = simpledialog.askstring(
+                "Add Remote Folder",
+                "The folder you have entered does not contain any remote, please enter the name of remote folder"
+                )
+            add_remote_repository(dir_path, repo_name, self.observer.credentials)
+            self.observer.add_dir(dir_path, repo_name)
+            self.monitored_files.insert(tkinter.END, repo_name)
+        else: # If choosen folder is existing repository, try to pull it to update local repository
+            repo_name = get_reponame_from_path(dir_path)
+            pull(find_repository(dir_path), self.observer.credentials)
+            self.observer.add_dir(dir_path, repo_name)
+            self.monitored_files.insert(tkinter.END, repo_name)
+
 
 
 # Hides window to the user and redraws it after 5 sec.
