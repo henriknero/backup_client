@@ -9,7 +9,7 @@ from watchdog import observers
 from watchdog import events
 from backup_client.network import gitcom
 
-UPDATE_INTERVAL = datetime.timedelta(minutes=1)
+UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 
 class FileObserver(object):
     """Observer Class
@@ -31,16 +31,18 @@ class FileObserver(object):
         """
 
         if os.path.isdir(dirname):
-            self.patterns[dirname] = datetime.datetime.now()
-            self.file_observer.schedule(self.event_handler, dirname, recursive=True)
-
             if not gitcom.is_repo(dirname):
                 gitcom.create_new_repository(dirname, git_name, self.credentials)
             else:
                 repository = gitcom.find_repository(dirname)
                 gitcom.commit_and_push_all(repository, self.credentials)
+
+            self.patterns[dirname] = datetime.datetime.now()
+            self.file_observer.schedule(self.event_handler, dirname, recursive=True)
+
         else:
-            print("This is not a folder")
+            print("This is not a folder, You're not suppose to be here")
+
     def unmonitor_folder(self, repo_name, path):
         #Create some kind of verification that the remote branch has been found and deleted.
         try:
@@ -48,9 +50,9 @@ class FileObserver(object):
             for watch in self.file_observer._watches:
                 if watch.path == path:
                     self.file_observer.remove_handler_for_watch(self.event_handler, watch)
-            shutil.rmtree(os.path.join(path,".git"))
+            shutil.rmtree(os.path.join(path, ".git"))
         except NameError:
-            raise 
+            raise
         except BaseException:
             pass
 
