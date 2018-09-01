@@ -7,8 +7,8 @@ import os
 
 import requests
 
-from .network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository
-from .filehandler import observer
+from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository
+from backup_client.filehandler import observer
 
 
 def save_obj(obj, name):

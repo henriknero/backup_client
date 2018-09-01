@@ -36,7 +36,6 @@ class FileObserver(object):
             else:
                 repository = gitcom.find_repository(dirname)
                 gitcom.commit_and_push_all(repository, self.credentials)
-
             self.patterns[dirname] = datetime.datetime.now()
             self.file_observer.schedule(self.event_handler, dirname, recursive=True)
 
