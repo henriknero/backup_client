@@ -1,13 +1,13 @@
 """Frames Module
 """
 import tkinter
-from tkinter import filedialog, simpledialog
+from tkinter import filedialog, simpledialog, messagebox
 import pickle
 import os
 
 import requests
 
-from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository
+from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository, verify_remote, update_remote, remove_local_repo_data
 from backup_client.filehandler import observer
 
 
@@ -103,15 +103,16 @@ class Mainwindow(tkinter.Frame):
         save_obj(self.observer.patterns, "patterns")
         self.observer.stop()
 
-    def add_folder(self):
+    def add_folder(self, askdir=os.getcwd()):
         """Add Folder function
         """
-        dir_path = filedialog.askdirectory()
-        git_name = simpledialog.askstring(
-            "Alias for folder",
-            "Enter the name you want for the git repo and what you will see"
-            )
-        self.listitems[git_name] = dir_path
+        dir_path = filedialog.askdirectory(initialdir=askdir)
+        if isinstance(dir_path, str) and dir_path != '':
+            git_name = simpledialog.askstring(
+                "Alias for folder",
+                "Enter the name you want for the git repo and what you will see"
+                )
+            self.listitems[git_name] = dir_path
         if not os.path.isdir(dir_path):
             return
 
@@ -121,10 +122,34 @@ class Mainwindow(tkinter.Frame):
 
     def load_stored_patterns(self):
         try:
-            self.observer.patterns = load_obj("patterns")
-            for obj in self.observer.patterns.keys():
+            temp = load_obj("patterns")
+            for obj in temp:
                 reponame = get_reponame_from_path(obj)
+                if reponame is None:
+                    answer = messagebox.askyesno("Repository not found", "Local repository in {} does not exist, do you want to create it?".format(obj))
+                    if answer:
+                        self.add_folder(askdir=obj)
+                        break
+                    else:
+                        break
+                response = verify_remote(obj, reponame, self.observer.credentials)
+                if 1 in response:
+                    answer = messagebox.askyesno("Wrong reponame", "The name of the repository does not correlate with the remote, do you want to change it to do so?")
+                    if answer:
+                        reponame = get_reponame_from_path(obj)
+                    else:
+                        break
+                if 2 in response:
+                    answer = messagebox.askyesno("No remote folder found", "Do you want to change reponame?")
+                    if answer:
+                        reponame = simpledialog.askstring("Renaming repo", "Enter new name for repository")
+                    else:
+                        answer = messagebox.askyesno("Wrong Reponame", "Do you want to delete local repository data?")
+                        if answer:
+                            remove_local_repo_data(obj)
+                update_remote(obj, self.observer.credentials)
                 if reponame is not None:
+                    self.observer.patterns[obj] = temp[obj]
                     self.observer.file_observer.schedule(self.observer.event_handler, obj)
                     self.monitored_files.insert(tkinter.END, reponame)
                     self.listitems[reponame] = obj
@@ -132,8 +157,6 @@ class Mainwindow(tkinter.Frame):
 
         except FileNotFoundError:
             pass
-        except BaseException as error:
-            print("Unexpected error:", error)
 
     def on_selected_dir(self, event):
         """Function to redraw current_window when changing monitored_files list item.
