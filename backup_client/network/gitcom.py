@@ -30,7 +30,6 @@ def create_new_repository(path, git_name, credentials):
     commit_and_push_all(repo, credentials)
     return repo
 
-
 def add_remote_repository(path, repo_name, credentials):
     clone_url = os.path.join(GIT_SERVER, credentials[0], repo_name)
     if all([credentials[0], credentials[1]]):
@@ -105,20 +104,27 @@ def find_repository(path):
         return None
 
 def commit_and_push_all(repository, credentials, ref='refs/heads/master'):
-    if repository.status():  #pylint: disable=E1101
-        repository.index.add_all()
-        repository.index.write()
+#TODO:    repository.init_submodules()
+    for x in repository.status():
+        if x[-1] != '/':
+            repository.index.add(x)
+        else:
+            repository.index.add(x[:-1])
+        
 
-        tree = repository.index.write_tree()
-        author = get_signature(credentials)
-        try:
-            repository.create_commit(ref, author, author, \
-                                        time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [])
-        except BaseException:
-            master = repository.lookup_branch('master')
-            repository.create_commit(ref, author, author, \
-                                        time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [master.target])
-        push(repository, credentials)
+    #repository.index.add_all()
+    repository.index.write()
+
+    tree = repository.index.write_tree()
+    author = get_signature(credentials)
+    try:
+        repository.create_commit(ref, author, author, \
+                                    time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [])
+    except BaseException:
+        master = repository.lookup_branch('master')
+        repository.create_commit(ref, author, author, \
+                                    time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [master.target])
+    push(repository, credentials)
 
 def get_signature(credentials):
     request = req.get(
@@ -148,10 +154,12 @@ def remove_remote_repo(repo_name, credentials):
 
 def remove_local_repo_data(path):
     shutil.rmtree(os.path.join(path, ".git"))
+
 def update_remote(path, credentials):
     repo = find_repository(path)
     pull(repo, credentials)
     commit_and_push_all(repo, credentials)
+
 def verify_remote(path, repo_name, credentials):
     repo = find_repository(path)
     response = []
