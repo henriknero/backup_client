@@ -89,17 +89,3 @@ class FileObserver(object):
         """
         pass
         #TODO Make this function...
-
-    # def add_file(self, filename):
-    #     """Add file function
-
-    #     Arguments:
-    #         filename {string} -- path to file that is to be observed
-    #     """
-
-    #     if os.path.isfile(filename):
-    #         self.patterns[filename] = 0
-    #         self.file_observer.schedule(
-    #         self.event_handler, os.path.dirname(filename), recursive=False)
-    #     else:
-    #         print("This file does not exist")

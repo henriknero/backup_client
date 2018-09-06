@@ -130,16 +130,15 @@ class Mainwindow(tkinter.Frame):
                     if answer:
                         self.add_folder(askdir=obj)
                         break
-                    else:
-                        break
-                response = verify_remote(obj, reponame, self.observer.credentials)
-                if 1 in response:
+                    break
+                error_codes = verify_remote(obj, reponame, self.observer.credentials)
+                if 1 in error_codes:
                     answer = messagebox.askyesno("Wrong reponame", "The name of the repository does not correlate with the remote, do you want to change it to do so?")
                     if answer:
                         reponame = get_reponame_from_path(obj)
                     else:
                         break
-                if 2 in response:
+                if 2 in error_codes:
                     answer = messagebox.askyesno("No remote folder found", "Do you want to change reponame?")
                     if answer:
                         reponame = simpledialog.askstring("Renaming repo", "Enter new name for repository")
@@ -153,7 +152,6 @@ class Mainwindow(tkinter.Frame):
                     self.observer.file_observer.schedule(self.observer.event_handler, obj)
                     self.monitored_files.insert(tkinter.END, reponame)
                     self.listitems[reponame] = obj
-
 
         except FileNotFoundError:
             pass
