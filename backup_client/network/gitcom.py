@@ -104,14 +104,17 @@ def find_repository(path):
         return None
 
 def commit_and_push_all(repository, credentials, ref='refs/heads/master'):
-#TODO:    repository.init_submodules()
+#TODO: Create add function
     for x in repository.status():
         if x[-1] != '/':
-            repository.index.add(x)
+            if os.path.exists(os.path.join(repository.workdir,x)):
+                repository.index.add(x)
+            else:
+                repository.index.remove(x)
         else:
             repository.index.add(x[:-1])
         
-
+#TODO: Create commit-function
     #repository.index.add_all()
     repository.index.write()
 
