@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['main.py', 'main.spec'],
-             pathex=['C:\\Users\\Henrik Nero\\backup_client'],
+a = Analysis(['app.py'],
+             pathex=['/home/henrik/Programming/backup_client'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -18,16 +18,12 @@ pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
 exe = EXE(pyz,
           a.scripts,
-          exclude_binaries=True,
-          name='main',
+          a.binaries,
+          a.zipfiles,
+          a.datas,
+          name='app',
           debug=False,
           strip=False,
           upx=True,
-          console=False )
-coll = COLLECT(exe,
-               a.binaries,
-               a.zipfiles,
-               a.datas,
-               strip=False,
-               upx=True,
-               name='main')
+          runtime_tmpdir=None,
+          console=True )
