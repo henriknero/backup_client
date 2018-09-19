@@ -12,6 +12,8 @@ from backup_client.filehandler import observer
 
 
 def save_obj(obj, name):
+    if not os.path.exists('obj'):
+        os.makedirs('obj')
     with open('obj/'+ name + '.pkl', 'wb') as file:
         pickle.dump(obj, file, pickle.HIGHEST_PROTOCOL)
 
