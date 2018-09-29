@@ -4,10 +4,16 @@
 import os
 import shutil
 import datetime
+import logging
 
 from watchdog import observers
 from watchdog import events
 from backup_client.network import gitcom
+
+
+logger = logging.getLogger(__name__)
+loglevel = int(os.getenv('LOG_LEVEL', logging.WARNING))
+logging.basicConfig(level=loglevel)
 
 UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 
@@ -75,6 +81,7 @@ class FileObserver(object):
         mod_path = event.key[1]
         for substring in self.patterns:
             if substring in mod_path and '/.git' not in mod_path:
+                logger.info("Modified event: %s", event)
                 if datetime.datetime.now() - self.patterns[substring] > UPDATE_INTERVAL:
                     repo = gitcom.find_repository(substring)
                     gitcom.commit_and_push_all(repo, self.credentials)

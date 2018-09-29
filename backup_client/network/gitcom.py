@@ -3,11 +3,16 @@
 import time
 import os
 import shutil
+import logging
 from json import loads
 
 import pygit2 as git
 from pygit2 import clone_repository, RemoteCallbacks, UserPass, Repository, discover_repository  #pylint: disable=E0611
 import requests as req
+
+logger = logging.getLogger(__name__)
+loglevel = int(os.getenv('LOG_LEVEL', logging.WARNING))
+logging.basicConfig(level=loglevel)
 
 API_CREATE_REPO_URL = 'https://nerobp.xyz/gogs/api/v1/user/repos'
 API_GET_USER_DATA = 'https://nerobp.xyz/gogs/api/v1/users/'
@@ -77,6 +82,7 @@ def pull(repo, credentials, remote_name='origin', branch='master'):
                 repo.state_cleanup()
             else:
                 raise AssertionError('Unknown merge analysis result')
+    logger.info("Pull request done on: %s", repo.path)
 
 def push(repo, credentials=None, remote_name='origin', ref='refs/heads/master:refs/heads/master'):
     if credentials is not None:
@@ -88,6 +94,27 @@ def push(repo, credentials=None, remote_name='origin', ref='refs/heads/master:re
         for remote in repo.remotes:
             if remote.name == remote_name:
                 remote.push([ref])
+    logging.info("Push done at: %s", repo.path)
+
+def add_all(repository):
+    for x in repository.status():
+        if x[-1] != '/':
+            if os.path.exists(os.path.join(repository.workdir,x)):
+                repository.index.add(x)
+            else:
+                repository.index.remove(x)
+        else:
+            repository.index.add(x[:-1])
+
+def commit(repository, credentials, message, ref='refs/heads/master'):
+    author = get_signature(credentials)
+    repository.index.write()
+    tree = repository.index.write_tree()
+    try:
+        repository.create_commit(ref, author, author, message, tree, [])
+    except BaseException:
+        master = repository.lookup_branch('master')
+        repository.create_commit(ref, author, author, message, tree, [master.target])
 
 def is_repo(path):
     repo = discover_repository(path)
@@ -104,29 +131,8 @@ def find_repository(path):
         return None
 
 def commit_and_push_all(repository, credentials, ref='refs/heads/master'):
-#TODO: Create add function
-    for x in repository.status():
-        if x[-1] != '/':
-            if os.path.exists(os.path.join(repository.workdir,x)):
-                repository.index.add(x)
-            else:
-                repository.index.remove(x)
-        else:
-            repository.index.add(x[:-1])
-        
-#TODO: Create commit-function
-    #repository.index.add_all()
-    repository.index.write()
-
-    tree = repository.index.write_tree()
-    author = get_signature(credentials)
-    try:
-        repository.create_commit(ref, author, author, \
-                                    time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [])
-    except BaseException:
-        master = repository.lookup_branch('master')
-        repository.create_commit(ref, author, author, \
-                                    time.strftime("%d/%m/%Y-%H:%M:%S"), tree, [master.target])
+    add_all(repository)
+    commit(repository, credentials, time.strftime("%d/%m/%Y-%H:%M:%S"), ref)
     push(repository, credentials)
 
 def get_signature(credentials):
@@ -138,7 +144,7 @@ def get_signature(credentials):
         email = loads(request.text)['email']
     else:
         full_name = "No Name Found"
-        email = loads(request.text)['email'] #Email is required for an account so it should never give an error.
+        email = loads(request.text)['email'] #Email is required for an account so it should not give an error.
     return git.Signature(full_name, email)  #pylint: disable=E1101
 
 def get_reponame_from_path(path):

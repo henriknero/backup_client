@@ -4,12 +4,16 @@ import tkinter
 from tkinter import filedialog, simpledialog, messagebox
 import pickle
 import os
+import logging
 
 import requests
 
 from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository, verify_remote, update_remote, remove_local_repo_data
 from backup_client.filehandler import observer
 
+logger = logging.getLogger(__name__)
+loglevel = int(os.getenv('LOG_LEVEL', logging.WARNING))
+logging.basicConfig(level=loglevel)
 
 def save_obj(obj, name):
     if not os.path.exists('obj'):
@@ -123,6 +127,7 @@ class Mainwindow(tkinter.Frame):
             self.monitored_files.insert(tkinter.END, git_name)
 
     def load_stored_patterns(self):
+        logger.info("Patterns: Loading")
         try:
             temp = load_obj("patterns")
             for obj in temp:
@@ -151,10 +156,10 @@ class Mainwindow(tkinter.Frame):
                 update_remote(obj, self.observer.credentials)
                 if reponame is not None:
                     self.observer.patterns[obj] = temp[obj]
-                    self.observer.file_observer.schedule(self.observer.event_handler, obj)
+                    self.observer.file_observer.schedule(self.observer.event_handler, obj, recursive=True)
                     self.monitored_files.insert(tkinter.END, reponame)
                     self.listitems[reponame] = obj
-
+            logger.debug("Patterns:Done Loading")
         except FileNotFoundError:
             pass
 
