@@ -12,7 +12,7 @@ from backup_client.network import gitcom
 
 
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', logging.WARNING))
+loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
 logging.basicConfig(level=loglevel)
 
 UPDATE_INTERVAL = datetime.timedelta(minutes=0)
@@ -52,11 +52,11 @@ class FileObserver(object):
         #Create some kind of verification that the remote branch has been found and deleted.
         try:
             gitcom.remove_remote_repo(repo_name, self.credentials)
-            for watch in self.file_observer._watches:
+            for watch in self.file_observer._watches: #pylint: disable=W0212
                 if watch.path == path:
                     self.file_observer.remove_handler_for_watch(self.event_handler, watch)
             shutil.rmtree(os.path.join(path, ".git"))
-        except NameError:
+        except NameError: #pylint: disable=W0706
             raise
         except BaseException:
             pass
@@ -95,4 +95,3 @@ class FileObserver(object):
             event {event} -- Contains information about changes done to file
         """
         pass
-        #TODO Make this function...

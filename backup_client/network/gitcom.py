@@ -11,7 +11,7 @@ from pygit2 import clone_repository, RemoteCallbacks, UserPass, Repository, disc
 import requests as req
 
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', logging.WARNING))
+loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
 logging.basicConfig(level=loglevel)
 
 API_CREATE_REPO_URL = 'https://nerobp.xyz/gogs/api/v1/user/repos'
@@ -21,12 +21,12 @@ GIT_SERVER = 'https://www.nerobp.xyz/gogs/'
 
 def create_new_repository(path, git_name, credentials):
     repo = git.init_repository(path)
-    #TODO: Check for subrepositories
     response = req.post(
         API_CREATE_REPO_URL, data={
             'name': git_name,
             'private': True
-        }, auth=credentials)
+        },
+        auth=credentials)
     if response.status_code == 422:
         raise IsADirectoryError({"message":"The repository you are trying to create already exists."})
     clone_url = loads(response.text)['clone_url']
@@ -72,12 +72,12 @@ def pull(repo, credentials, remote_name='origin', branch='master'):
 
                 user = get_signature(credentials)
                 tree = repo.index.write_tree()
-                commit = repo.create_commit('HEAD',
-                                            user,
-                                            user,
-                                            'Merge!',
-                                            tree,
-                                            [repo.head.target, remote_master_id])
+                repo.create_commit('HEAD',
+                                   user,
+                                   user,
+                                   'Merge!',
+                                   tree,
+                                   [repo.head.target, remote_master_id])
                 # We need to do this or git CLI will think we are still merging.
                 repo.state_cleanup()
             else:
@@ -97,14 +97,14 @@ def push(repo, credentials=None, remote_name='origin', ref='refs/heads/master:re
     logging.info("Push done at: %s", repo.path)
 
 def add_all(repository):
-    for x in repository.status():
-        if x[-1] != '/':
-            if os.path.exists(os.path.join(repository.workdir,x)):
-                repository.index.add(x)
+    for filename in repository.status():
+        if filename[-1] != '/':
+            if os.path.exists(os.path.join(repository.workdir, filename)):
+                repository.index.add(filename)
             else:
-                repository.index.remove(x)
+                repository.index.remove(filename)
         else:
-            repository.index.add(x[:-1])
+            repository.index.add(filename[:-1])
 
 def commit(repository, credentials, message, ref='refs/heads/master'):
     author = get_signature(credentials)
@@ -137,8 +137,8 @@ def commit_and_push_all(repository, credentials, ref='refs/heads/master'):
 
 def get_signature(credentials):
     request = req.get(
-                      API_GET_USER_DATA + credentials[0],
-                      auth=credentials)
+        API_GET_USER_DATA + credentials[0],
+        auth=credentials)
     if 'full_name' in loads(request.text):
         full_name = loads(request.text)['full_name']
         email = loads(request.text)['email']
@@ -178,6 +178,6 @@ def verify_remote(path, repo_name, credentials):
     if httpresponse.status_code == 404:
         response.append(2)
     return response
-    
+
 #http://www.pygit2.org/repository.html
 #https://github.com/MichaelBoselowitz/pygit2-examples/blob/master/examples.py

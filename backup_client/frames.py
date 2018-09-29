@@ -12,7 +12,7 @@ from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_re
 from backup_client.filehandler import observer
 
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', logging.WARNING))
+loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
 logging.basicConfig(level=loglevel)
 
 def save_obj(obj, name):
