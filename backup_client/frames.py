@@ -97,10 +97,8 @@ class Mainwindow(tkinter.Frame):
         self.create_menu()
         self.create_monitored_folders_box()
 
-        #Reloads stored patterns into the GUI
         self.load_stored_patterns()
 
-        #Setting weights for grid, makes stuff look good, dont know how it works...
         self.parent.grid_columnconfigure(0, weight=1)
         self.parent.grid_rowconfigure(0, weight=1)
 
@@ -179,6 +177,8 @@ class Mainwindow(tkinter.Frame):
         file_menu = tkinter.Menu(menu)
         file_menu.add_command(label="Add Folder", command=self.add_folder)
         file_menu.add_command(label="Connect to existing Remote", command=self.connect_remote)
+        file_menu.add_separator()
+        file_menu.add_command(label="Logout and Quit", command=self.logout)
 
         menu.add_cascade(label="File", menu=file_menu)
 
@@ -242,7 +242,9 @@ class Mainwindow(tkinter.Frame):
             self.observer.add_dir(dir_path, repo_name)
             self.monitored_files.insert(tkinter.END, repo_name)
 
-
+    def logout(self):
+        os.remove('obj/udata.pkl')
+        self.quit()
 
 # Hides window to the user and redraws it after 5 sec.
 #self.parent.wm_state("withdrawn")
