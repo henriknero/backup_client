@@ -55,7 +55,8 @@ class FileObserver(object):
             for watch in self.file_observer._watches: #pylint: disable=W0212
                 if watch.path == path:
                     self.file_observer.remove_handler_for_watch(self.event_handler, watch)
-            shutil.rmtree(os.path.join(path, ".git"))
+                    logger.info("Successfully removed {} from observer.".format(repo_name))
+            gitcom.remove_local_repo_data(path)
         except NameError: #pylint: disable=W0706
             raise
         except BaseException:

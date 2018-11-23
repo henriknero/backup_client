@@ -29,11 +29,17 @@ def create_new_repository(path, git_name, credentials):
         auth=credentials)
     if response.status_code == 422:
         raise IsADirectoryError({"message":"The repository you are trying to create already exists."})
-    clone_url = loads(response.text)['clone_url']
-    repo.remotes.set_push_url("origin", clone_url)
-    repo.remotes.set_url("origin", clone_url)
-    commit_and_push_all(repo, credentials)
-    return repo
+    try:
+        clone_url = loads(response.text)['clone_url']
+        logger.info(" Clone_url set to: {}".format(clone_url))
+        repo.remotes.set_push_url("origin", clone_url)
+        repo.remotes.set_url("origin", clone_url)
+        commit_and_push_all(repo, credentials)
+        return repo
+    except BaseException as e:
+        remove_local_repo_data(path)
+        remove_remote_repo(git_name, credentials)
+        logger.warning("Unable to create repository {} in {} because of {}".format(git_name, path, e))
 
 def add_remote_repository(path, repo_name, credentials):
     clone_url = os.path.join(GIT_SERVER, credentials[0], repo_name)
@@ -160,9 +166,12 @@ def remove_remote_repo(repo_name, credentials):
         raise NameError("Repository not found")
     elif response.status_code != 204:
         raise Exception("Unexpected Error, make sure that you have connection to the server.")
+    logger.info(" Successfully removed \"{}\" from remote server".format(repo_name))
 
 def remove_local_repo_data(path):
     shutil.rmtree(os.path.join(path, ".git"))
+    logger.info(" Successfully removed .git in {}".format(path))
+
 
 def update_remote(path, credentials):
     repo = find_repository(path)

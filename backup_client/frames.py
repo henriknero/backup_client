@@ -224,7 +224,7 @@ class Mainwindow(tkinter.Frame):
             self.observer.unmonitor_folder(repo_name, self.listitems[repo_name])
             self.monitored_files.delete(self.monitored_files.curselection())
         except NameError:
-            print("Repository was not found pls handle") # Create option to remove .git folder and clean up cause remote repository doesnt exist
+            logger.warning(" Repository {} was not found on remote server".format(repo_name)) # Create option to remove .git folder and clean up cause remote repository doesnt exist
 
     def connect_remote(self):
         dir_path = filedialog.askdirectory(title="Folder to download repository too")
