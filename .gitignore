@@ -2,7 +2,6 @@ build
 dist
 venv
 __pycache__
-.vscode
 *.pyc
 obj/
 test/test_repo

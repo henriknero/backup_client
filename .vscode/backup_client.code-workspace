@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "/home/henrik/Programming/backup_client"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "${workspaceFolder}/venv/bin/python"
+	}
+}
