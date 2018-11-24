@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_SOURCE_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_BINARY_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -E cmake_progress_start /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles /home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/progress.marks
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles 0
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -E cmake_progress_start /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles /home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/progress.marks
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/git2.dir/rule:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/git2.dir/rule
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/git2.dir/rule
 .PHONY : src/CMakeFiles/git2.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ git2: src/CMakeFiles/git2.dir/rule
 
 # fast build rule for target.
 git2/fast:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2.dir/build.make src/CMakeFiles/git2.dir/build
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2.dir/build.make src/CMakeFiles/git2.dir/build
 .PHONY : git2/fast
 
 # Convenience name for target.
 src/CMakeFiles/git2internal.dir/rule:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/git2internal.dir/rule
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/git2internal.dir/rule
 .PHONY : src/CMakeFiles/git2internal.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ git2internal: src/CMakeFiles/git2internal.dir/rule
 
 # fast build rule for target.
 git2internal/fast:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/build
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/build
 .PHONY : git2internal/fast
 
 annotated_commit.o: annotated_commit.c.o
@@ -203,7 +203,7 @@ annotated_commit.o: annotated_commit.c.o
 
 # target to build an object file
 annotated_commit.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/annotated_commit.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/annotated_commit.c.o
 .PHONY : annotated_commit.c.o
 
 annotated_commit.i: annotated_commit.c.i
@@ -212,7 +212,7 @@ annotated_commit.i: annotated_commit.c.i
 
 # target to preprocess a source file
 annotated_commit.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/annotated_commit.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/annotated_commit.c.i
 .PHONY : annotated_commit.c.i
 
 annotated_commit.s: annotated_commit.c.s
@@ -221,7 +221,7 @@ annotated_commit.s: annotated_commit.c.s
 
 # target to generate assembly for a file
 annotated_commit.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/annotated_commit.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/annotated_commit.c.s
 .PHONY : annotated_commit.c.s
 
 apply.o: apply.c.o
@@ -230,7 +230,7 @@ apply.o: apply.c.o
 
 # target to build an object file
 apply.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/apply.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/apply.c.o
 .PHONY : apply.c.o
 
 apply.i: apply.c.i
@@ -239,7 +239,7 @@ apply.i: apply.c.i
 
 # target to preprocess a source file
 apply.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/apply.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/apply.c.i
 .PHONY : apply.c.i
 
 apply.s: apply.c.s
@@ -248,7 +248,7 @@ apply.s: apply.c.s
 
 # target to generate assembly for a file
 apply.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/apply.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/apply.c.s
 .PHONY : apply.c.s
 
 attr.o: attr.c.o
@@ -257,7 +257,7 @@ attr.o: attr.c.o
 
 # target to build an object file
 attr.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr.c.o
 .PHONY : attr.c.o
 
 attr.i: attr.c.i
@@ -266,7 +266,7 @@ attr.i: attr.c.i
 
 # target to preprocess a source file
 attr.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr.c.i
 .PHONY : attr.c.i
 
 attr.s: attr.c.s
@@ -275,7 +275,7 @@ attr.s: attr.c.s
 
 # target to generate assembly for a file
 attr.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr.c.s
 .PHONY : attr.c.s
 
 attr_file.o: attr_file.c.o
@@ -284,7 +284,7 @@ attr_file.o: attr_file.c.o
 
 # target to build an object file
 attr_file.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr_file.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr_file.c.o
 .PHONY : attr_file.c.o
 
 attr_file.i: attr_file.c.i
@@ -293,7 +293,7 @@ attr_file.i: attr_file.c.i
 
 # target to preprocess a source file
 attr_file.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr_file.c.i
 .PHONY : attr_file.c.i
 
 attr_file.s: attr_file.c.s
@@ -302,7 +302,7 @@ attr_file.s: attr_file.c.s
 
 # target to generate assembly for a file
 attr_file.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attr_file.c.s
 .PHONY : attr_file.c.s
 
 attrcache.o: attrcache.c.o
@@ -311,7 +311,7 @@ attrcache.o: attrcache.c.o
 
 # target to build an object file
 attrcache.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attrcache.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attrcache.c.o
 .PHONY : attrcache.c.o
 
 attrcache.i: attrcache.c.i
@@ -320,7 +320,7 @@ attrcache.i: attrcache.c.i
 
 # target to preprocess a source file
 attrcache.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attrcache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attrcache.c.i
 .PHONY : attrcache.c.i
 
 attrcache.s: attrcache.c.s
@@ -329,7 +329,7 @@ attrcache.s: attrcache.c.s
 
 # target to generate assembly for a file
 attrcache.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attrcache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/attrcache.c.s
 .PHONY : attrcache.c.s
 
 blame.o: blame.c.o
@@ -338,7 +338,7 @@ blame.o: blame.c.o
 
 # target to build an object file
 blame.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame.c.o
 .PHONY : blame.c.o
 
 blame.i: blame.c.i
@@ -347,7 +347,7 @@ blame.i: blame.c.i
 
 # target to preprocess a source file
 blame.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame.c.i
 .PHONY : blame.c.i
 
 blame.s: blame.c.s
@@ -356,7 +356,7 @@ blame.s: blame.c.s
 
 # target to generate assembly for a file
 blame.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame.c.s
 .PHONY : blame.c.s
 
 blame_git.o: blame_git.c.o
@@ -365,7 +365,7 @@ blame_git.o: blame_git.c.o
 
 # target to build an object file
 blame_git.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame_git.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame_git.c.o
 .PHONY : blame_git.c.o
 
 blame_git.i: blame_git.c.i
@@ -374,7 +374,7 @@ blame_git.i: blame_git.c.i
 
 # target to preprocess a source file
 blame_git.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame_git.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame_git.c.i
 .PHONY : blame_git.c.i
 
 blame_git.s: blame_git.c.s
@@ -383,7 +383,7 @@ blame_git.s: blame_git.c.s
 
 # target to generate assembly for a file
 blame_git.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame_git.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blame_git.c.s
 .PHONY : blame_git.c.s
 
 blob.o: blob.c.o
@@ -392,7 +392,7 @@ blob.o: blob.c.o
 
 # target to build an object file
 blob.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blob.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blob.c.o
 .PHONY : blob.c.o
 
 blob.i: blob.c.i
@@ -401,7 +401,7 @@ blob.i: blob.c.i
 
 # target to preprocess a source file
 blob.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blob.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blob.c.i
 .PHONY : blob.c.i
 
 blob.s: blob.c.s
@@ -410,7 +410,7 @@ blob.s: blob.c.s
 
 # target to generate assembly for a file
 blob.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blob.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/blob.c.s
 .PHONY : blob.c.s
 
 branch.o: branch.c.o
@@ -419,7 +419,7 @@ branch.o: branch.c.o
 
 # target to build an object file
 branch.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/branch.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/branch.c.o
 .PHONY : branch.c.o
 
 branch.i: branch.c.i
@@ -428,7 +428,7 @@ branch.i: branch.c.i
 
 # target to preprocess a source file
 branch.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/branch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/branch.c.i
 .PHONY : branch.c.i
 
 branch.s: branch.c.s
@@ -437,7 +437,7 @@ branch.s: branch.c.s
 
 # target to generate assembly for a file
 branch.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/branch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/branch.c.s
 .PHONY : branch.c.s
 
 buf_text.o: buf_text.c.o
@@ -446,7 +446,7 @@ buf_text.o: buf_text.c.o
 
 # target to build an object file
 buf_text.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buf_text.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buf_text.c.o
 .PHONY : buf_text.c.o
 
 buf_text.i: buf_text.c.i
@@ -455,7 +455,7 @@ buf_text.i: buf_text.c.i
 
 # target to preprocess a source file
 buf_text.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buf_text.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buf_text.c.i
 .PHONY : buf_text.c.i
 
 buf_text.s: buf_text.c.s
@@ -464,7 +464,7 @@ buf_text.s: buf_text.c.s
 
 # target to generate assembly for a file
 buf_text.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buf_text.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buf_text.c.s
 .PHONY : buf_text.c.s
 
 buffer.o: buffer.c.o
@@ -473,7 +473,7 @@ buffer.o: buffer.c.o
 
 # target to build an object file
 buffer.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buffer.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buffer.c.o
 .PHONY : buffer.c.o
 
 buffer.i: buffer.c.i
@@ -482,7 +482,7 @@ buffer.i: buffer.c.i
 
 # target to preprocess a source file
 buffer.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buffer.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buffer.c.i
 .PHONY : buffer.c.i
 
 buffer.s: buffer.c.s
@@ -491,7 +491,7 @@ buffer.s: buffer.c.s
 
 # target to generate assembly for a file
 buffer.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buffer.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/buffer.c.s
 .PHONY : buffer.c.s
 
 cache.o: cache.c.o
@@ -500,7 +500,7 @@ cache.o: cache.c.o
 
 # target to build an object file
 cache.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cache.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cache.c.o
 .PHONY : cache.c.o
 
 cache.i: cache.c.i
@@ -509,7 +509,7 @@ cache.i: cache.c.i
 
 # target to preprocess a source file
 cache.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cache.c.i
 .PHONY : cache.c.i
 
 cache.s: cache.c.s
@@ -518,7 +518,7 @@ cache.s: cache.c.s
 
 # target to generate assembly for a file
 cache.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cache.c.s
 .PHONY : cache.c.s
 
 checkout.o: checkout.c.o
@@ -527,7 +527,7 @@ checkout.o: checkout.c.o
 
 # target to build an object file
 checkout.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/checkout.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/checkout.c.o
 .PHONY : checkout.c.o
 
 checkout.i: checkout.c.i
@@ -536,7 +536,7 @@ checkout.i: checkout.c.i
 
 # target to preprocess a source file
 checkout.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/checkout.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/checkout.c.i
 .PHONY : checkout.c.i
 
 checkout.s: checkout.c.s
@@ -545,7 +545,7 @@ checkout.s: checkout.c.s
 
 # target to generate assembly for a file
 checkout.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/checkout.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/checkout.c.s
 .PHONY : checkout.c.s
 
 cherrypick.o: cherrypick.c.o
@@ -554,7 +554,7 @@ cherrypick.o: cherrypick.c.o
 
 # target to build an object file
 cherrypick.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cherrypick.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cherrypick.c.o
 .PHONY : cherrypick.c.o
 
 cherrypick.i: cherrypick.c.i
@@ -563,7 +563,7 @@ cherrypick.i: cherrypick.c.i
 
 # target to preprocess a source file
 cherrypick.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cherrypick.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cherrypick.c.i
 .PHONY : cherrypick.c.i
 
 cherrypick.s: cherrypick.c.s
@@ -572,7 +572,7 @@ cherrypick.s: cherrypick.c.s
 
 # target to generate assembly for a file
 cherrypick.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cherrypick.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/cherrypick.c.s
 .PHONY : cherrypick.c.s
 
 clone.o: clone.c.o
@@ -581,7 +581,7 @@ clone.o: clone.c.o
 
 # target to build an object file
 clone.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/clone.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/clone.c.o
 .PHONY : clone.c.o
 
 clone.i: clone.c.i
@@ -590,7 +590,7 @@ clone.i: clone.c.i
 
 # target to preprocess a source file
 clone.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/clone.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/clone.c.i
 .PHONY : clone.c.i
 
 clone.s: clone.c.s
@@ -599,7 +599,7 @@ clone.s: clone.c.s
 
 # target to generate assembly for a file
 clone.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/clone.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/clone.c.s
 .PHONY : clone.c.s
 
 commit.o: commit.c.o
@@ -608,7 +608,7 @@ commit.o: commit.c.o
 
 # target to build an object file
 commit.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit.c.o
 .PHONY : commit.c.o
 
 commit.i: commit.c.i
@@ -617,7 +617,7 @@ commit.i: commit.c.i
 
 # target to preprocess a source file
 commit.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit.c.i
 .PHONY : commit.c.i
 
 commit.s: commit.c.s
@@ -626,7 +626,7 @@ commit.s: commit.c.s
 
 # target to generate assembly for a file
 commit.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit.c.s
 .PHONY : commit.c.s
 
 commit_list.o: commit_list.c.o
@@ -635,7 +635,7 @@ commit_list.o: commit_list.c.o
 
 # target to build an object file
 commit_list.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit_list.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit_list.c.o
 .PHONY : commit_list.c.o
 
 commit_list.i: commit_list.c.i
@@ -644,7 +644,7 @@ commit_list.i: commit_list.c.i
 
 # target to preprocess a source file
 commit_list.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit_list.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit_list.c.i
 .PHONY : commit_list.c.i
 
 commit_list.s: commit_list.c.s
@@ -653,7 +653,7 @@ commit_list.s: commit_list.c.s
 
 # target to generate assembly for a file
 commit_list.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit_list.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/commit_list.c.s
 .PHONY : commit_list.c.s
 
 config.o: config.c.o
@@ -662,7 +662,7 @@ config.o: config.c.o
 
 # target to build an object file
 config.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config.c.o
 .PHONY : config.c.o
 
 config.i: config.c.i
@@ -671,7 +671,7 @@ config.i: config.c.i
 
 # target to preprocess a source file
 config.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config.c.i
 .PHONY : config.c.i
 
 config.s: config.c.s
@@ -680,7 +680,7 @@ config.s: config.c.s
 
 # target to generate assembly for a file
 config.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config.c.s
 .PHONY : config.c.s
 
 config_cache.o: config_cache.c.o
@@ -689,7 +689,7 @@ config_cache.o: config_cache.c.o
 
 # target to build an object file
 config_cache.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_cache.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_cache.c.o
 .PHONY : config_cache.c.o
 
 config_cache.i: config_cache.c.i
@@ -698,7 +698,7 @@ config_cache.i: config_cache.c.i
 
 # target to preprocess a source file
 config_cache.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_cache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_cache.c.i
 .PHONY : config_cache.c.i
 
 config_cache.s: config_cache.c.s
@@ -707,7 +707,7 @@ config_cache.s: config_cache.c.s
 
 # target to generate assembly for a file
 config_cache.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_cache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_cache.c.s
 .PHONY : config_cache.c.s
 
 config_file.o: config_file.c.o
@@ -716,7 +716,7 @@ config_file.o: config_file.c.o
 
 # target to build an object file
 config_file.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_file.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_file.c.o
 .PHONY : config_file.c.o
 
 config_file.i: config_file.c.i
@@ -725,7 +725,7 @@ config_file.i: config_file.c.i
 
 # target to preprocess a source file
 config_file.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_file.c.i
 .PHONY : config_file.c.i
 
 config_file.s: config_file.c.s
@@ -734,7 +734,7 @@ config_file.s: config_file.c.s
 
 # target to generate assembly for a file
 config_file.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_file.c.s
 .PHONY : config_file.c.s
 
 config_parse.o: config_parse.c.o
@@ -743,7 +743,7 @@ config_parse.o: config_parse.c.o
 
 # target to build an object file
 config_parse.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_parse.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_parse.c.o
 .PHONY : config_parse.c.o
 
 config_parse.i: config_parse.c.i
@@ -752,7 +752,7 @@ config_parse.i: config_parse.c.i
 
 # target to preprocess a source file
 config_parse.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_parse.c.i
 .PHONY : config_parse.c.i
 
 config_parse.s: config_parse.c.s
@@ -761,7 +761,7 @@ config_parse.s: config_parse.c.s
 
 # target to generate assembly for a file
 config_parse.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/config_parse.c.s
 .PHONY : config_parse.c.s
 
 crlf.o: crlf.c.o
@@ -770,7 +770,7 @@ crlf.o: crlf.c.o
 
 # target to build an object file
 crlf.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/crlf.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/crlf.c.o
 .PHONY : crlf.c.o
 
 crlf.i: crlf.c.i
@@ -779,7 +779,7 @@ crlf.i: crlf.c.i
 
 # target to preprocess a source file
 crlf.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/crlf.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/crlf.c.i
 .PHONY : crlf.c.i
 
 crlf.s: crlf.c.s
@@ -788,7 +788,7 @@ crlf.s: crlf.c.s
 
 # target to generate assembly for a file
 crlf.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/crlf.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/crlf.c.s
 .PHONY : crlf.c.s
 
 date.o: date.c.o
@@ -797,7 +797,7 @@ date.o: date.c.o
 
 # target to build an object file
 date.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/date.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/date.c.o
 .PHONY : date.c.o
 
 date.i: date.c.i
@@ -806,7 +806,7 @@ date.i: date.c.i
 
 # target to preprocess a source file
 date.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/date.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/date.c.i
 .PHONY : date.c.i
 
 date.s: date.c.s
@@ -815,7 +815,7 @@ date.s: date.c.s
 
 # target to generate assembly for a file
 date.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/date.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/date.c.s
 .PHONY : date.c.s
 
 delta.o: delta.c.o
@@ -824,7 +824,7 @@ delta.o: delta.c.o
 
 # target to build an object file
 delta.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/delta.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/delta.c.o
 .PHONY : delta.c.o
 
 delta.i: delta.c.i
@@ -833,7 +833,7 @@ delta.i: delta.c.i
 
 # target to preprocess a source file
 delta.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/delta.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/delta.c.i
 .PHONY : delta.c.i
 
 delta.s: delta.c.s
@@ -842,7 +842,7 @@ delta.s: delta.c.s
 
 # target to generate assembly for a file
 delta.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/delta.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/delta.c.s
 .PHONY : delta.c.s
 
 describe.o: describe.c.o
@@ -851,7 +851,7 @@ describe.o: describe.c.o
 
 # target to build an object file
 describe.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/describe.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/describe.c.o
 .PHONY : describe.c.o
 
 describe.i: describe.c.i
@@ -860,7 +860,7 @@ describe.i: describe.c.i
 
 # target to preprocess a source file
 describe.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/describe.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/describe.c.i
 .PHONY : describe.c.i
 
 describe.s: describe.c.s
@@ -869,7 +869,7 @@ describe.s: describe.c.s
 
 # target to generate assembly for a file
 describe.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/describe.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/describe.c.s
 .PHONY : describe.c.s
 
 diff.o: diff.c.o
@@ -878,7 +878,7 @@ diff.o: diff.c.o
 
 # target to build an object file
 diff.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff.c.o
 .PHONY : diff.c.o
 
 diff.i: diff.c.i
@@ -887,7 +887,7 @@ diff.i: diff.c.i
 
 # target to preprocess a source file
 diff.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff.c.i
 .PHONY : diff.c.i
 
 diff.s: diff.c.s
@@ -896,7 +896,7 @@ diff.s: diff.c.s
 
 # target to generate assembly for a file
 diff.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff.c.s
 .PHONY : diff.c.s
 
 diff_driver.o: diff_driver.c.o
@@ -905,7 +905,7 @@ diff_driver.o: diff_driver.c.o
 
 # target to build an object file
 diff_driver.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_driver.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_driver.c.o
 .PHONY : diff_driver.c.o
 
 diff_driver.i: diff_driver.c.i
@@ -914,7 +914,7 @@ diff_driver.i: diff_driver.c.i
 
 # target to preprocess a source file
 diff_driver.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_driver.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_driver.c.i
 .PHONY : diff_driver.c.i
 
 diff_driver.s: diff_driver.c.s
@@ -923,7 +923,7 @@ diff_driver.s: diff_driver.c.s
 
 # target to generate assembly for a file
 diff_driver.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_driver.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_driver.c.s
 .PHONY : diff_driver.c.s
 
 diff_file.o: diff_file.c.o
@@ -932,7 +932,7 @@ diff_file.o: diff_file.c.o
 
 # target to build an object file
 diff_file.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_file.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_file.c.o
 .PHONY : diff_file.c.o
 
 diff_file.i: diff_file.c.i
@@ -941,7 +941,7 @@ diff_file.i: diff_file.c.i
 
 # target to preprocess a source file
 diff_file.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_file.c.i
 .PHONY : diff_file.c.i
 
 diff_file.s: diff_file.c.s
@@ -950,7 +950,7 @@ diff_file.s: diff_file.c.s
 
 # target to generate assembly for a file
 diff_file.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_file.c.s
 .PHONY : diff_file.c.s
 
 diff_generate.o: diff_generate.c.o
@@ -959,7 +959,7 @@ diff_generate.o: diff_generate.c.o
 
 # target to build an object file
 diff_generate.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_generate.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_generate.c.o
 .PHONY : diff_generate.c.o
 
 diff_generate.i: diff_generate.c.i
@@ -968,7 +968,7 @@ diff_generate.i: diff_generate.c.i
 
 # target to preprocess a source file
 diff_generate.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_generate.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_generate.c.i
 .PHONY : diff_generate.c.i
 
 diff_generate.s: diff_generate.c.s
@@ -977,7 +977,7 @@ diff_generate.s: diff_generate.c.s
 
 # target to generate assembly for a file
 diff_generate.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_generate.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_generate.c.s
 .PHONY : diff_generate.c.s
 
 diff_parse.o: diff_parse.c.o
@@ -986,7 +986,7 @@ diff_parse.o: diff_parse.c.o
 
 # target to build an object file
 diff_parse.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_parse.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_parse.c.o
 .PHONY : diff_parse.c.o
 
 diff_parse.i: diff_parse.c.i
@@ -995,7 +995,7 @@ diff_parse.i: diff_parse.c.i
 
 # target to preprocess a source file
 diff_parse.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_parse.c.i
 .PHONY : diff_parse.c.i
 
 diff_parse.s: diff_parse.c.s
@@ -1004,7 +1004,7 @@ diff_parse.s: diff_parse.c.s
 
 # target to generate assembly for a file
 diff_parse.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_parse.c.s
 .PHONY : diff_parse.c.s
 
 diff_print.o: diff_print.c.o
@@ -1013,7 +1013,7 @@ diff_print.o: diff_print.c.o
 
 # target to build an object file
 diff_print.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_print.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_print.c.o
 .PHONY : diff_print.c.o
 
 diff_print.i: diff_print.c.i
@@ -1022,7 +1022,7 @@ diff_print.i: diff_print.c.i
 
 # target to preprocess a source file
 diff_print.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_print.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_print.c.i
 .PHONY : diff_print.c.i
 
 diff_print.s: diff_print.c.s
@@ -1031,7 +1031,7 @@ diff_print.s: diff_print.c.s
 
 # target to generate assembly for a file
 diff_print.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_print.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_print.c.s
 .PHONY : diff_print.c.s
 
 diff_stats.o: diff_stats.c.o
@@ -1040,7 +1040,7 @@ diff_stats.o: diff_stats.c.o
 
 # target to build an object file
 diff_stats.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_stats.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_stats.c.o
 .PHONY : diff_stats.c.o
 
 diff_stats.i: diff_stats.c.i
@@ -1049,7 +1049,7 @@ diff_stats.i: diff_stats.c.i
 
 # target to preprocess a source file
 diff_stats.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_stats.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_stats.c.i
 .PHONY : diff_stats.c.i
 
 diff_stats.s: diff_stats.c.s
@@ -1058,7 +1058,7 @@ diff_stats.s: diff_stats.c.s
 
 # target to generate assembly for a file
 diff_stats.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_stats.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_stats.c.s
 .PHONY : diff_stats.c.s
 
 diff_tform.o: diff_tform.c.o
@@ -1067,7 +1067,7 @@ diff_tform.o: diff_tform.c.o
 
 # target to build an object file
 diff_tform.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_tform.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_tform.c.o
 .PHONY : diff_tform.c.o
 
 diff_tform.i: diff_tform.c.i
@@ -1076,7 +1076,7 @@ diff_tform.i: diff_tform.c.i
 
 # target to preprocess a source file
 diff_tform.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_tform.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_tform.c.i
 .PHONY : diff_tform.c.i
 
 diff_tform.s: diff_tform.c.s
@@ -1085,7 +1085,7 @@ diff_tform.s: diff_tform.c.s
 
 # target to generate assembly for a file
 diff_tform.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_tform.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_tform.c.s
 .PHONY : diff_tform.c.s
 
 diff_xdiff.o: diff_xdiff.c.o
@@ -1094,7 +1094,7 @@ diff_xdiff.o: diff_xdiff.c.o
 
 # target to build an object file
 diff_xdiff.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_xdiff.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_xdiff.c.o
 .PHONY : diff_xdiff.c.o
 
 diff_xdiff.i: diff_xdiff.c.i
@@ -1103,7 +1103,7 @@ diff_xdiff.i: diff_xdiff.c.i
 
 # target to preprocess a source file
 diff_xdiff.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_xdiff.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_xdiff.c.i
 .PHONY : diff_xdiff.c.i
 
 diff_xdiff.s: diff_xdiff.c.s
@@ -1112,7 +1112,7 @@ diff_xdiff.s: diff_xdiff.c.s
 
 # target to generate assembly for a file
 diff_xdiff.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_xdiff.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/diff_xdiff.c.s
 .PHONY : diff_xdiff.c.s
 
 errors.o: errors.c.o
@@ -1121,7 +1121,7 @@ errors.o: errors.c.o
 
 # target to build an object file
 errors.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/errors.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/errors.c.o
 .PHONY : errors.c.o
 
 errors.i: errors.c.i
@@ -1130,7 +1130,7 @@ errors.i: errors.c.i
 
 # target to preprocess a source file
 errors.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/errors.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/errors.c.i
 .PHONY : errors.c.i
 
 errors.s: errors.c.s
@@ -1139,7 +1139,7 @@ errors.s: errors.c.s
 
 # target to generate assembly for a file
 errors.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/errors.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/errors.c.s
 .PHONY : errors.c.s
 
 fetch.o: fetch.c.o
@@ -1148,7 +1148,7 @@ fetch.o: fetch.c.o
 
 # target to build an object file
 fetch.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetch.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetch.c.o
 .PHONY : fetch.c.o
 
 fetch.i: fetch.c.i
@@ -1157,7 +1157,7 @@ fetch.i: fetch.c.i
 
 # target to preprocess a source file
 fetch.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetch.c.i
 .PHONY : fetch.c.i
 
 fetch.s: fetch.c.s
@@ -1166,7 +1166,7 @@ fetch.s: fetch.c.s
 
 # target to generate assembly for a file
 fetch.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetch.c.s
 .PHONY : fetch.c.s
 
 fetchhead.o: fetchhead.c.o
@@ -1175,7 +1175,7 @@ fetchhead.o: fetchhead.c.o
 
 # target to build an object file
 fetchhead.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetchhead.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetchhead.c.o
 .PHONY : fetchhead.c.o
 
 fetchhead.i: fetchhead.c.i
@@ -1184,7 +1184,7 @@ fetchhead.i: fetchhead.c.i
 
 # target to preprocess a source file
 fetchhead.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetchhead.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetchhead.c.i
 .PHONY : fetchhead.c.i
 
 fetchhead.s: fetchhead.c.s
@@ -1193,7 +1193,7 @@ fetchhead.s: fetchhead.c.s
 
 # target to generate assembly for a file
 fetchhead.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetchhead.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fetchhead.c.s
 .PHONY : fetchhead.c.s
 
 filebuf.o: filebuf.c.o
@@ -1202,7 +1202,7 @@ filebuf.o: filebuf.c.o
 
 # target to build an object file
 filebuf.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filebuf.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filebuf.c.o
 .PHONY : filebuf.c.o
 
 filebuf.i: filebuf.c.i
@@ -1211,7 +1211,7 @@ filebuf.i: filebuf.c.i
 
 # target to preprocess a source file
 filebuf.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filebuf.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filebuf.c.i
 .PHONY : filebuf.c.i
 
 filebuf.s: filebuf.c.s
@@ -1220,7 +1220,7 @@ filebuf.s: filebuf.c.s
 
 # target to generate assembly for a file
 filebuf.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filebuf.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filebuf.c.s
 .PHONY : filebuf.c.s
 
 fileops.o: fileops.c.o
@@ -1229,7 +1229,7 @@ fileops.o: fileops.c.o
 
 # target to build an object file
 fileops.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fileops.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fileops.c.o
 .PHONY : fileops.c.o
 
 fileops.i: fileops.c.i
@@ -1238,7 +1238,7 @@ fileops.i: fileops.c.i
 
 # target to preprocess a source file
 fileops.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fileops.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fileops.c.i
 .PHONY : fileops.c.i
 
 fileops.s: fileops.c.s
@@ -1247,7 +1247,7 @@ fileops.s: fileops.c.s
 
 # target to generate assembly for a file
 fileops.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fileops.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fileops.c.s
 .PHONY : fileops.c.s
 
 filter.o: filter.c.o
@@ -1256,7 +1256,7 @@ filter.o: filter.c.o
 
 # target to build an object file
 filter.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filter.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filter.c.o
 .PHONY : filter.c.o
 
 filter.i: filter.c.i
@@ -1265,7 +1265,7 @@ filter.i: filter.c.i
 
 # target to preprocess a source file
 filter.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filter.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filter.c.i
 .PHONY : filter.c.i
 
 filter.s: filter.c.s
@@ -1274,7 +1274,7 @@ filter.s: filter.c.s
 
 # target to generate assembly for a file
 filter.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filter.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/filter.c.s
 .PHONY : filter.c.s
 
 fnmatch.o: fnmatch.c.o
@@ -1283,7 +1283,7 @@ fnmatch.o: fnmatch.c.o
 
 # target to build an object file
 fnmatch.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fnmatch.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fnmatch.c.o
 .PHONY : fnmatch.c.o
 
 fnmatch.i: fnmatch.c.i
@@ -1292,7 +1292,7 @@ fnmatch.i: fnmatch.c.i
 
 # target to preprocess a source file
 fnmatch.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fnmatch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fnmatch.c.i
 .PHONY : fnmatch.c.i
 
 fnmatch.s: fnmatch.c.s
@@ -1301,7 +1301,7 @@ fnmatch.s: fnmatch.c.s
 
 # target to generate assembly for a file
 fnmatch.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fnmatch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/fnmatch.c.s
 .PHONY : fnmatch.c.s
 
 global.o: global.c.o
@@ -1310,7 +1310,7 @@ global.o: global.c.o
 
 # target to build an object file
 global.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/global.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/global.c.o
 .PHONY : global.c.o
 
 global.i: global.c.i
@@ -1319,7 +1319,7 @@ global.i: global.c.i
 
 # target to preprocess a source file
 global.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/global.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/global.c.i
 .PHONY : global.c.i
 
 global.s: global.c.s
@@ -1328,7 +1328,7 @@ global.s: global.c.s
 
 # target to generate assembly for a file
 global.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/global.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/global.c.s
 .PHONY : global.c.s
 
 graph.o: graph.c.o
@@ -1337,7 +1337,7 @@ graph.o: graph.c.o
 
 # target to build an object file
 graph.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/graph.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/graph.c.o
 .PHONY : graph.c.o
 
 graph.i: graph.c.i
@@ -1346,7 +1346,7 @@ graph.i: graph.c.i
 
 # target to preprocess a source file
 graph.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/graph.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/graph.c.i
 .PHONY : graph.c.i
 
 graph.s: graph.c.s
@@ -1355,7 +1355,7 @@ graph.s: graph.c.s
 
 # target to generate assembly for a file
 graph.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/graph.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/graph.c.s
 .PHONY : graph.c.s
 
 hash.o: hash.c.o
@@ -1364,7 +1364,7 @@ hash.o: hash.c.o
 
 # target to build an object file
 hash.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash.c.o
 .PHONY : hash.c.o
 
 hash.i: hash.c.i
@@ -1373,7 +1373,7 @@ hash.i: hash.c.i
 
 # target to preprocess a source file
 hash.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash.c.i
 .PHONY : hash.c.i
 
 hash.s: hash.c.s
@@ -1382,7 +1382,7 @@ hash.s: hash.c.s
 
 # target to generate assembly for a file
 hash.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash.c.s
 .PHONY : hash.c.s
 
 hash/sha1dc/sha1.o: hash/sha1dc/sha1.c.o
@@ -1391,7 +1391,7 @@ hash/sha1dc/sha1.o: hash/sha1dc/sha1.c.o
 
 # target to build an object file
 hash/sha1dc/sha1.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o
 .PHONY : hash/sha1dc/sha1.c.o
 
 hash/sha1dc/sha1.i: hash/sha1dc/sha1.c.i
@@ -1400,7 +1400,7 @@ hash/sha1dc/sha1.i: hash/sha1dc/sha1.c.i
 
 # target to preprocess a source file
 hash/sha1dc/sha1.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.i
 .PHONY : hash/sha1dc/sha1.c.i
 
 hash/sha1dc/sha1.s: hash/sha1dc/sha1.c.s
@@ -1409,7 +1409,7 @@ hash/sha1dc/sha1.s: hash/sha1dc/sha1.c.s
 
 # target to generate assembly for a file
 hash/sha1dc/sha1.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.s
 .PHONY : hash/sha1dc/sha1.c.s
 
 hash/sha1dc/ubc_check.o: hash/sha1dc/ubc_check.c.o
@@ -1418,7 +1418,7 @@ hash/sha1dc/ubc_check.o: hash/sha1dc/ubc_check.c.o
 
 # target to build an object file
 hash/sha1dc/ubc_check.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o
 .PHONY : hash/sha1dc/ubc_check.c.o
 
 hash/sha1dc/ubc_check.i: hash/sha1dc/ubc_check.c.i
@@ -1427,7 +1427,7 @@ hash/sha1dc/ubc_check.i: hash/sha1dc/ubc_check.c.i
 
 # target to preprocess a source file
 hash/sha1dc/ubc_check.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.i
 .PHONY : hash/sha1dc/ubc_check.c.i
 
 hash/sha1dc/ubc_check.s: hash/sha1dc/ubc_check.c.s
@@ -1436,7 +1436,7 @@ hash/sha1dc/ubc_check.s: hash/sha1dc/ubc_check.c.s
 
 # target to generate assembly for a file
 hash/sha1dc/ubc_check.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.s
 .PHONY : hash/sha1dc/ubc_check.c.s
 
 hashsig.o: hashsig.c.o
@@ -1445,7 +1445,7 @@ hashsig.o: hashsig.c.o
 
 # target to build an object file
 hashsig.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hashsig.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hashsig.c.o
 .PHONY : hashsig.c.o
 
 hashsig.i: hashsig.c.i
@@ -1454,7 +1454,7 @@ hashsig.i: hashsig.c.i
 
 # target to preprocess a source file
 hashsig.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hashsig.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hashsig.c.i
 .PHONY : hashsig.c.i
 
 hashsig.s: hashsig.c.s
@@ -1463,7 +1463,7 @@ hashsig.s: hashsig.c.s
 
 # target to generate assembly for a file
 hashsig.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hashsig.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/hashsig.c.s
 .PHONY : hashsig.c.s
 
 ident.o: ident.c.o
@@ -1472,7 +1472,7 @@ ident.o: ident.c.o
 
 # target to build an object file
 ident.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ident.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ident.c.o
 .PHONY : ident.c.o
 
 ident.i: ident.c.i
@@ -1481,7 +1481,7 @@ ident.i: ident.c.i
 
 # target to preprocess a source file
 ident.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ident.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ident.c.i
 .PHONY : ident.c.i
 
 ident.s: ident.c.s
@@ -1490,7 +1490,7 @@ ident.s: ident.c.s
 
 # target to generate assembly for a file
 ident.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ident.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ident.c.s
 .PHONY : ident.c.s
 
 idxmap.o: idxmap.c.o
@@ -1499,7 +1499,7 @@ idxmap.o: idxmap.c.o
 
 # target to build an object file
 idxmap.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/idxmap.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/idxmap.c.o
 .PHONY : idxmap.c.o
 
 idxmap.i: idxmap.c.i
@@ -1508,7 +1508,7 @@ idxmap.i: idxmap.c.i
 
 # target to preprocess a source file
 idxmap.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/idxmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/idxmap.c.i
 .PHONY : idxmap.c.i
 
 idxmap.s: idxmap.c.s
@@ -1517,7 +1517,7 @@ idxmap.s: idxmap.c.s
 
 # target to generate assembly for a file
 idxmap.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/idxmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/idxmap.c.s
 .PHONY : idxmap.c.s
 
 ignore.o: ignore.c.o
@@ -1526,7 +1526,7 @@ ignore.o: ignore.c.o
 
 # target to build an object file
 ignore.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ignore.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ignore.c.o
 .PHONY : ignore.c.o
 
 ignore.i: ignore.c.i
@@ -1535,7 +1535,7 @@ ignore.i: ignore.c.i
 
 # target to preprocess a source file
 ignore.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ignore.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ignore.c.i
 .PHONY : ignore.c.i
 
 ignore.s: ignore.c.s
@@ -1544,7 +1544,7 @@ ignore.s: ignore.c.s
 
 # target to generate assembly for a file
 ignore.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ignore.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/ignore.c.s
 .PHONY : ignore.c.s
 
 index.o: index.c.o
@@ -1553,7 +1553,7 @@ index.o: index.c.o
 
 # target to build an object file
 index.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/index.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/index.c.o
 .PHONY : index.c.o
 
 index.i: index.c.i
@@ -1562,7 +1562,7 @@ index.i: index.c.i
 
 # target to preprocess a source file
 index.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/index.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/index.c.i
 .PHONY : index.c.i
 
 index.s: index.c.s
@@ -1571,7 +1571,7 @@ index.s: index.c.s
 
 # target to generate assembly for a file
 index.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/index.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/index.c.s
 .PHONY : index.c.s
 
 indexer.o: indexer.c.o
@@ -1580,7 +1580,7 @@ indexer.o: indexer.c.o
 
 # target to build an object file
 indexer.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/indexer.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/indexer.c.o
 .PHONY : indexer.c.o
 
 indexer.i: indexer.c.i
@@ -1589,7 +1589,7 @@ indexer.i: indexer.c.i
 
 # target to preprocess a source file
 indexer.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/indexer.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/indexer.c.i
 .PHONY : indexer.c.i
 
 indexer.s: indexer.c.s
@@ -1598,7 +1598,7 @@ indexer.s: indexer.c.s
 
 # target to generate assembly for a file
 indexer.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/indexer.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/indexer.c.s
 .PHONY : indexer.c.s
 
 iterator.o: iterator.c.o
@@ -1607,7 +1607,7 @@ iterator.o: iterator.c.o
 
 # target to build an object file
 iterator.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/iterator.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/iterator.c.o
 .PHONY : iterator.c.o
 
 iterator.i: iterator.c.i
@@ -1616,7 +1616,7 @@ iterator.i: iterator.c.i
 
 # target to preprocess a source file
 iterator.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/iterator.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/iterator.c.i
 .PHONY : iterator.c.i
 
 iterator.s: iterator.c.s
@@ -1625,7 +1625,7 @@ iterator.s: iterator.c.s
 
 # target to generate assembly for a file
 iterator.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/iterator.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/iterator.c.s
 .PHONY : iterator.c.s
 
 merge.o: merge.c.o
@@ -1634,7 +1634,7 @@ merge.o: merge.c.o
 
 # target to build an object file
 merge.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge.c.o
 .PHONY : merge.c.o
 
 merge.i: merge.c.i
@@ -1643,7 +1643,7 @@ merge.i: merge.c.i
 
 # target to preprocess a source file
 merge.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge.c.i
 .PHONY : merge.c.i
 
 merge.s: merge.c.s
@@ -1652,7 +1652,7 @@ merge.s: merge.c.s
 
 # target to generate assembly for a file
 merge.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge.c.s
 .PHONY : merge.c.s
 
 merge_driver.o: merge_driver.c.o
@@ -1661,7 +1661,7 @@ merge_driver.o: merge_driver.c.o
 
 # target to build an object file
 merge_driver.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_driver.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_driver.c.o
 .PHONY : merge_driver.c.o
 
 merge_driver.i: merge_driver.c.i
@@ -1670,7 +1670,7 @@ merge_driver.i: merge_driver.c.i
 
 # target to preprocess a source file
 merge_driver.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_driver.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_driver.c.i
 .PHONY : merge_driver.c.i
 
 merge_driver.s: merge_driver.c.s
@@ -1679,7 +1679,7 @@ merge_driver.s: merge_driver.c.s
 
 # target to generate assembly for a file
 merge_driver.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_driver.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_driver.c.s
 .PHONY : merge_driver.c.s
 
 merge_file.o: merge_file.c.o
@@ -1688,7 +1688,7 @@ merge_file.o: merge_file.c.o
 
 # target to build an object file
 merge_file.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_file.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_file.c.o
 .PHONY : merge_file.c.o
 
 merge_file.i: merge_file.c.i
@@ -1697,7 +1697,7 @@ merge_file.i: merge_file.c.i
 
 # target to preprocess a source file
 merge_file.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_file.c.i
 .PHONY : merge_file.c.i
 
 merge_file.s: merge_file.c.s
@@ -1706,7 +1706,7 @@ merge_file.s: merge_file.c.s
 
 # target to generate assembly for a file
 merge_file.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/merge_file.c.s
 .PHONY : merge_file.c.s
 
 message.o: message.c.o
@@ -1715,7 +1715,7 @@ message.o: message.c.o
 
 # target to build an object file
 message.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/message.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/message.c.o
 .PHONY : message.c.o
 
 message.i: message.c.i
@@ -1724,7 +1724,7 @@ message.i: message.c.i
 
 # target to preprocess a source file
 message.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/message.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/message.c.i
 .PHONY : message.c.i
 
 message.s: message.c.s
@@ -1733,7 +1733,7 @@ message.s: message.c.s
 
 # target to generate assembly for a file
 message.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/message.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/message.c.s
 .PHONY : message.c.s
 
 mwindow.o: mwindow.c.o
@@ -1742,7 +1742,7 @@ mwindow.o: mwindow.c.o
 
 # target to build an object file
 mwindow.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/mwindow.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/mwindow.c.o
 .PHONY : mwindow.c.o
 
 mwindow.i: mwindow.c.i
@@ -1751,7 +1751,7 @@ mwindow.i: mwindow.c.i
 
 # target to preprocess a source file
 mwindow.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/mwindow.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/mwindow.c.i
 .PHONY : mwindow.c.i
 
 mwindow.s: mwindow.c.s
@@ -1760,7 +1760,7 @@ mwindow.s: mwindow.c.s
 
 # target to generate assembly for a file
 mwindow.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/mwindow.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/mwindow.c.s
 .PHONY : mwindow.c.s
 
 netops.o: netops.c.o
@@ -1769,7 +1769,7 @@ netops.o: netops.c.o
 
 # target to build an object file
 netops.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/netops.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/netops.c.o
 .PHONY : netops.c.o
 
 netops.i: netops.c.i
@@ -1778,7 +1778,7 @@ netops.i: netops.c.i
 
 # target to preprocess a source file
 netops.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/netops.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/netops.c.i
 .PHONY : netops.c.i
 
 netops.s: netops.c.s
@@ -1787,7 +1787,7 @@ netops.s: netops.c.s
 
 # target to generate assembly for a file
 netops.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/netops.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/netops.c.s
 .PHONY : netops.c.s
 
 notes.o: notes.c.o
@@ -1796,7 +1796,7 @@ notes.o: notes.c.o
 
 # target to build an object file
 notes.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/notes.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/notes.c.o
 .PHONY : notes.c.o
 
 notes.i: notes.c.i
@@ -1805,7 +1805,7 @@ notes.i: notes.c.i
 
 # target to preprocess a source file
 notes.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/notes.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/notes.c.i
 .PHONY : notes.c.i
 
 notes.s: notes.c.s
@@ -1814,7 +1814,7 @@ notes.s: notes.c.s
 
 # target to generate assembly for a file
 notes.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/notes.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/notes.c.s
 .PHONY : notes.c.s
 
 object.o: object.c.o
@@ -1823,7 +1823,7 @@ object.o: object.c.o
 
 # target to build an object file
 object.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object.c.o
 .PHONY : object.c.o
 
 object.i: object.c.i
@@ -1832,7 +1832,7 @@ object.i: object.c.i
 
 # target to preprocess a source file
 object.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object.c.i
 .PHONY : object.c.i
 
 object.s: object.c.s
@@ -1841,7 +1841,7 @@ object.s: object.c.s
 
 # target to generate assembly for a file
 object.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object.c.s
 .PHONY : object.c.s
 
 object_api.o: object_api.c.o
@@ -1850,7 +1850,7 @@ object_api.o: object_api.c.o
 
 # target to build an object file
 object_api.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object_api.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object_api.c.o
 .PHONY : object_api.c.o
 
 object_api.i: object_api.c.i
@@ -1859,7 +1859,7 @@ object_api.i: object_api.c.i
 
 # target to preprocess a source file
 object_api.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object_api.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object_api.c.i
 .PHONY : object_api.c.i
 
 object_api.s: object_api.c.s
@@ -1868,7 +1868,7 @@ object_api.s: object_api.c.s
 
 # target to generate assembly for a file
 object_api.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object_api.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/object_api.c.s
 .PHONY : object_api.c.s
 
 odb.o: odb.c.o
@@ -1877,7 +1877,7 @@ odb.o: odb.c.o
 
 # target to build an object file
 odb.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb.c.o
 .PHONY : odb.c.o
 
 odb.i: odb.c.i
@@ -1886,7 +1886,7 @@ odb.i: odb.c.i
 
 # target to preprocess a source file
 odb.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb.c.i
 .PHONY : odb.c.i
 
 odb.s: odb.c.s
@@ -1895,7 +1895,7 @@ odb.s: odb.c.s
 
 # target to generate assembly for a file
 odb.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb.c.s
 .PHONY : odb.c.s
 
 odb_loose.o: odb_loose.c.o
@@ -1904,7 +1904,7 @@ odb_loose.o: odb_loose.c.o
 
 # target to build an object file
 odb_loose.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_loose.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_loose.c.o
 .PHONY : odb_loose.c.o
 
 odb_loose.i: odb_loose.c.i
@@ -1913,7 +1913,7 @@ odb_loose.i: odb_loose.c.i
 
 # target to preprocess a source file
 odb_loose.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_loose.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_loose.c.i
 .PHONY : odb_loose.c.i
 
 odb_loose.s: odb_loose.c.s
@@ -1922,7 +1922,7 @@ odb_loose.s: odb_loose.c.s
 
 # target to generate assembly for a file
 odb_loose.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_loose.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_loose.c.s
 .PHONY : odb_loose.c.s
 
 odb_mempack.o: odb_mempack.c.o
@@ -1931,7 +1931,7 @@ odb_mempack.o: odb_mempack.c.o
 
 # target to build an object file
 odb_mempack.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_mempack.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_mempack.c.o
 .PHONY : odb_mempack.c.o
 
 odb_mempack.i: odb_mempack.c.i
@@ -1940,7 +1940,7 @@ odb_mempack.i: odb_mempack.c.i
 
 # target to preprocess a source file
 odb_mempack.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_mempack.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_mempack.c.i
 .PHONY : odb_mempack.c.i
 
 odb_mempack.s: odb_mempack.c.s
@@ -1949,7 +1949,7 @@ odb_mempack.s: odb_mempack.c.s
 
 # target to generate assembly for a file
 odb_mempack.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_mempack.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_mempack.c.s
 .PHONY : odb_mempack.c.s
 
 odb_pack.o: odb_pack.c.o
@@ -1958,7 +1958,7 @@ odb_pack.o: odb_pack.c.o
 
 # target to build an object file
 odb_pack.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_pack.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_pack.c.o
 .PHONY : odb_pack.c.o
 
 odb_pack.i: odb_pack.c.i
@@ -1967,7 +1967,7 @@ odb_pack.i: odb_pack.c.i
 
 # target to preprocess a source file
 odb_pack.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_pack.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_pack.c.i
 .PHONY : odb_pack.c.i
 
 odb_pack.s: odb_pack.c.s
@@ -1976,7 +1976,7 @@ odb_pack.s: odb_pack.c.s
 
 # target to generate assembly for a file
 odb_pack.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_pack.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/odb_pack.c.s
 .PHONY : odb_pack.c.s
 
 offmap.o: offmap.c.o
@@ -1985,7 +1985,7 @@ offmap.o: offmap.c.o
 
 # target to build an object file
 offmap.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/offmap.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/offmap.c.o
 .PHONY : offmap.c.o
 
 offmap.i: offmap.c.i
@@ -1994,7 +1994,7 @@ offmap.i: offmap.c.i
 
 # target to preprocess a source file
 offmap.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/offmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/offmap.c.i
 .PHONY : offmap.c.i
 
 offmap.s: offmap.c.s
@@ -2003,7 +2003,7 @@ offmap.s: offmap.c.s
 
 # target to generate assembly for a file
 offmap.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/offmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/offmap.c.s
 .PHONY : offmap.c.s
 
 oid.o: oid.c.o
@@ -2012,7 +2012,7 @@ oid.o: oid.c.o
 
 # target to build an object file
 oid.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oid.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oid.c.o
 .PHONY : oid.c.o
 
 oid.i: oid.c.i
@@ -2021,7 +2021,7 @@ oid.i: oid.c.i
 
 # target to preprocess a source file
 oid.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oid.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oid.c.i
 .PHONY : oid.c.i
 
 oid.s: oid.c.s
@@ -2030,7 +2030,7 @@ oid.s: oid.c.s
 
 # target to generate assembly for a file
 oid.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oid.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oid.c.s
 .PHONY : oid.c.s
 
 oidarray.o: oidarray.c.o
@@ -2039,7 +2039,7 @@ oidarray.o: oidarray.c.o
 
 # target to build an object file
 oidarray.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidarray.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidarray.c.o
 .PHONY : oidarray.c.o
 
 oidarray.i: oidarray.c.i
@@ -2048,7 +2048,7 @@ oidarray.i: oidarray.c.i
 
 # target to preprocess a source file
 oidarray.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidarray.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidarray.c.i
 .PHONY : oidarray.c.i
 
 oidarray.s: oidarray.c.s
@@ -2057,7 +2057,7 @@ oidarray.s: oidarray.c.s
 
 # target to generate assembly for a file
 oidarray.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidarray.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidarray.c.s
 .PHONY : oidarray.c.s
 
 oidmap.o: oidmap.c.o
@@ -2066,7 +2066,7 @@ oidmap.o: oidmap.c.o
 
 # target to build an object file
 oidmap.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidmap.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidmap.c.o
 .PHONY : oidmap.c.o
 
 oidmap.i: oidmap.c.i
@@ -2075,7 +2075,7 @@ oidmap.i: oidmap.c.i
 
 # target to preprocess a source file
 oidmap.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidmap.c.i
 .PHONY : oidmap.c.i
 
 oidmap.s: oidmap.c.s
@@ -2084,7 +2084,7 @@ oidmap.s: oidmap.c.s
 
 # target to generate assembly for a file
 oidmap.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/oidmap.c.s
 .PHONY : oidmap.c.s
 
 pack-objects.o: pack-objects.c.o
@@ -2093,7 +2093,7 @@ pack-objects.o: pack-objects.c.o
 
 # target to build an object file
 pack-objects.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack-objects.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack-objects.c.o
 .PHONY : pack-objects.c.o
 
 pack-objects.i: pack-objects.c.i
@@ -2102,7 +2102,7 @@ pack-objects.i: pack-objects.c.i
 
 # target to preprocess a source file
 pack-objects.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack-objects.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack-objects.c.i
 .PHONY : pack-objects.c.i
 
 pack-objects.s: pack-objects.c.s
@@ -2111,7 +2111,7 @@ pack-objects.s: pack-objects.c.s
 
 # target to generate assembly for a file
 pack-objects.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack-objects.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack-objects.c.s
 .PHONY : pack-objects.c.s
 
 pack.o: pack.c.o
@@ -2120,7 +2120,7 @@ pack.o: pack.c.o
 
 # target to build an object file
 pack.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack.c.o
 .PHONY : pack.c.o
 
 pack.i: pack.c.i
@@ -2129,7 +2129,7 @@ pack.i: pack.c.i
 
 # target to preprocess a source file
 pack.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack.c.i
 .PHONY : pack.c.i
 
 pack.s: pack.c.s
@@ -2138,7 +2138,7 @@ pack.s: pack.c.s
 
 # target to generate assembly for a file
 pack.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pack.c.s
 .PHONY : pack.c.s
 
 parse.o: parse.c.o
@@ -2147,7 +2147,7 @@ parse.o: parse.c.o
 
 # target to build an object file
 parse.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/parse.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/parse.c.o
 .PHONY : parse.c.o
 
 parse.i: parse.c.i
@@ -2156,7 +2156,7 @@ parse.i: parse.c.i
 
 # target to preprocess a source file
 parse.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/parse.c.i
 .PHONY : parse.c.i
 
 parse.s: parse.c.s
@@ -2165,7 +2165,7 @@ parse.s: parse.c.s
 
 # target to generate assembly for a file
 parse.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/parse.c.s
 .PHONY : parse.c.s
 
 patch.o: patch.c.o
@@ -2174,7 +2174,7 @@ patch.o: patch.c.o
 
 # target to build an object file
 patch.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch.c.o
 .PHONY : patch.c.o
 
 patch.i: patch.c.i
@@ -2183,7 +2183,7 @@ patch.i: patch.c.i
 
 # target to preprocess a source file
 patch.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch.c.i
 .PHONY : patch.c.i
 
 patch.s: patch.c.s
@@ -2192,7 +2192,7 @@ patch.s: patch.c.s
 
 # target to generate assembly for a file
 patch.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch.c.s
 .PHONY : patch.c.s
 
 patch_generate.o: patch_generate.c.o
@@ -2201,7 +2201,7 @@ patch_generate.o: patch_generate.c.o
 
 # target to build an object file
 patch_generate.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_generate.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_generate.c.o
 .PHONY : patch_generate.c.o
 
 patch_generate.i: patch_generate.c.i
@@ -2210,7 +2210,7 @@ patch_generate.i: patch_generate.c.i
 
 # target to preprocess a source file
 patch_generate.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_generate.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_generate.c.i
 .PHONY : patch_generate.c.i
 
 patch_generate.s: patch_generate.c.s
@@ -2219,7 +2219,7 @@ patch_generate.s: patch_generate.c.s
 
 # target to generate assembly for a file
 patch_generate.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_generate.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_generate.c.s
 .PHONY : patch_generate.c.s
 
 patch_parse.o: patch_parse.c.o
@@ -2228,7 +2228,7 @@ patch_parse.o: patch_parse.c.o
 
 # target to build an object file
 patch_parse.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_parse.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_parse.c.o
 .PHONY : patch_parse.c.o
 
 patch_parse.i: patch_parse.c.i
@@ -2237,7 +2237,7 @@ patch_parse.i: patch_parse.c.i
 
 # target to preprocess a source file
 patch_parse.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_parse.c.i
 .PHONY : patch_parse.c.i
 
 patch_parse.s: patch_parse.c.s
@@ -2246,7 +2246,7 @@ patch_parse.s: patch_parse.c.s
 
 # target to generate assembly for a file
 patch_parse.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/patch_parse.c.s
 .PHONY : patch_parse.c.s
 
 path.o: path.c.o
@@ -2255,7 +2255,7 @@ path.o: path.c.o
 
 # target to build an object file
 path.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/path.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/path.c.o
 .PHONY : path.c.o
 
 path.i: path.c.i
@@ -2264,7 +2264,7 @@ path.i: path.c.i
 
 # target to preprocess a source file
 path.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/path.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/path.c.i
 .PHONY : path.c.i
 
 path.s: path.c.s
@@ -2273,7 +2273,7 @@ path.s: path.c.s
 
 # target to generate assembly for a file
 path.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/path.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/path.c.s
 .PHONY : path.c.s
 
 pathspec.o: pathspec.c.o
@@ -2282,7 +2282,7 @@ pathspec.o: pathspec.c.o
 
 # target to build an object file
 pathspec.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pathspec.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pathspec.c.o
 .PHONY : pathspec.c.o
 
 pathspec.i: pathspec.c.i
@@ -2291,7 +2291,7 @@ pathspec.i: pathspec.c.i
 
 # target to preprocess a source file
 pathspec.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pathspec.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pathspec.c.i
 .PHONY : pathspec.c.i
 
 pathspec.s: pathspec.c.s
@@ -2300,7 +2300,7 @@ pathspec.s: pathspec.c.s
 
 # target to generate assembly for a file
 pathspec.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pathspec.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pathspec.c.s
 .PHONY : pathspec.c.s
 
 pool.o: pool.c.o
@@ -2309,7 +2309,7 @@ pool.o: pool.c.o
 
 # target to build an object file
 pool.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pool.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pool.c.o
 .PHONY : pool.c.o
 
 pool.i: pool.c.i
@@ -2318,7 +2318,7 @@ pool.i: pool.c.i
 
 # target to preprocess a source file
 pool.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pool.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pool.c.i
 .PHONY : pool.c.i
 
 pool.s: pool.c.s
@@ -2327,7 +2327,7 @@ pool.s: pool.c.s
 
 # target to generate assembly for a file
 pool.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pool.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pool.c.s
 .PHONY : pool.c.s
 
 posix.o: posix.c.o
@@ -2336,7 +2336,7 @@ posix.o: posix.c.o
 
 # target to build an object file
 posix.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/posix.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/posix.c.o
 .PHONY : posix.c.o
 
 posix.i: posix.c.i
@@ -2345,7 +2345,7 @@ posix.i: posix.c.i
 
 # target to preprocess a source file
 posix.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/posix.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/posix.c.i
 .PHONY : posix.c.i
 
 posix.s: posix.c.s
@@ -2354,7 +2354,7 @@ posix.s: posix.c.s
 
 # target to generate assembly for a file
 posix.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/posix.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/posix.c.s
 .PHONY : posix.c.s
 
 pqueue.o: pqueue.c.o
@@ -2363,7 +2363,7 @@ pqueue.o: pqueue.c.o
 
 # target to build an object file
 pqueue.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pqueue.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pqueue.c.o
 .PHONY : pqueue.c.o
 
 pqueue.i: pqueue.c.i
@@ -2372,7 +2372,7 @@ pqueue.i: pqueue.c.i
 
 # target to preprocess a source file
 pqueue.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pqueue.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pqueue.c.i
 .PHONY : pqueue.c.i
 
 pqueue.s: pqueue.c.s
@@ -2381,7 +2381,7 @@ pqueue.s: pqueue.c.s
 
 # target to generate assembly for a file
 pqueue.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pqueue.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/pqueue.c.s
 .PHONY : pqueue.c.s
 
 proxy.o: proxy.c.o
@@ -2390,7 +2390,7 @@ proxy.o: proxy.c.o
 
 # target to build an object file
 proxy.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/proxy.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/proxy.c.o
 .PHONY : proxy.c.o
 
 proxy.i: proxy.c.i
@@ -2399,7 +2399,7 @@ proxy.i: proxy.c.i
 
 # target to preprocess a source file
 proxy.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/proxy.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/proxy.c.i
 .PHONY : proxy.c.i
 
 proxy.s: proxy.c.s
@@ -2408,7 +2408,7 @@ proxy.s: proxy.c.s
 
 # target to generate assembly for a file
 proxy.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/proxy.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/proxy.c.s
 .PHONY : proxy.c.s
 
 push.o: push.c.o
@@ -2417,7 +2417,7 @@ push.o: push.c.o
 
 # target to build an object file
 push.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/push.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/push.c.o
 .PHONY : push.c.o
 
 push.i: push.c.i
@@ -2426,7 +2426,7 @@ push.i: push.c.i
 
 # target to preprocess a source file
 push.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/push.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/push.c.i
 .PHONY : push.c.i
 
 push.s: push.c.s
@@ -2435,7 +2435,7 @@ push.s: push.c.s
 
 # target to generate assembly for a file
 push.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/push.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/push.c.s
 .PHONY : push.c.s
 
 rebase.o: rebase.c.o
@@ -2444,7 +2444,7 @@ rebase.o: rebase.c.o
 
 # target to build an object file
 rebase.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/rebase.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/rebase.c.o
 .PHONY : rebase.c.o
 
 rebase.i: rebase.c.i
@@ -2453,7 +2453,7 @@ rebase.i: rebase.c.i
 
 # target to preprocess a source file
 rebase.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/rebase.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/rebase.c.i
 .PHONY : rebase.c.i
 
 rebase.s: rebase.c.s
@@ -2462,7 +2462,7 @@ rebase.s: rebase.c.s
 
 # target to generate assembly for a file
 rebase.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/rebase.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/rebase.c.s
 .PHONY : rebase.c.s
 
 refdb.o: refdb.c.o
@@ -2471,7 +2471,7 @@ refdb.o: refdb.c.o
 
 # target to build an object file
 refdb.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb.c.o
 .PHONY : refdb.c.o
 
 refdb.i: refdb.c.i
@@ -2480,7 +2480,7 @@ refdb.i: refdb.c.i
 
 # target to preprocess a source file
 refdb.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb.c.i
 .PHONY : refdb.c.i
 
 refdb.s: refdb.c.s
@@ -2489,7 +2489,7 @@ refdb.s: refdb.c.s
 
 # target to generate assembly for a file
 refdb.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb.c.s
 .PHONY : refdb.c.s
 
 refdb_fs.o: refdb_fs.c.o
@@ -2498,7 +2498,7 @@ refdb_fs.o: refdb_fs.c.o
 
 # target to build an object file
 refdb_fs.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb_fs.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb_fs.c.o
 .PHONY : refdb_fs.c.o
 
 refdb_fs.i: refdb_fs.c.i
@@ -2507,7 +2507,7 @@ refdb_fs.i: refdb_fs.c.i
 
 # target to preprocess a source file
 refdb_fs.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb_fs.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb_fs.c.i
 .PHONY : refdb_fs.c.i
 
 refdb_fs.s: refdb_fs.c.s
@@ -2516,7 +2516,7 @@ refdb_fs.s: refdb_fs.c.s
 
 # target to generate assembly for a file
 refdb_fs.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb_fs.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refdb_fs.c.s
 .PHONY : refdb_fs.c.s
 
 reflog.o: reflog.c.o
@@ -2525,7 +2525,7 @@ reflog.o: reflog.c.o
 
 # target to build an object file
 reflog.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reflog.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reflog.c.o
 .PHONY : reflog.c.o
 
 reflog.i: reflog.c.i
@@ -2534,7 +2534,7 @@ reflog.i: reflog.c.i
 
 # target to preprocess a source file
 reflog.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reflog.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reflog.c.i
 .PHONY : reflog.c.i
 
 reflog.s: reflog.c.s
@@ -2543,7 +2543,7 @@ reflog.s: reflog.c.s
 
 # target to generate assembly for a file
 reflog.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reflog.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reflog.c.s
 .PHONY : reflog.c.s
 
 refs.o: refs.c.o
@@ -2552,7 +2552,7 @@ refs.o: refs.c.o
 
 # target to build an object file
 refs.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refs.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refs.c.o
 .PHONY : refs.c.o
 
 refs.i: refs.c.i
@@ -2561,7 +2561,7 @@ refs.i: refs.c.i
 
 # target to preprocess a source file
 refs.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refs.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refs.c.i
 .PHONY : refs.c.i
 
 refs.s: refs.c.s
@@ -2570,7 +2570,7 @@ refs.s: refs.c.s
 
 # target to generate assembly for a file
 refs.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refs.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refs.c.s
 .PHONY : refs.c.s
 
 refspec.o: refspec.c.o
@@ -2579,7 +2579,7 @@ refspec.o: refspec.c.o
 
 # target to build an object file
 refspec.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refspec.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refspec.c.o
 .PHONY : refspec.c.o
 
 refspec.i: refspec.c.i
@@ -2588,7 +2588,7 @@ refspec.i: refspec.c.i
 
 # target to preprocess a source file
 refspec.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refspec.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refspec.c.i
 .PHONY : refspec.c.i
 
 refspec.s: refspec.c.s
@@ -2597,7 +2597,7 @@ refspec.s: refspec.c.s
 
 # target to generate assembly for a file
 refspec.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refspec.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/refspec.c.s
 .PHONY : refspec.c.s
 
 remote.o: remote.c.o
@@ -2606,7 +2606,7 @@ remote.o: remote.c.o
 
 # target to build an object file
 remote.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/remote.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/remote.c.o
 .PHONY : remote.c.o
 
 remote.i: remote.c.i
@@ -2615,7 +2615,7 @@ remote.i: remote.c.i
 
 # target to preprocess a source file
 remote.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/remote.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/remote.c.i
 .PHONY : remote.c.i
 
 remote.s: remote.c.s
@@ -2624,7 +2624,7 @@ remote.s: remote.c.s
 
 # target to generate assembly for a file
 remote.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/remote.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/remote.c.s
 .PHONY : remote.c.s
 
 repository.o: repository.c.o
@@ -2633,7 +2633,7 @@ repository.o: repository.c.o
 
 # target to build an object file
 repository.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/repository.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/repository.c.o
 .PHONY : repository.c.o
 
 repository.i: repository.c.i
@@ -2642,7 +2642,7 @@ repository.i: repository.c.i
 
 # target to preprocess a source file
 repository.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/repository.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/repository.c.i
 .PHONY : repository.c.i
 
 repository.s: repository.c.s
@@ -2651,7 +2651,7 @@ repository.s: repository.c.s
 
 # target to generate assembly for a file
 repository.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/repository.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/repository.c.s
 .PHONY : repository.c.s
 
 reset.o: reset.c.o
@@ -2660,7 +2660,7 @@ reset.o: reset.c.o
 
 # target to build an object file
 reset.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reset.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reset.c.o
 .PHONY : reset.c.o
 
 reset.i: reset.c.i
@@ -2669,7 +2669,7 @@ reset.i: reset.c.i
 
 # target to preprocess a source file
 reset.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reset.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reset.c.i
 .PHONY : reset.c.i
 
 reset.s: reset.c.s
@@ -2678,7 +2678,7 @@ reset.s: reset.c.s
 
 # target to generate assembly for a file
 reset.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reset.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/reset.c.s
 .PHONY : reset.c.s
 
 revert.o: revert.c.o
@@ -2687,7 +2687,7 @@ revert.o: revert.c.o
 
 # target to build an object file
 revert.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revert.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revert.c.o
 .PHONY : revert.c.o
 
 revert.i: revert.c.i
@@ -2696,7 +2696,7 @@ revert.i: revert.c.i
 
 # target to preprocess a source file
 revert.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revert.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revert.c.i
 .PHONY : revert.c.i
 
 revert.s: revert.c.s
@@ -2705,7 +2705,7 @@ revert.s: revert.c.s
 
 # target to generate assembly for a file
 revert.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revert.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revert.c.s
 .PHONY : revert.c.s
 
 revparse.o: revparse.c.o
@@ -2714,7 +2714,7 @@ revparse.o: revparse.c.o
 
 # target to build an object file
 revparse.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revparse.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revparse.c.o
 .PHONY : revparse.c.o
 
 revparse.i: revparse.c.i
@@ -2723,7 +2723,7 @@ revparse.i: revparse.c.i
 
 # target to preprocess a source file
 revparse.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revparse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revparse.c.i
 .PHONY : revparse.c.i
 
 revparse.s: revparse.c.s
@@ -2732,7 +2732,7 @@ revparse.s: revparse.c.s
 
 # target to generate assembly for a file
 revparse.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revparse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revparse.c.s
 .PHONY : revparse.c.s
 
 revwalk.o: revwalk.c.o
@@ -2741,7 +2741,7 @@ revwalk.o: revwalk.c.o
 
 # target to build an object file
 revwalk.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revwalk.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revwalk.c.o
 .PHONY : revwalk.c.o
 
 revwalk.i: revwalk.c.i
@@ -2750,7 +2750,7 @@ revwalk.i: revwalk.c.i
 
 # target to preprocess a source file
 revwalk.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revwalk.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revwalk.c.i
 .PHONY : revwalk.c.i
 
 revwalk.s: revwalk.c.s
@@ -2759,7 +2759,7 @@ revwalk.s: revwalk.c.s
 
 # target to generate assembly for a file
 revwalk.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revwalk.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/revwalk.c.s
 .PHONY : revwalk.c.s
 
 settings.o: settings.c.o
@@ -2768,7 +2768,7 @@ settings.o: settings.c.o
 
 # target to build an object file
 settings.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/settings.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/settings.c.o
 .PHONY : settings.c.o
 
 settings.i: settings.c.i
@@ -2777,7 +2777,7 @@ settings.i: settings.c.i
 
 # target to preprocess a source file
 settings.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/settings.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/settings.c.i
 .PHONY : settings.c.i
 
 settings.s: settings.c.s
@@ -2786,7 +2786,7 @@ settings.s: settings.c.s
 
 # target to generate assembly for a file
 settings.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/settings.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/settings.c.s
 .PHONY : settings.c.s
 
 sha1_lookup.o: sha1_lookup.c.o
@@ -2795,7 +2795,7 @@ sha1_lookup.o: sha1_lookup.c.o
 
 # target to build an object file
 sha1_lookup.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sha1_lookup.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sha1_lookup.c.o
 .PHONY : sha1_lookup.c.o
 
 sha1_lookup.i: sha1_lookup.c.i
@@ -2804,7 +2804,7 @@ sha1_lookup.i: sha1_lookup.c.i
 
 # target to preprocess a source file
 sha1_lookup.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sha1_lookup.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sha1_lookup.c.i
 .PHONY : sha1_lookup.c.i
 
 sha1_lookup.s: sha1_lookup.c.s
@@ -2813,7 +2813,7 @@ sha1_lookup.s: sha1_lookup.c.s
 
 # target to generate assembly for a file
 sha1_lookup.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sha1_lookup.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sha1_lookup.c.s
 .PHONY : sha1_lookup.c.s
 
 signature.o: signature.c.o
@@ -2822,7 +2822,7 @@ signature.o: signature.c.o
 
 # target to build an object file
 signature.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/signature.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/signature.c.o
 .PHONY : signature.c.o
 
 signature.i: signature.c.i
@@ -2831,7 +2831,7 @@ signature.i: signature.c.i
 
 # target to preprocess a source file
 signature.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/signature.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/signature.c.i
 .PHONY : signature.c.i
 
 signature.s: signature.c.s
@@ -2840,7 +2840,7 @@ signature.s: signature.c.s
 
 # target to generate assembly for a file
 signature.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/signature.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/signature.c.s
 .PHONY : signature.c.s
 
 sortedcache.o: sortedcache.c.o
@@ -2849,7 +2849,7 @@ sortedcache.o: sortedcache.c.o
 
 # target to build an object file
 sortedcache.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sortedcache.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sortedcache.c.o
 .PHONY : sortedcache.c.o
 
 sortedcache.i: sortedcache.c.i
@@ -2858,7 +2858,7 @@ sortedcache.i: sortedcache.c.i
 
 # target to preprocess a source file
 sortedcache.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sortedcache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sortedcache.c.i
 .PHONY : sortedcache.c.i
 
 sortedcache.s: sortedcache.c.s
@@ -2867,7 +2867,7 @@ sortedcache.s: sortedcache.c.s
 
 # target to generate assembly for a file
 sortedcache.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sortedcache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sortedcache.c.s
 .PHONY : sortedcache.c.s
 
 stash.o: stash.c.o
@@ -2876,7 +2876,7 @@ stash.o: stash.c.o
 
 # target to build an object file
 stash.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/stash.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/stash.c.o
 .PHONY : stash.c.o
 
 stash.i: stash.c.i
@@ -2885,7 +2885,7 @@ stash.i: stash.c.i
 
 # target to preprocess a source file
 stash.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/stash.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/stash.c.i
 .PHONY : stash.c.i
 
 stash.s: stash.c.s
@@ -2894,7 +2894,7 @@ stash.s: stash.c.s
 
 # target to generate assembly for a file
 stash.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/stash.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/stash.c.s
 .PHONY : stash.c.s
 
 status.o: status.c.o
@@ -2903,7 +2903,7 @@ status.o: status.c.o
 
 # target to build an object file
 status.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/status.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/status.c.o
 .PHONY : status.c.o
 
 status.i: status.c.i
@@ -2912,7 +2912,7 @@ status.i: status.c.i
 
 # target to preprocess a source file
 status.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/status.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/status.c.i
 .PHONY : status.c.i
 
 status.s: status.c.s
@@ -2921,7 +2921,7 @@ status.s: status.c.s
 
 # target to generate assembly for a file
 status.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/status.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/status.c.s
 .PHONY : status.c.s
 
 streams/curl.o: streams/curl.c.o
@@ -2930,7 +2930,7 @@ streams/curl.o: streams/curl.c.o
 
 # target to build an object file
 streams/curl.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/curl.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/curl.c.o
 .PHONY : streams/curl.c.o
 
 streams/curl.i: streams/curl.c.i
@@ -2939,7 +2939,7 @@ streams/curl.i: streams/curl.c.i
 
 # target to preprocess a source file
 streams/curl.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/curl.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/curl.c.i
 .PHONY : streams/curl.c.i
 
 streams/curl.s: streams/curl.c.s
@@ -2948,7 +2948,7 @@ streams/curl.s: streams/curl.c.s
 
 # target to generate assembly for a file
 streams/curl.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/curl.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/curl.c.s
 .PHONY : streams/curl.c.s
 
 streams/openssl.o: streams/openssl.c.o
@@ -2957,7 +2957,7 @@ streams/openssl.o: streams/openssl.c.o
 
 # target to build an object file
 streams/openssl.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/openssl.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/openssl.c.o
 .PHONY : streams/openssl.c.o
 
 streams/openssl.i: streams/openssl.c.i
@@ -2966,7 +2966,7 @@ streams/openssl.i: streams/openssl.c.i
 
 # target to preprocess a source file
 streams/openssl.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/openssl.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/openssl.c.i
 .PHONY : streams/openssl.c.i
 
 streams/openssl.s: streams/openssl.c.s
@@ -2975,7 +2975,7 @@ streams/openssl.s: streams/openssl.c.s
 
 # target to generate assembly for a file
 streams/openssl.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/openssl.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/openssl.c.s
 .PHONY : streams/openssl.c.s
 
 streams/socket.o: streams/socket.c.o
@@ -2984,7 +2984,7 @@ streams/socket.o: streams/socket.c.o
 
 # target to build an object file
 streams/socket.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/socket.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/socket.c.o
 .PHONY : streams/socket.c.o
 
 streams/socket.i: streams/socket.c.i
@@ -2993,7 +2993,7 @@ streams/socket.i: streams/socket.c.i
 
 # target to preprocess a source file
 streams/socket.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/socket.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/socket.c.i
 .PHONY : streams/socket.c.i
 
 streams/socket.s: streams/socket.c.s
@@ -3002,7 +3002,7 @@ streams/socket.s: streams/socket.c.s
 
 # target to generate assembly for a file
 streams/socket.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/socket.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/socket.c.s
 .PHONY : streams/socket.c.s
 
 streams/stransport.o: streams/stransport.c.o
@@ -3011,7 +3011,7 @@ streams/stransport.o: streams/stransport.c.o
 
 # target to build an object file
 streams/stransport.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/stransport.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/stransport.c.o
 .PHONY : streams/stransport.c.o
 
 streams/stransport.i: streams/stransport.c.i
@@ -3020,7 +3020,7 @@ streams/stransport.i: streams/stransport.c.i
 
 # target to preprocess a source file
 streams/stransport.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/stransport.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/stransport.c.i
 .PHONY : streams/stransport.c.i
 
 streams/stransport.s: streams/stransport.c.s
@@ -3029,7 +3029,7 @@ streams/stransport.s: streams/stransport.c.s
 
 # target to generate assembly for a file
 streams/stransport.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/stransport.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/stransport.c.s
 .PHONY : streams/stransport.c.s
 
 streams/tls.o: streams/tls.c.o
@@ -3038,7 +3038,7 @@ streams/tls.o: streams/tls.c.o
 
 # target to build an object file
 streams/tls.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/tls.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/tls.c.o
 .PHONY : streams/tls.c.o
 
 streams/tls.i: streams/tls.c.i
@@ -3047,7 +3047,7 @@ streams/tls.i: streams/tls.c.i
 
 # target to preprocess a source file
 streams/tls.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/tls.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/tls.c.i
 .PHONY : streams/tls.c.i
 
 streams/tls.s: streams/tls.c.s
@@ -3056,7 +3056,7 @@ streams/tls.s: streams/tls.c.s
 
 # target to generate assembly for a file
 streams/tls.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/tls.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/streams/tls.c.s
 .PHONY : streams/tls.c.s
 
 strmap.o: strmap.c.o
@@ -3065,7 +3065,7 @@ strmap.o: strmap.c.o
 
 # target to build an object file
 strmap.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/strmap.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/strmap.c.o
 .PHONY : strmap.c.o
 
 strmap.i: strmap.c.i
@@ -3074,7 +3074,7 @@ strmap.i: strmap.c.i
 
 # target to preprocess a source file
 strmap.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/strmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/strmap.c.i
 .PHONY : strmap.c.i
 
 strmap.s: strmap.c.s
@@ -3083,7 +3083,7 @@ strmap.s: strmap.c.s
 
 # target to generate assembly for a file
 strmap.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/strmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/strmap.c.s
 .PHONY : strmap.c.s
 
 submodule.o: submodule.c.o
@@ -3092,7 +3092,7 @@ submodule.o: submodule.c.o
 
 # target to build an object file
 submodule.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/submodule.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/submodule.c.o
 .PHONY : submodule.c.o
 
 submodule.i: submodule.c.i
@@ -3101,7 +3101,7 @@ submodule.i: submodule.c.i
 
 # target to preprocess a source file
 submodule.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/submodule.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/submodule.c.i
 .PHONY : submodule.c.i
 
 submodule.s: submodule.c.s
@@ -3110,7 +3110,7 @@ submodule.s: submodule.c.s
 
 # target to generate assembly for a file
 submodule.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/submodule.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/submodule.c.s
 .PHONY : submodule.c.s
 
 sysdir.o: sysdir.c.o
@@ -3119,7 +3119,7 @@ sysdir.o: sysdir.c.o
 
 # target to build an object file
 sysdir.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sysdir.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sysdir.c.o
 .PHONY : sysdir.c.o
 
 sysdir.i: sysdir.c.i
@@ -3128,7 +3128,7 @@ sysdir.i: sysdir.c.i
 
 # target to preprocess a source file
 sysdir.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sysdir.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sysdir.c.i
 .PHONY : sysdir.c.i
 
 sysdir.s: sysdir.c.s
@@ -3137,7 +3137,7 @@ sysdir.s: sysdir.c.s
 
 # target to generate assembly for a file
 sysdir.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sysdir.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/sysdir.c.s
 .PHONY : sysdir.c.s
 
 tag.o: tag.c.o
@@ -3146,7 +3146,7 @@ tag.o: tag.c.o
 
 # target to build an object file
 tag.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tag.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tag.c.o
 .PHONY : tag.c.o
 
 tag.i: tag.c.i
@@ -3155,7 +3155,7 @@ tag.i: tag.c.i
 
 # target to preprocess a source file
 tag.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tag.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tag.c.i
 .PHONY : tag.c.i
 
 tag.s: tag.c.s
@@ -3164,7 +3164,7 @@ tag.s: tag.c.s
 
 # target to generate assembly for a file
 tag.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tag.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tag.c.s
 .PHONY : tag.c.s
 
 thread-utils.o: thread-utils.c.o
@@ -3173,7 +3173,7 @@ thread-utils.o: thread-utils.c.o
 
 # target to build an object file
 thread-utils.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/thread-utils.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/thread-utils.c.o
 .PHONY : thread-utils.c.o
 
 thread-utils.i: thread-utils.c.i
@@ -3182,7 +3182,7 @@ thread-utils.i: thread-utils.c.i
 
 # target to preprocess a source file
 thread-utils.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/thread-utils.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/thread-utils.c.i
 .PHONY : thread-utils.c.i
 
 thread-utils.s: thread-utils.c.s
@@ -3191,7 +3191,7 @@ thread-utils.s: thread-utils.c.s
 
 # target to generate assembly for a file
 thread-utils.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/thread-utils.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/thread-utils.c.s
 .PHONY : thread-utils.c.s
 
 trace.o: trace.c.o
@@ -3200,7 +3200,7 @@ trace.o: trace.c.o
 
 # target to build an object file
 trace.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trace.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trace.c.o
 .PHONY : trace.c.o
 
 trace.i: trace.c.i
@@ -3209,7 +3209,7 @@ trace.i: trace.c.i
 
 # target to preprocess a source file
 trace.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trace.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trace.c.i
 .PHONY : trace.c.i
 
 trace.s: trace.c.s
@@ -3218,7 +3218,7 @@ trace.s: trace.c.s
 
 # target to generate assembly for a file
 trace.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trace.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trace.c.s
 .PHONY : trace.c.s
 
 trailer.o: trailer.c.o
@@ -3227,7 +3227,7 @@ trailer.o: trailer.c.o
 
 # target to build an object file
 trailer.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trailer.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trailer.c.o
 .PHONY : trailer.c.o
 
 trailer.i: trailer.c.i
@@ -3236,7 +3236,7 @@ trailer.i: trailer.c.i
 
 # target to preprocess a source file
 trailer.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trailer.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trailer.c.i
 .PHONY : trailer.c.i
 
 trailer.s: trailer.c.s
@@ -3245,7 +3245,7 @@ trailer.s: trailer.c.s
 
 # target to generate assembly for a file
 trailer.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trailer.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/trailer.c.s
 .PHONY : trailer.c.s
 
 transaction.o: transaction.c.o
@@ -3254,7 +3254,7 @@ transaction.o: transaction.c.o
 
 # target to build an object file
 transaction.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transaction.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transaction.c.o
 .PHONY : transaction.c.o
 
 transaction.i: transaction.c.i
@@ -3263,7 +3263,7 @@ transaction.i: transaction.c.i
 
 # target to preprocess a source file
 transaction.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transaction.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transaction.c.i
 .PHONY : transaction.c.i
 
 transaction.s: transaction.c.s
@@ -3272,7 +3272,7 @@ transaction.s: transaction.c.s
 
 # target to generate assembly for a file
 transaction.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transaction.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transaction.c.s
 .PHONY : transaction.c.s
 
 transport.o: transport.c.o
@@ -3281,7 +3281,7 @@ transport.o: transport.c.o
 
 # target to build an object file
 transport.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transport.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transport.c.o
 .PHONY : transport.c.o
 
 transport.i: transport.c.i
@@ -3290,7 +3290,7 @@ transport.i: transport.c.i
 
 # target to preprocess a source file
 transport.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transport.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transport.c.i
 .PHONY : transport.c.i
 
 transport.s: transport.c.s
@@ -3299,7 +3299,7 @@ transport.s: transport.c.s
 
 # target to generate assembly for a file
 transport.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transport.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transport.c.s
 .PHONY : transport.c.s
 
 transports/auth.o: transports/auth.c.o
@@ -3308,7 +3308,7 @@ transports/auth.o: transports/auth.c.o
 
 # target to build an object file
 transports/auth.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth.c.o
 .PHONY : transports/auth.c.o
 
 transports/auth.i: transports/auth.c.i
@@ -3317,7 +3317,7 @@ transports/auth.i: transports/auth.c.i
 
 # target to preprocess a source file
 transports/auth.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth.c.i
 .PHONY : transports/auth.c.i
 
 transports/auth.s: transports/auth.c.s
@@ -3326,7 +3326,7 @@ transports/auth.s: transports/auth.c.s
 
 # target to generate assembly for a file
 transports/auth.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth.c.s
 .PHONY : transports/auth.c.s
 
 transports/auth_negotiate.o: transports/auth_negotiate.c.o
@@ -3335,7 +3335,7 @@ transports/auth_negotiate.o: transports/auth_negotiate.c.o
 
 # target to build an object file
 transports/auth_negotiate.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o
 .PHONY : transports/auth_negotiate.c.o
 
 transports/auth_negotiate.i: transports/auth_negotiate.c.i
@@ -3344,7 +3344,7 @@ transports/auth_negotiate.i: transports/auth_negotiate.c.i
 
 # target to preprocess a source file
 transports/auth_negotiate.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.i
 .PHONY : transports/auth_negotiate.c.i
 
 transports/auth_negotiate.s: transports/auth_negotiate.c.s
@@ -3353,7 +3353,7 @@ transports/auth_negotiate.s: transports/auth_negotiate.c.s
 
 # target to generate assembly for a file
 transports/auth_negotiate.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.s
 .PHONY : transports/auth_negotiate.c.s
 
 transports/cred.o: transports/cred.c.o
@@ -3362,7 +3362,7 @@ transports/cred.o: transports/cred.c.o
 
 # target to build an object file
 transports/cred.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred.c.o
 .PHONY : transports/cred.c.o
 
 transports/cred.i: transports/cred.c.i
@@ -3371,7 +3371,7 @@ transports/cred.i: transports/cred.c.i
 
 # target to preprocess a source file
 transports/cred.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred.c.i
 .PHONY : transports/cred.c.i
 
 transports/cred.s: transports/cred.c.s
@@ -3380,7 +3380,7 @@ transports/cred.s: transports/cred.c.s
 
 # target to generate assembly for a file
 transports/cred.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred.c.s
 .PHONY : transports/cred.c.s
 
 transports/cred_helpers.o: transports/cred_helpers.c.o
@@ -3389,7 +3389,7 @@ transports/cred_helpers.o: transports/cred_helpers.c.o
 
 # target to build an object file
 transports/cred_helpers.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o
 .PHONY : transports/cred_helpers.c.o
 
 transports/cred_helpers.i: transports/cred_helpers.c.i
@@ -3398,7 +3398,7 @@ transports/cred_helpers.i: transports/cred_helpers.c.i
 
 # target to preprocess a source file
 transports/cred_helpers.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.i
 .PHONY : transports/cred_helpers.c.i
 
 transports/cred_helpers.s: transports/cred_helpers.c.s
@@ -3407,7 +3407,7 @@ transports/cred_helpers.s: transports/cred_helpers.c.s
 
 # target to generate assembly for a file
 transports/cred_helpers.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.s
 .PHONY : transports/cred_helpers.c.s
 
 transports/git.o: transports/git.c.o
@@ -3416,7 +3416,7 @@ transports/git.o: transports/git.c.o
 
 # target to build an object file
 transports/git.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/git.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/git.c.o
 .PHONY : transports/git.c.o
 
 transports/git.i: transports/git.c.i
@@ -3425,7 +3425,7 @@ transports/git.i: transports/git.c.i
 
 # target to preprocess a source file
 transports/git.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/git.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/git.c.i
 .PHONY : transports/git.c.i
 
 transports/git.s: transports/git.c.s
@@ -3434,7 +3434,7 @@ transports/git.s: transports/git.c.s
 
 # target to generate assembly for a file
 transports/git.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/git.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/git.c.s
 .PHONY : transports/git.c.s
 
 transports/http.o: transports/http.c.o
@@ -3443,7 +3443,7 @@ transports/http.o: transports/http.c.o
 
 # target to build an object file
 transports/http.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/http.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/http.c.o
 .PHONY : transports/http.c.o
 
 transports/http.i: transports/http.c.i
@@ -3452,7 +3452,7 @@ transports/http.i: transports/http.c.i
 
 # target to preprocess a source file
 transports/http.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/http.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/http.c.i
 .PHONY : transports/http.c.i
 
 transports/http.s: transports/http.c.s
@@ -3461,7 +3461,7 @@ transports/http.s: transports/http.c.s
 
 # target to generate assembly for a file
 transports/http.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/http.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/http.c.s
 .PHONY : transports/http.c.s
 
 transports/local.o: transports/local.c.o
@@ -3470,7 +3470,7 @@ transports/local.o: transports/local.c.o
 
 # target to build an object file
 transports/local.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/local.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/local.c.o
 .PHONY : transports/local.c.o
 
 transports/local.i: transports/local.c.i
@@ -3479,7 +3479,7 @@ transports/local.i: transports/local.c.i
 
 # target to preprocess a source file
 transports/local.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/local.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/local.c.i
 .PHONY : transports/local.c.i
 
 transports/local.s: transports/local.c.s
@@ -3488,7 +3488,7 @@ transports/local.s: transports/local.c.s
 
 # target to generate assembly for a file
 transports/local.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/local.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/local.c.s
 .PHONY : transports/local.c.s
 
 transports/smart.o: transports/smart.c.o
@@ -3497,7 +3497,7 @@ transports/smart.o: transports/smart.c.o
 
 # target to build an object file
 transports/smart.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart.c.o
 .PHONY : transports/smart.c.o
 
 transports/smart.i: transports/smart.c.i
@@ -3506,7 +3506,7 @@ transports/smart.i: transports/smart.c.i
 
 # target to preprocess a source file
 transports/smart.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart.c.i
 .PHONY : transports/smart.c.i
 
 transports/smart.s: transports/smart.c.s
@@ -3515,7 +3515,7 @@ transports/smart.s: transports/smart.c.s
 
 # target to generate assembly for a file
 transports/smart.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart.c.s
 .PHONY : transports/smart.c.s
 
 transports/smart_pkt.o: transports/smart_pkt.c.o
@@ -3524,7 +3524,7 @@ transports/smart_pkt.o: transports/smart_pkt.c.o
 
 # target to build an object file
 transports/smart_pkt.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o
 .PHONY : transports/smart_pkt.c.o
 
 transports/smart_pkt.i: transports/smart_pkt.c.i
@@ -3533,7 +3533,7 @@ transports/smart_pkt.i: transports/smart_pkt.c.i
 
 # target to preprocess a source file
 transports/smart_pkt.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.i
 .PHONY : transports/smart_pkt.c.i
 
 transports/smart_pkt.s: transports/smart_pkt.c.s
@@ -3542,7 +3542,7 @@ transports/smart_pkt.s: transports/smart_pkt.c.s
 
 # target to generate assembly for a file
 transports/smart_pkt.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.s
 .PHONY : transports/smart_pkt.c.s
 
 transports/smart_protocol.o: transports/smart_protocol.c.o
@@ -3551,7 +3551,7 @@ transports/smart_protocol.o: transports/smart_protocol.c.o
 
 # target to build an object file
 transports/smart_protocol.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o
 .PHONY : transports/smart_protocol.c.o
 
 transports/smart_protocol.i: transports/smart_protocol.c.i
@@ -3560,7 +3560,7 @@ transports/smart_protocol.i: transports/smart_protocol.c.i
 
 # target to preprocess a source file
 transports/smart_protocol.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.i
 .PHONY : transports/smart_protocol.c.i
 
 transports/smart_protocol.s: transports/smart_protocol.c.s
@@ -3569,7 +3569,7 @@ transports/smart_protocol.s: transports/smart_protocol.c.s
 
 # target to generate assembly for a file
 transports/smart_protocol.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.s
 .PHONY : transports/smart_protocol.c.s
 
 transports/ssh.o: transports/ssh.c.o
@@ -3578,7 +3578,7 @@ transports/ssh.o: transports/ssh.c.o
 
 # target to build an object file
 transports/ssh.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/ssh.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/ssh.c.o
 .PHONY : transports/ssh.c.o
 
 transports/ssh.i: transports/ssh.c.i
@@ -3587,7 +3587,7 @@ transports/ssh.i: transports/ssh.c.i
 
 # target to preprocess a source file
 transports/ssh.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/ssh.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/ssh.c.i
 .PHONY : transports/ssh.c.i
 
 transports/ssh.s: transports/ssh.c.s
@@ -3596,7 +3596,7 @@ transports/ssh.s: transports/ssh.c.s
 
 # target to generate assembly for a file
 transports/ssh.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/ssh.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/ssh.c.s
 .PHONY : transports/ssh.c.s
 
 transports/winhttp.o: transports/winhttp.c.o
@@ -3605,7 +3605,7 @@ transports/winhttp.o: transports/winhttp.c.o
 
 # target to build an object file
 transports/winhttp.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/winhttp.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/winhttp.c.o
 .PHONY : transports/winhttp.c.o
 
 transports/winhttp.i: transports/winhttp.c.i
@@ -3614,7 +3614,7 @@ transports/winhttp.i: transports/winhttp.c.i
 
 # target to preprocess a source file
 transports/winhttp.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/winhttp.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/winhttp.c.i
 .PHONY : transports/winhttp.c.i
 
 transports/winhttp.s: transports/winhttp.c.s
@@ -3623,7 +3623,7 @@ transports/winhttp.s: transports/winhttp.c.s
 
 # target to generate assembly for a file
 transports/winhttp.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/winhttp.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/transports/winhttp.c.s
 .PHONY : transports/winhttp.c.s
 
 tree-cache.o: tree-cache.c.o
@@ -3632,7 +3632,7 @@ tree-cache.o: tree-cache.c.o
 
 # target to build an object file
 tree-cache.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree-cache.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree-cache.c.o
 .PHONY : tree-cache.c.o
 
 tree-cache.i: tree-cache.c.i
@@ -3641,7 +3641,7 @@ tree-cache.i: tree-cache.c.i
 
 # target to preprocess a source file
 tree-cache.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree-cache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree-cache.c.i
 .PHONY : tree-cache.c.i
 
 tree-cache.s: tree-cache.c.s
@@ -3650,7 +3650,7 @@ tree-cache.s: tree-cache.c.s
 
 # target to generate assembly for a file
 tree-cache.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree-cache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree-cache.c.s
 .PHONY : tree-cache.c.s
 
 tree.o: tree.c.o
@@ -3659,7 +3659,7 @@ tree.o: tree.c.o
 
 # target to build an object file
 tree.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree.c.o
 .PHONY : tree.c.o
 
 tree.i: tree.c.i
@@ -3668,7 +3668,7 @@ tree.i: tree.c.i
 
 # target to preprocess a source file
 tree.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree.c.i
 .PHONY : tree.c.i
 
 tree.s: tree.c.s
@@ -3677,7 +3677,7 @@ tree.s: tree.c.s
 
 # target to generate assembly for a file
 tree.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tree.c.s
 .PHONY : tree.c.s
 
 tsort.o: tsort.c.o
@@ -3686,7 +3686,7 @@ tsort.o: tsort.c.o
 
 # target to build an object file
 tsort.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tsort.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tsort.c.o
 .PHONY : tsort.c.o
 
 tsort.i: tsort.c.i
@@ -3695,7 +3695,7 @@ tsort.i: tsort.c.i
 
 # target to preprocess a source file
 tsort.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tsort.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tsort.c.i
 .PHONY : tsort.c.i
 
 tsort.s: tsort.c.s
@@ -3704,7 +3704,7 @@ tsort.s: tsort.c.s
 
 # target to generate assembly for a file
 tsort.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tsort.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/tsort.c.s
 .PHONY : tsort.c.s
 
 unix/map.o: unix/map.c.o
@@ -3713,7 +3713,7 @@ unix/map.o: unix/map.c.o
 
 # target to build an object file
 unix/map.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/map.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/map.c.o
 .PHONY : unix/map.c.o
 
 unix/map.i: unix/map.c.i
@@ -3722,7 +3722,7 @@ unix/map.i: unix/map.c.i
 
 # target to preprocess a source file
 unix/map.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/map.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/map.c.i
 .PHONY : unix/map.c.i
 
 unix/map.s: unix/map.c.s
@@ -3731,7 +3731,7 @@ unix/map.s: unix/map.c.s
 
 # target to generate assembly for a file
 unix/map.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/map.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/map.c.s
 .PHONY : unix/map.c.s
 
 unix/realpath.o: unix/realpath.c.o
@@ -3740,7 +3740,7 @@ unix/realpath.o: unix/realpath.c.o
 
 # target to build an object file
 unix/realpath.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/realpath.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/realpath.c.o
 .PHONY : unix/realpath.c.o
 
 unix/realpath.i: unix/realpath.c.i
@@ -3749,7 +3749,7 @@ unix/realpath.i: unix/realpath.c.i
 
 # target to preprocess a source file
 unix/realpath.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/realpath.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/realpath.c.i
 .PHONY : unix/realpath.c.i
 
 unix/realpath.s: unix/realpath.c.s
@@ -3758,7 +3758,7 @@ unix/realpath.s: unix/realpath.c.s
 
 # target to generate assembly for a file
 unix/realpath.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/realpath.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/unix/realpath.c.s
 .PHONY : unix/realpath.c.s
 
 util.o: util.c.o
@@ -3767,7 +3767,7 @@ util.o: util.c.o
 
 # target to build an object file
 util.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/util.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/util.c.o
 .PHONY : util.c.o
 
 util.i: util.c.i
@@ -3776,7 +3776,7 @@ util.i: util.c.i
 
 # target to preprocess a source file
 util.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/util.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/util.c.i
 .PHONY : util.c.i
 
 util.s: util.c.s
@@ -3785,7 +3785,7 @@ util.s: util.c.s
 
 # target to generate assembly for a file
 util.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/util.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/util.c.s
 .PHONY : util.c.s
 
 varint.o: varint.c.o
@@ -3794,7 +3794,7 @@ varint.o: varint.c.o
 
 # target to build an object file
 varint.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/varint.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/varint.c.o
 .PHONY : varint.c.o
 
 varint.i: varint.c.i
@@ -3803,7 +3803,7 @@ varint.i: varint.c.i
 
 # target to preprocess a source file
 varint.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/varint.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/varint.c.i
 .PHONY : varint.c.i
 
 varint.s: varint.c.s
@@ -3812,7 +3812,7 @@ varint.s: varint.c.s
 
 # target to generate assembly for a file
 varint.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/varint.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/varint.c.s
 .PHONY : varint.c.s
 
 vector.o: vector.c.o
@@ -3821,7 +3821,7 @@ vector.o: vector.c.o
 
 # target to build an object file
 vector.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/vector.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/vector.c.o
 .PHONY : vector.c.o
 
 vector.i: vector.c.i
@@ -3830,7 +3830,7 @@ vector.i: vector.c.i
 
 # target to preprocess a source file
 vector.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/vector.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/vector.c.i
 .PHONY : vector.c.i
 
 vector.s: vector.c.s
@@ -3839,7 +3839,7 @@ vector.s: vector.c.s
 
 # target to generate assembly for a file
 vector.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/vector.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/vector.c.s
 .PHONY : vector.c.s
 
 worktree.o: worktree.c.o
@@ -3848,7 +3848,7 @@ worktree.o: worktree.c.o
 
 # target to build an object file
 worktree.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/worktree.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/worktree.c.o
 .PHONY : worktree.c.o
 
 worktree.i: worktree.c.i
@@ -3857,7 +3857,7 @@ worktree.i: worktree.c.i
 
 # target to preprocess a source file
 worktree.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/worktree.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/worktree.c.i
 .PHONY : worktree.c.i
 
 worktree.s: worktree.c.s
@@ -3866,7 +3866,7 @@ worktree.s: worktree.c.s
 
 # target to generate assembly for a file
 worktree.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/worktree.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/worktree.c.s
 .PHONY : worktree.c.s
 
 xdiff/xdiffi.o: xdiff/xdiffi.c.o
@@ -3875,7 +3875,7 @@ xdiff/xdiffi.o: xdiff/xdiffi.c.o
 
 # target to build an object file
 xdiff/xdiffi.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o
 .PHONY : xdiff/xdiffi.c.o
 
 xdiff/xdiffi.i: xdiff/xdiffi.c.i
@@ -3884,7 +3884,7 @@ xdiff/xdiffi.i: xdiff/xdiffi.c.i
 
 # target to preprocess a source file
 xdiff/xdiffi.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.i
 .PHONY : xdiff/xdiffi.c.i
 
 xdiff/xdiffi.s: xdiff/xdiffi.c.s
@@ -3893,7 +3893,7 @@ xdiff/xdiffi.s: xdiff/xdiffi.c.s
 
 # target to generate assembly for a file
 xdiff/xdiffi.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.s
 .PHONY : xdiff/xdiffi.c.s
 
 xdiff/xemit.o: xdiff/xemit.c.o
@@ -3902,7 +3902,7 @@ xdiff/xemit.o: xdiff/xemit.c.o
 
 # target to build an object file
 xdiff/xemit.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o
 .PHONY : xdiff/xemit.c.o
 
 xdiff/xemit.i: xdiff/xemit.c.i
@@ -3911,7 +3911,7 @@ xdiff/xemit.i: xdiff/xemit.c.i
 
 # target to preprocess a source file
 xdiff/xemit.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xemit.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xemit.c.i
 .PHONY : xdiff/xemit.c.i
 
 xdiff/xemit.s: xdiff/xemit.c.s
@@ -3920,7 +3920,7 @@ xdiff/xemit.s: xdiff/xemit.c.s
 
 # target to generate assembly for a file
 xdiff/xemit.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xemit.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xemit.c.s
 .PHONY : xdiff/xemit.c.s
 
 xdiff/xhistogram.o: xdiff/xhistogram.c.o
@@ -3929,7 +3929,7 @@ xdiff/xhistogram.o: xdiff/xhistogram.c.o
 
 # target to build an object file
 xdiff/xhistogram.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o
 .PHONY : xdiff/xhistogram.c.o
 
 xdiff/xhistogram.i: xdiff/xhistogram.c.i
@@ -3938,7 +3938,7 @@ xdiff/xhistogram.i: xdiff/xhistogram.c.i
 
 # target to preprocess a source file
 xdiff/xhistogram.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.i
 .PHONY : xdiff/xhistogram.c.i
 
 xdiff/xhistogram.s: xdiff/xhistogram.c.s
@@ -3947,7 +3947,7 @@ xdiff/xhistogram.s: xdiff/xhistogram.c.s
 
 # target to generate assembly for a file
 xdiff/xhistogram.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.s
 .PHONY : xdiff/xhistogram.c.s
 
 xdiff/xmerge.o: xdiff/xmerge.c.o
@@ -3956,7 +3956,7 @@ xdiff/xmerge.o: xdiff/xmerge.c.o
 
 # target to build an object file
 xdiff/xmerge.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o
 .PHONY : xdiff/xmerge.c.o
 
 xdiff/xmerge.i: xdiff/xmerge.c.i
@@ -3965,7 +3965,7 @@ xdiff/xmerge.i: xdiff/xmerge.c.i
 
 # target to preprocess a source file
 xdiff/xmerge.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.i
 .PHONY : xdiff/xmerge.c.i
 
 xdiff/xmerge.s: xdiff/xmerge.c.s
@@ -3974,7 +3974,7 @@ xdiff/xmerge.s: xdiff/xmerge.c.s
 
 # target to generate assembly for a file
 xdiff/xmerge.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.s
 .PHONY : xdiff/xmerge.c.s
 
 xdiff/xpatience.o: xdiff/xpatience.c.o
@@ -3983,7 +3983,7 @@ xdiff/xpatience.o: xdiff/xpatience.c.o
 
 # target to build an object file
 xdiff/xpatience.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o
 .PHONY : xdiff/xpatience.c.o
 
 xdiff/xpatience.i: xdiff/xpatience.c.i
@@ -3992,7 +3992,7 @@ xdiff/xpatience.i: xdiff/xpatience.c.i
 
 # target to preprocess a source file
 xdiff/xpatience.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.i
 .PHONY : xdiff/xpatience.c.i
 
 xdiff/xpatience.s: xdiff/xpatience.c.s
@@ -4001,7 +4001,7 @@ xdiff/xpatience.s: xdiff/xpatience.c.s
 
 # target to generate assembly for a file
 xdiff/xpatience.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.s
 .PHONY : xdiff/xpatience.c.s
 
 xdiff/xprepare.o: xdiff/xprepare.c.o
@@ -4010,7 +4010,7 @@ xdiff/xprepare.o: xdiff/xprepare.c.o
 
 # target to build an object file
 xdiff/xprepare.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o
 .PHONY : xdiff/xprepare.c.o
 
 xdiff/xprepare.i: xdiff/xprepare.c.i
@@ -4019,7 +4019,7 @@ xdiff/xprepare.i: xdiff/xprepare.c.i
 
 # target to preprocess a source file
 xdiff/xprepare.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.i
 .PHONY : xdiff/xprepare.c.i
 
 xdiff/xprepare.s: xdiff/xprepare.c.s
@@ -4028,7 +4028,7 @@ xdiff/xprepare.s: xdiff/xprepare.c.s
 
 # target to generate assembly for a file
 xdiff/xprepare.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.s
 .PHONY : xdiff/xprepare.c.s
 
 xdiff/xutils.o: xdiff/xutils.c.o
@@ -4037,7 +4037,7 @@ xdiff/xutils.o: xdiff/xutils.c.o
 
 # target to build an object file
 xdiff/xutils.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o
 .PHONY : xdiff/xutils.c.o
 
 xdiff/xutils.i: xdiff/xutils.c.i
@@ -4046,7 +4046,7 @@ xdiff/xutils.i: xdiff/xutils.c.i
 
 # target to preprocess a source file
 xdiff/xutils.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xutils.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xutils.c.i
 .PHONY : xdiff/xutils.c.i
 
 xdiff/xutils.s: xdiff/xutils.c.s
@@ -4055,7 +4055,7 @@ xdiff/xutils.s: xdiff/xutils.c.s
 
 # target to generate assembly for a file
 xdiff/xutils.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xutils.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/xdiff/xutils.c.s
 .PHONY : xdiff/xutils.c.s
 
 zstream.o: zstream.c.o
@@ -4064,7 +4064,7 @@ zstream.o: zstream.c.o
 
 # target to build an object file
 zstream.c.o:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/zstream.c.o
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/zstream.c.o
 .PHONY : zstream.c.o
 
 zstream.i: zstream.c.i
@@ -4073,7 +4073,7 @@ zstream.i: zstream.c.i
 
 # target to preprocess a source file
 zstream.c.i:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/zstream.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/zstream.c.i
 .PHONY : zstream.c.i
 
 zstream.s: zstream.c.s
@@ -4082,7 +4082,7 @@ zstream.s: zstream.c.s
 
 # target to generate assembly for a file
 zstream.c.s:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/zstream.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(MAKE) -f src/CMakeFiles/git2internal.dir/build.make src/CMakeFiles/git2internal.dir/zstream.c.s
 .PHONY : zstream.c.s
 
 # Help Target
@@ -4543,6 +4543,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_486cc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_486cc.dir/build.make CMakeFiles/cmTC_486cc.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_486cc.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_486cc.dir/CheckSymbolExists.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_486cc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_486cc.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_486cc.dir/CheckSymbolExists.c.o  -o cmTC_486cc 
-CMakeFiles/cmTC_486cc.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_46495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46495.dir/build.make CMakeFiles/cmTC_46495.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46495.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_46495.dir/CheckSymbolExists.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_46495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46495.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-rpath='/home/nero/Programming/backup_client/venv/lib',--enable-new-dtags  -rdynamic CMakeFiles/cmTC_46495.dir/CheckSymbolExists.c.o  -o cmTC_46495 
+CMakeFiles/cmTC_46495.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_486cc.dir/build.make:97: recipe for target 'cmTC_486cc' failed
-make[1]: *** [cmTC_486cc] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_486cc/fast' failed
-make: *** [cmTC_486cc/fast] Error 2
+CMakeFiles/cmTC_46495.dir/build.make:97: recipe for target 'cmTC_46495' failed
+make[1]: *** [cmTC_46495] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_46495/fast' failed
+make: *** [cmTC_46495/fast] Error 2
 
-File /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,43 +34,43 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_54f46/fast"
-/usr/bin/make -f CMakeFiles/cmTC_54f46.dir/build.make CMakeFiles/cmTC_54f46.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_54f46.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54f46.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_54f46
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54f46.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_54f46.dir/CheckFunctionExists.c.o  -o cmTC_54f46 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_6c7b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c7b7.dir/build.make CMakeFiles/cmTC_6c7b7.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c7b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6c7b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c7b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c7b7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,-rpath='/home/nero/Programming/backup_client/venv/lib',--enable-new-dtags  -rdynamic CMakeFiles/cmTC_6c7b7.dir/CheckFunctionExists.c.o  -o cmTC_6c7b7 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_54f46.dir/build.make:97: recipe for target 'cmTC_54f46' failed
-make[1]: *** [cmTC_54f46] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_54f46/fast' failed
-make: *** [cmTC_54f46/fast] Error 2
+CMakeFiles/cmTC_6c7b7.dir/build.make:97: recipe for target 'cmTC_6c7b7' failed
+make[1]: *** [cmTC_6c7b7] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6c7b7/fast' failed
+make: *** [cmTC_6c7b7/fast] Error 2
 
 
 Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_da78e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_da78e.dir/build.make CMakeFiles/cmTC_da78e.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_da78e.dir/src.c.o
-/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIMESPEC   -o CMakeFiles/cmTC_da78e.dir/src.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c
-/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c:7:37: error: ‘struct stat’ has no member named ‘st_mtimespec’; did you mean ‘st_mtim’?
+Run Build Command:"/usr/bin/make" "cmTC_262e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_262e5.dir/build.make CMakeFiles/cmTC_262e5.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_262e5.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_MTIMESPEC   -o CMakeFiles/cmTC_262e5.dir/src.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c
+/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c:7:37: error: ‘struct stat’ has no member named ‘st_mtimespec’; did you mean ‘st_mtim’?
     (void)sizeof(((struct stat *)0)->st_mtimespec);
                                      ^~~~~~~~~~~~
                                      st_mtim
-CMakeFiles/cmTC_da78e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_da78e.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_da78e.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_da78e/fast' failed
-make: *** [cmTC_da78e/fast] Error 2
+CMakeFiles/cmTC_262e5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_262e5.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_262e5.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_262e5/fast' failed
+make: *** [cmTC_262e5/fast] Error 2
 
 Source file was:
 
@@ -84,23 +84,23 @@ int main()
 }
 
 Performing C SOURCE FILE Test HAVE_STRUCT_STAT_MTIME_NSEC failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_480d1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_480d1.dir/build.make CMakeFiles/cmTC_480d1.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_480d1.dir/src.c.o
-/usr/bin/cc   -DHAVE_STRUCT_STAT_MTIME_NSEC   -o CMakeFiles/cmTC_480d1.dir/src.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c
-/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
-/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c:6:37: error: ‘struct stat’ has no member named ‘st_mtime_nsec’; did you mean ‘st_mtim’?
+Run Build Command:"/usr/bin/make" "cmTC_c7a51/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7a51.dir/build.make CMakeFiles/cmTC_c7a51.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7a51.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_MTIME_NSEC   -o CMakeFiles/cmTC_c7a51.dir/src.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c
+/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c:6:37: error: ‘struct stat’ has no member named ‘st_mtime_nsec’; did you mean ‘st_mtim’?
     (void)sizeof(((struct stat *)0)->st_mtime_nsec);
                                      ^~~~~~~~~~~~~
                                      st_mtim
-CMakeFiles/cmTC_480d1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_480d1.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_480d1.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_480d1/fast' failed
-make: *** [cmTC_480d1/fast] Error 2
+CMakeFiles/cmTC_c7a51.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c7a51.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_c7a51.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7a51/fast' failed
+make: *** [cmTC_c7a51/fast] Error 2
 
 Source file was:
 
@@ -113,41 +113,41 @@ int main()
 }
 
 Performing C SOURCE FILE Test IS_WDOCUMENTATION_SUPPORTED failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2ba6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2ba6d.dir/build.make CMakeFiles/cmTC_2ba6d.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2ba6d.dir/src.c.o
-/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -DIS_WDOCUMENTATION_SUPPORTED   -Wdocumentation -o CMakeFiles/cmTC_2ba6d.dir/src.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c
+Run Build Command:"/usr/bin/make" "cmTC_6ef47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ef47.dir/build.make CMakeFiles/cmTC_6ef47.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ef47.dir/src.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -DIS_WDOCUMENTATION_SUPPORTED   -Wdocumentation -o CMakeFiles/cmTC_6ef47.dir/src.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command line option '-Wdocumentation'
-CMakeFiles/cmTC_2ba6d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2ba6d.dir/src.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_2ba6d.dir/src.c.o] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2ba6d/fast' failed
-make: *** [cmTC_2ba6d/fast] Error 2
+CMakeFiles/cmTC_6ef47.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6ef47.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_6ef47.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6ef47/fast' failed
+make: *** [cmTC_6ef47/fast] Error 2
 
 Source file was:
 int main(void) { return 0; }
 Determining if the regcomp_l exist failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a11ad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a11ad.dir/build.make CMakeFiles/cmTC_a11ad.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a11ad.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wno-unused-const-variable -Wno-unused-function    -o CMakeFiles/cmTC_a11ad.dir/CheckSymbolExists.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: xlocale.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_e103d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e103d.dir/build.make CMakeFiles/cmTC_e103d.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e103d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wno-unused-const-variable -Wno-unused-function    -o CMakeFiles/cmTC_e103d.dir/CheckSymbolExists.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: xlocale.h: No such file or directory
  #include <xlocale.h>
           ^~~~~~~~~~~
 compilation terminated.
-CMakeFiles/cmTC_a11ad.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a11ad.dir/CheckSymbolExists.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_a11ad.dir/CheckSymbolExists.c.o] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a11ad/fast' failed
-make: *** [cmTC_a11ad/fast] Error 2
+CMakeFiles/cmTC_e103d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e103d.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_e103d.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e103d/fast' failed
+make: *** [cmTC_e103d/fast] Error 2
 
-File /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <regex.h>
 #include <xlocale.h>
@@ -164,23 +164,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the function qsort_s exists failed with the following output:
-Change Dir: /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
+Change Dir: /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2b30/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e2b30.dir/build.make CMakeFiles/cmTC_e2b30.dir/build
-make[1]: Entering directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2b30.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wno-unused-const-variable -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_s   -o CMakeFiles/cmTC_e2b30.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e2b30
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2b30.dir/link.txt --verbose=1
-/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wno-unused-const-variable -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_s    -rdynamic CMakeFiles/cmTC_e2b30.dir/CheckFunctionExists.c.o  -o cmTC_e2b30 
-CMakeFiles/cmTC_e2b30.dir/CheckFunctionExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_d7ccf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7ccf.dir/build.make CMakeFiles/cmTC_d7ccf.dir/build
+make[1]: Entering directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7ccf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wno-unused-const-variable -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_s   -o CMakeFiles/cmTC_d7ccf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7ccf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7ccf.dir/link.txt --verbose=1
+/usr/bin/cc -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-field-initializers -Wstrict-aliasing -Wstrict-prototypes -Wdeclaration-after-statement -Wshift-count-overflow -Wno-unused-const-variable -Wno-unused-function -DCHECK_FUNCTION_EXISTS=qsort_s  -Wl,-rpath='/home/nero/Programming/backup_client/venv/lib',--enable-new-dtags  -rdynamic CMakeFiles/cmTC_d7ccf.dir/CheckFunctionExists.c.o  -o cmTC_d7ccf 
+CMakeFiles/cmTC_d7ccf.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text+0x10): undefined reference to `qsort_s'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e2b30.dir/build.make:97: recipe for target 'cmTC_e2b30' failed
-make[1]: *** [cmTC_e2b30] Error 1
-make[1]: Leaving directory '/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_e2b30/fast' failed
-make: *** [cmTC_e2b30/fast] Error 2
+CMakeFiles/cmTC_d7ccf.dir/build.make:97: recipe for target 'cmTC_d7ccf' failed
+make[1]: *** [cmTC_d7ccf] Error 1
+make[1]: Leaving directory '/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d7ccf/fast' failed
+make: *** [cmTC_d7ccf/fast] Error 2
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_SOURCE_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_BINARY_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/git2internal.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/git2internal.dir/flags.make
 
 src/CMakeFiles/git2internal.dir/annotated_commit.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/annotated_commit.c.o: src/annotated_commit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/git2internal.dir/annotated_commit.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/annotated_commit.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/annotated_commit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/git2internal.dir/annotated_commit.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/annotated_commit.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/annotated_commit.c
 
 src/CMakeFiles/git2internal.dir/annotated_commit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/annotated_commit.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/annotated_commit.c > CMakeFiles/git2internal.dir/annotated_commit.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/annotated_commit.c > CMakeFiles/git2internal.dir/annotated_commit.c.i
 
 src/CMakeFiles/git2internal.dir/annotated_commit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/annotated_commit.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/annotated_commit.c -o CMakeFiles/git2internal.dir/annotated_commit.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/annotated_commit.c -o CMakeFiles/git2internal.dir/annotated_commit.c.s
 
 src/CMakeFiles/git2internal.dir/annotated_commit.c.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/git2internal.dir/annotated_commit.c.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/git2internal.dir/apply.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/apply.c.o: src/apply.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/git2internal.dir/apply.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/apply.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/apply.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/git2internal.dir/apply.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/apply.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/apply.c
 
 src/CMakeFiles/git2internal.dir/apply.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/apply.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/apply.c > CMakeFiles/git2internal.dir/apply.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/apply.c > CMakeFiles/git2internal.dir/apply.c.i
 
 src/CMakeFiles/git2internal.dir/apply.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/apply.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/apply.c -o CMakeFiles/git2internal.dir/apply.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/apply.c -o CMakeFiles/git2internal.dir/apply.c.s
 
 src/CMakeFiles/git2internal.dir/apply.c.o.requires:
 
@@ -107,16 +107,16 @@ src/CMakeFiles/git2internal.dir/apply.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/attr.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/attr.c.o: src/attr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/git2internal.dir/attr.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/attr.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/git2internal.dir/attr.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/attr.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/attr.c
 
 src/CMakeFiles/git2internal.dir/attr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/attr.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attr.c > CMakeFiles/git2internal.dir/attr.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/attr.c > CMakeFiles/git2internal.dir/attr.c.i
 
 src/CMakeFiles/git2internal.dir/attr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/attr.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attr.c -o CMakeFiles/git2internal.dir/attr.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/attr.c -o CMakeFiles/git2internal.dir/attr.c.s
 
 src/CMakeFiles/git2internal.dir/attr.c.o.requires:
 
@@ -131,16 +131,16 @@ src/CMakeFiles/git2internal.dir/attr.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/attr_file.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/attr_file.c.o: src/attr_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/git2internal.dir/attr_file.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/attr_file.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attr_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/git2internal.dir/attr_file.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/attr_file.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/attr_file.c
 
 src/CMakeFiles/git2internal.dir/attr_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/attr_file.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attr_file.c > CMakeFiles/git2internal.dir/attr_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/attr_file.c > CMakeFiles/git2internal.dir/attr_file.c.i
 
 src/CMakeFiles/git2internal.dir/attr_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/attr_file.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attr_file.c -o CMakeFiles/git2internal.dir/attr_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/attr_file.c -o CMakeFiles/git2internal.dir/attr_file.c.s
 
 src/CMakeFiles/git2internal.dir/attr_file.c.o.requires:
 
@@ -155,16 +155,16 @@ src/CMakeFiles/git2internal.dir/attr_file.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/attrcache.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/attrcache.c.o: src/attrcache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/git2internal.dir/attrcache.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/attrcache.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attrcache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object src/CMakeFiles/git2internal.dir/attrcache.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/attrcache.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/attrcache.c
 
 src/CMakeFiles/git2internal.dir/attrcache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/attrcache.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attrcache.c > CMakeFiles/git2internal.dir/attrcache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/attrcache.c > CMakeFiles/git2internal.dir/attrcache.c.i
 
 src/CMakeFiles/git2internal.dir/attrcache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/attrcache.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/attrcache.c -o CMakeFiles/git2internal.dir/attrcache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/attrcache.c -o CMakeFiles/git2internal.dir/attrcache.c.s
 
 src/CMakeFiles/git2internal.dir/attrcache.c.o.requires:
 
@@ -179,16 +179,16 @@ src/CMakeFiles/git2internal.dir/attrcache.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/blame.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/blame.c.o: src/blame.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/git2internal.dir/blame.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/blame.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blame.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object src/CMakeFiles/git2internal.dir/blame.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/blame.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/blame.c
 
 src/CMakeFiles/git2internal.dir/blame.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/blame.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blame.c > CMakeFiles/git2internal.dir/blame.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/blame.c > CMakeFiles/git2internal.dir/blame.c.i
 
 src/CMakeFiles/git2internal.dir/blame.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/blame.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blame.c -o CMakeFiles/git2internal.dir/blame.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/blame.c -o CMakeFiles/git2internal.dir/blame.c.s
 
 src/CMakeFiles/git2internal.dir/blame.c.o.requires:
 
@@ -203,16 +203,16 @@ src/CMakeFiles/git2internal.dir/blame.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/blame_git.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/blame_git.c.o: src/blame_git.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/git2internal.dir/blame_git.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/blame_git.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blame_git.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object src/CMakeFiles/git2internal.dir/blame_git.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/blame_git.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/blame_git.c
 
 src/CMakeFiles/git2internal.dir/blame_git.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/blame_git.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blame_git.c > CMakeFiles/git2internal.dir/blame_git.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/blame_git.c > CMakeFiles/git2internal.dir/blame_git.c.i
 
 src/CMakeFiles/git2internal.dir/blame_git.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/blame_git.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blame_git.c -o CMakeFiles/git2internal.dir/blame_git.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/blame_git.c -o CMakeFiles/git2internal.dir/blame_git.c.s
 
 src/CMakeFiles/git2internal.dir/blame_git.c.o.requires:
 
@@ -227,16 +227,16 @@ src/CMakeFiles/git2internal.dir/blame_git.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/blob.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/blob.c.o: src/blob.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/git2internal.dir/blob.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/blob.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blob.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object src/CMakeFiles/git2internal.dir/blob.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/blob.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/blob.c
 
 src/CMakeFiles/git2internal.dir/blob.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/blob.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blob.c > CMakeFiles/git2internal.dir/blob.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/blob.c > CMakeFiles/git2internal.dir/blob.c.i
 
 src/CMakeFiles/git2internal.dir/blob.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/blob.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/blob.c -o CMakeFiles/git2internal.dir/blob.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/blob.c -o CMakeFiles/git2internal.dir/blob.c.s
 
 src/CMakeFiles/git2internal.dir/blob.c.o.requires:
 
@@ -251,16 +251,16 @@ src/CMakeFiles/git2internal.dir/blob.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/branch.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/branch.c.o: src/branch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/git2internal.dir/branch.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/branch.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/branch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object src/CMakeFiles/git2internal.dir/branch.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/branch.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/branch.c
 
 src/CMakeFiles/git2internal.dir/branch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/branch.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/branch.c > CMakeFiles/git2internal.dir/branch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/branch.c > CMakeFiles/git2internal.dir/branch.c.i
 
 src/CMakeFiles/git2internal.dir/branch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/branch.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/branch.c -o CMakeFiles/git2internal.dir/branch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/branch.c -o CMakeFiles/git2internal.dir/branch.c.s
 
 src/CMakeFiles/git2internal.dir/branch.c.o.requires:
 
@@ -275,16 +275,16 @@ src/CMakeFiles/git2internal.dir/branch.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/buf_text.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/buf_text.c.o: src/buf_text.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/git2internal.dir/buf_text.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/buf_text.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/buf_text.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object src/CMakeFiles/git2internal.dir/buf_text.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/buf_text.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/buf_text.c
 
 src/CMakeFiles/git2internal.dir/buf_text.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/buf_text.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/buf_text.c > CMakeFiles/git2internal.dir/buf_text.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/buf_text.c > CMakeFiles/git2internal.dir/buf_text.c.i
 
 src/CMakeFiles/git2internal.dir/buf_text.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/buf_text.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/buf_text.c -o CMakeFiles/git2internal.dir/buf_text.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/buf_text.c -o CMakeFiles/git2internal.dir/buf_text.c.s
 
 src/CMakeFiles/git2internal.dir/buf_text.c.o.requires:
 
@@ -299,16 +299,16 @@ src/CMakeFiles/git2internal.dir/buf_text.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/buffer.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/buffer.c.o: src/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/git2internal.dir/buffer.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/buffer.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object src/CMakeFiles/git2internal.dir/buffer.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/buffer.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/buffer.c
 
 src/CMakeFiles/git2internal.dir/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/buffer.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/buffer.c > CMakeFiles/git2internal.dir/buffer.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/buffer.c > CMakeFiles/git2internal.dir/buffer.c.i
 
 src/CMakeFiles/git2internal.dir/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/buffer.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/buffer.c -o CMakeFiles/git2internal.dir/buffer.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/buffer.c -o CMakeFiles/git2internal.dir/buffer.c.s
 
 src/CMakeFiles/git2internal.dir/buffer.c.o.requires:
 
@@ -323,16 +323,16 @@ src/CMakeFiles/git2internal.dir/buffer.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/cache.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/cache.c.o: src/cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/git2internal.dir/cache.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/cache.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object src/CMakeFiles/git2internal.dir/cache.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/cache.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/cache.c
 
 src/CMakeFiles/git2internal.dir/cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/cache.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/cache.c > CMakeFiles/git2internal.dir/cache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/cache.c > CMakeFiles/git2internal.dir/cache.c.i
 
 src/CMakeFiles/git2internal.dir/cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/cache.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/cache.c -o CMakeFiles/git2internal.dir/cache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/cache.c -o CMakeFiles/git2internal.dir/cache.c.s
 
 src/CMakeFiles/git2internal.dir/cache.c.o.requires:
 
@@ -347,16 +347,16 @@ src/CMakeFiles/git2internal.dir/cache.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/checkout.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/checkout.c.o: src/checkout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/git2internal.dir/checkout.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/checkout.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/checkout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object src/CMakeFiles/git2internal.dir/checkout.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/checkout.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/checkout.c
 
 src/CMakeFiles/git2internal.dir/checkout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/checkout.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/checkout.c > CMakeFiles/git2internal.dir/checkout.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/checkout.c > CMakeFiles/git2internal.dir/checkout.c.i
 
 src/CMakeFiles/git2internal.dir/checkout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/checkout.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/checkout.c -o CMakeFiles/git2internal.dir/checkout.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/checkout.c -o CMakeFiles/git2internal.dir/checkout.c.s
 
 src/CMakeFiles/git2internal.dir/checkout.c.o.requires:
 
@@ -371,16 +371,16 @@ src/CMakeFiles/git2internal.dir/checkout.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/cherrypick.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/cherrypick.c.o: src/cherrypick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/git2internal.dir/cherrypick.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/cherrypick.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/cherrypick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object src/CMakeFiles/git2internal.dir/cherrypick.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/cherrypick.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/cherrypick.c
 
 src/CMakeFiles/git2internal.dir/cherrypick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/cherrypick.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/cherrypick.c > CMakeFiles/git2internal.dir/cherrypick.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/cherrypick.c > CMakeFiles/git2internal.dir/cherrypick.c.i
 
 src/CMakeFiles/git2internal.dir/cherrypick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/cherrypick.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/cherrypick.c -o CMakeFiles/git2internal.dir/cherrypick.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/cherrypick.c -o CMakeFiles/git2internal.dir/cherrypick.c.s
 
 src/CMakeFiles/git2internal.dir/cherrypick.c.o.requires:
 
@@ -395,16 +395,16 @@ src/CMakeFiles/git2internal.dir/cherrypick.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/clone.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/clone.c.o: src/clone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/git2internal.dir/clone.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/clone.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/clone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object src/CMakeFiles/git2internal.dir/clone.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/clone.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/clone.c
 
 src/CMakeFiles/git2internal.dir/clone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/clone.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/clone.c > CMakeFiles/git2internal.dir/clone.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/clone.c > CMakeFiles/git2internal.dir/clone.c.i
 
 src/CMakeFiles/git2internal.dir/clone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/clone.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/clone.c -o CMakeFiles/git2internal.dir/clone.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/clone.c -o CMakeFiles/git2internal.dir/clone.c.s
 
 src/CMakeFiles/git2internal.dir/clone.c.o.requires:
 
@@ -419,16 +419,16 @@ src/CMakeFiles/git2internal.dir/clone.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/commit.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/commit.c.o: src/commit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/git2internal.dir/commit.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/commit.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/commit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object src/CMakeFiles/git2internal.dir/commit.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/commit.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/commit.c
 
 src/CMakeFiles/git2internal.dir/commit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/commit.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/commit.c > CMakeFiles/git2internal.dir/commit.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/commit.c > CMakeFiles/git2internal.dir/commit.c.i
 
 src/CMakeFiles/git2internal.dir/commit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/commit.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/commit.c -o CMakeFiles/git2internal.dir/commit.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/commit.c -o CMakeFiles/git2internal.dir/commit.c.s
 
 src/CMakeFiles/git2internal.dir/commit.c.o.requires:
 
@@ -443,16 +443,16 @@ src/CMakeFiles/git2internal.dir/commit.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/commit_list.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/commit_list.c.o: src/commit_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/git2internal.dir/commit_list.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/commit_list.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/commit_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object src/CMakeFiles/git2internal.dir/commit_list.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/commit_list.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/commit_list.c
 
 src/CMakeFiles/git2internal.dir/commit_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/commit_list.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/commit_list.c > CMakeFiles/git2internal.dir/commit_list.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/commit_list.c > CMakeFiles/git2internal.dir/commit_list.c.i
 
 src/CMakeFiles/git2internal.dir/commit_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/commit_list.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/commit_list.c -o CMakeFiles/git2internal.dir/commit_list.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/commit_list.c -o CMakeFiles/git2internal.dir/commit_list.c.s
 
 src/CMakeFiles/git2internal.dir/commit_list.c.o.requires:
 
@@ -467,16 +467,16 @@ src/CMakeFiles/git2internal.dir/commit_list.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/config.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/config.c.o: src/config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/git2internal.dir/config.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object src/CMakeFiles/git2internal.dir/config.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/config.c
 
 src/CMakeFiles/git2internal.dir/config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/config.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config.c > CMakeFiles/git2internal.dir/config.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/config.c > CMakeFiles/git2internal.dir/config.c.i
 
 src/CMakeFiles/git2internal.dir/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/config.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config.c -o CMakeFiles/git2internal.dir/config.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/config.c -o CMakeFiles/git2internal.dir/config.c.s
 
 src/CMakeFiles/git2internal.dir/config.c.o.requires:
 
@@ -491,16 +491,16 @@ src/CMakeFiles/git2internal.dir/config.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/config_cache.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/config_cache.c.o: src/config_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/git2internal.dir/config_cache.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config_cache.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object src/CMakeFiles/git2internal.dir/config_cache.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config_cache.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_cache.c
 
 src/CMakeFiles/git2internal.dir/config_cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/config_cache.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_cache.c > CMakeFiles/git2internal.dir/config_cache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_cache.c > CMakeFiles/git2internal.dir/config_cache.c.i
 
 src/CMakeFiles/git2internal.dir/config_cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/config_cache.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_cache.c -o CMakeFiles/git2internal.dir/config_cache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_cache.c -o CMakeFiles/git2internal.dir/config_cache.c.s
 
 src/CMakeFiles/git2internal.dir/config_cache.c.o.requires:
 
@@ -515,16 +515,16 @@ src/CMakeFiles/git2internal.dir/config_cache.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/config_file.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/config_file.c.o: src/config_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/git2internal.dir/config_file.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config_file.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object src/CMakeFiles/git2internal.dir/config_file.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config_file.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_file.c
 
 src/CMakeFiles/git2internal.dir/config_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/config_file.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_file.c > CMakeFiles/git2internal.dir/config_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_file.c > CMakeFiles/git2internal.dir/config_file.c.i
 
 src/CMakeFiles/git2internal.dir/config_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/config_file.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_file.c -o CMakeFiles/git2internal.dir/config_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_file.c -o CMakeFiles/git2internal.dir/config_file.c.s
 
 src/CMakeFiles/git2internal.dir/config_file.c.o.requires:
 
@@ -539,16 +539,16 @@ src/CMakeFiles/git2internal.dir/config_file.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/config_parse.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/config_parse.c.o: src/config_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/git2internal.dir/config_parse.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config_parse.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object src/CMakeFiles/git2internal.dir/config_parse.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/config_parse.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_parse.c
 
 src/CMakeFiles/git2internal.dir/config_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/config_parse.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_parse.c > CMakeFiles/git2internal.dir/config_parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_parse.c > CMakeFiles/git2internal.dir/config_parse.c.i
 
 src/CMakeFiles/git2internal.dir/config_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/config_parse.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/config_parse.c -o CMakeFiles/git2internal.dir/config_parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/config_parse.c -o CMakeFiles/git2internal.dir/config_parse.c.s
 
 src/CMakeFiles/git2internal.dir/config_parse.c.o.requires:
 
@@ -563,16 +563,16 @@ src/CMakeFiles/git2internal.dir/config_parse.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/crlf.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/crlf.c.o: src/crlf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/git2internal.dir/crlf.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/crlf.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/crlf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object src/CMakeFiles/git2internal.dir/crlf.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/crlf.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/crlf.c
 
 src/CMakeFiles/git2internal.dir/crlf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/crlf.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/crlf.c > CMakeFiles/git2internal.dir/crlf.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/crlf.c > CMakeFiles/git2internal.dir/crlf.c.i
 
 src/CMakeFiles/git2internal.dir/crlf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/crlf.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/crlf.c -o CMakeFiles/git2internal.dir/crlf.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/crlf.c -o CMakeFiles/git2internal.dir/crlf.c.s
 
 src/CMakeFiles/git2internal.dir/crlf.c.o.requires:
 
@@ -587,16 +587,16 @@ src/CMakeFiles/git2internal.dir/crlf.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/date.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/date.c.o: src/date.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/git2internal.dir/date.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/date.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/date.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object src/CMakeFiles/git2internal.dir/date.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/date.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/date.c
 
 src/CMakeFiles/git2internal.dir/date.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/date.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/date.c > CMakeFiles/git2internal.dir/date.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/date.c > CMakeFiles/git2internal.dir/date.c.i
 
 src/CMakeFiles/git2internal.dir/date.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/date.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/date.c -o CMakeFiles/git2internal.dir/date.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/date.c -o CMakeFiles/git2internal.dir/date.c.s
 
 src/CMakeFiles/git2internal.dir/date.c.o.requires:
 
@@ -611,16 +611,16 @@ src/CMakeFiles/git2internal.dir/date.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/delta.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/delta.c.o: src/delta.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/git2internal.dir/delta.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/delta.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/delta.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object src/CMakeFiles/git2internal.dir/delta.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/delta.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/delta.c
 
 src/CMakeFiles/git2internal.dir/delta.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/delta.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/delta.c > CMakeFiles/git2internal.dir/delta.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/delta.c > CMakeFiles/git2internal.dir/delta.c.i
 
 src/CMakeFiles/git2internal.dir/delta.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/delta.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/delta.c -o CMakeFiles/git2internal.dir/delta.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/delta.c -o CMakeFiles/git2internal.dir/delta.c.s
 
 src/CMakeFiles/git2internal.dir/delta.c.o.requires:
 
@@ -635,16 +635,16 @@ src/CMakeFiles/git2internal.dir/delta.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/describe.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/describe.c.o: src/describe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/git2internal.dir/describe.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/describe.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/describe.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object src/CMakeFiles/git2internal.dir/describe.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/describe.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/describe.c
 
 src/CMakeFiles/git2internal.dir/describe.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/describe.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/describe.c > CMakeFiles/git2internal.dir/describe.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/describe.c > CMakeFiles/git2internal.dir/describe.c.i
 
 src/CMakeFiles/git2internal.dir/describe.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/describe.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/describe.c -o CMakeFiles/git2internal.dir/describe.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/describe.c -o CMakeFiles/git2internal.dir/describe.c.s
 
 src/CMakeFiles/git2internal.dir/describe.c.o.requires:
 
@@ -659,16 +659,16 @@ src/CMakeFiles/git2internal.dir/describe.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/diff.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff.c.o: src/diff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/git2internal.dir/diff.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object src/CMakeFiles/git2internal.dir/diff.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff.c
 
 src/CMakeFiles/git2internal.dir/diff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff.c > CMakeFiles/git2internal.dir/diff.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff.c > CMakeFiles/git2internal.dir/diff.c.i
 
 src/CMakeFiles/git2internal.dir/diff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff.c -o CMakeFiles/git2internal.dir/diff.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff.c -o CMakeFiles/git2internal.dir/diff.c.s
 
 src/CMakeFiles/git2internal.dir/diff.c.o.requires:
 
@@ -683,16 +683,16 @@ src/CMakeFiles/git2internal.dir/diff.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/diff_driver.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_driver.c.o: src/diff_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/git2internal.dir/diff_driver.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_driver.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object src/CMakeFiles/git2internal.dir/diff_driver.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_driver.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_driver.c
 
 src/CMakeFiles/git2internal.dir/diff_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_driver.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_driver.c > CMakeFiles/git2internal.dir/diff_driver.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_driver.c > CMakeFiles/git2internal.dir/diff_driver.c.i
 
 src/CMakeFiles/git2internal.dir/diff_driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_driver.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_driver.c -o CMakeFiles/git2internal.dir/diff_driver.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_driver.c -o CMakeFiles/git2internal.dir/diff_driver.c.s
 
 src/CMakeFiles/git2internal.dir/diff_driver.c.o.requires:
 
@@ -707,16 +707,16 @@ src/CMakeFiles/git2internal.dir/diff_driver.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/diff_file.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_file.c.o: src/diff_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/git2internal.dir/diff_file.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_file.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object src/CMakeFiles/git2internal.dir/diff_file.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_file.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_file.c
 
 src/CMakeFiles/git2internal.dir/diff_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_file.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_file.c > CMakeFiles/git2internal.dir/diff_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_file.c > CMakeFiles/git2internal.dir/diff_file.c.i
 
 src/CMakeFiles/git2internal.dir/diff_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_file.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_file.c -o CMakeFiles/git2internal.dir/diff_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_file.c -o CMakeFiles/git2internal.dir/diff_file.c.s
 
 src/CMakeFiles/git2internal.dir/diff_file.c.o.requires:
 
@@ -731,16 +731,16 @@ src/CMakeFiles/git2internal.dir/diff_file.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/diff_generate.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_generate.c.o: src/diff_generate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/git2internal.dir/diff_generate.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_generate.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_generate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object src/CMakeFiles/git2internal.dir/diff_generate.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_generate.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_generate.c
 
 src/CMakeFiles/git2internal.dir/diff_generate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_generate.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_generate.c > CMakeFiles/git2internal.dir/diff_generate.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_generate.c > CMakeFiles/git2internal.dir/diff_generate.c.i
 
 src/CMakeFiles/git2internal.dir/diff_generate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_generate.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_generate.c -o CMakeFiles/git2internal.dir/diff_generate.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_generate.c -o CMakeFiles/git2internal.dir/diff_generate.c.s
 
 src/CMakeFiles/git2internal.dir/diff_generate.c.o.requires:
 
@@ -755,16 +755,16 @@ src/CMakeFiles/git2internal.dir/diff_generate.c.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/git2internal.dir/diff_parse.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_parse.c.o: src/diff_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/git2internal.dir/diff_parse.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_parse.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object src/CMakeFiles/git2internal.dir/diff_parse.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_parse.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_parse.c
 
 src/CMakeFiles/git2internal.dir/diff_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_parse.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_parse.c > CMakeFiles/git2internal.dir/diff_parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_parse.c > CMakeFiles/git2internal.dir/diff_parse.c.i
 
 src/CMakeFiles/git2internal.dir/diff_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_parse.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_parse.c -o CMakeFiles/git2internal.dir/diff_parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_parse.c -o CMakeFiles/git2internal.dir/diff_parse.c.s
 
 src/CMakeFiles/git2internal.dir/diff_parse.c.o.requires:
 
@@ -779,16 +779,16 @@ src/CMakeFiles/git2internal.dir/diff_parse.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/diff_print.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_print.c.o: src/diff_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/git2internal.dir/diff_print.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_print.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object src/CMakeFiles/git2internal.dir/diff_print.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_print.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_print.c
 
 src/CMakeFiles/git2internal.dir/diff_print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_print.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_print.c > CMakeFiles/git2internal.dir/diff_print.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_print.c > CMakeFiles/git2internal.dir/diff_print.c.i
 
 src/CMakeFiles/git2internal.dir/diff_print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_print.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_print.c -o CMakeFiles/git2internal.dir/diff_print.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_print.c -o CMakeFiles/git2internal.dir/diff_print.c.s
 
 src/CMakeFiles/git2internal.dir/diff_print.c.o.requires:
 
@@ -803,16 +803,16 @@ src/CMakeFiles/git2internal.dir/diff_print.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/diff_stats.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_stats.c.o: src/diff_stats.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/git2internal.dir/diff_stats.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_stats.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object src/CMakeFiles/git2internal.dir/diff_stats.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_stats.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_stats.c
 
 src/CMakeFiles/git2internal.dir/diff_stats.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_stats.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_stats.c > CMakeFiles/git2internal.dir/diff_stats.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_stats.c > CMakeFiles/git2internal.dir/diff_stats.c.i
 
 src/CMakeFiles/git2internal.dir/diff_stats.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_stats.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_stats.c -o CMakeFiles/git2internal.dir/diff_stats.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_stats.c -o CMakeFiles/git2internal.dir/diff_stats.c.s
 
 src/CMakeFiles/git2internal.dir/diff_stats.c.o.requires:
 
@@ -827,16 +827,16 @@ src/CMakeFiles/git2internal.dir/diff_stats.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/diff_tform.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_tform.c.o: src/diff_tform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/git2internal.dir/diff_tform.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_tform.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_tform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object src/CMakeFiles/git2internal.dir/diff_tform.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_tform.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_tform.c
 
 src/CMakeFiles/git2internal.dir/diff_tform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_tform.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_tform.c > CMakeFiles/git2internal.dir/diff_tform.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_tform.c > CMakeFiles/git2internal.dir/diff_tform.c.i
 
 src/CMakeFiles/git2internal.dir/diff_tform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_tform.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_tform.c -o CMakeFiles/git2internal.dir/diff_tform.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_tform.c -o CMakeFiles/git2internal.dir/diff_tform.c.s
 
 src/CMakeFiles/git2internal.dir/diff_tform.c.o.requires:
 
@@ -851,16 +851,16 @@ src/CMakeFiles/git2internal.dir/diff_tform.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/diff_xdiff.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/diff_xdiff.c.o: src/diff_xdiff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/git2internal.dir/diff_xdiff.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_xdiff.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_xdiff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object src/CMakeFiles/git2internal.dir/diff_xdiff.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/diff_xdiff.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_xdiff.c
 
 src/CMakeFiles/git2internal.dir/diff_xdiff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/diff_xdiff.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_xdiff.c > CMakeFiles/git2internal.dir/diff_xdiff.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_xdiff.c > CMakeFiles/git2internal.dir/diff_xdiff.c.i
 
 src/CMakeFiles/git2internal.dir/diff_xdiff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/diff_xdiff.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/diff_xdiff.c -o CMakeFiles/git2internal.dir/diff_xdiff.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/diff_xdiff.c -o CMakeFiles/git2internal.dir/diff_xdiff.c.s
 
 src/CMakeFiles/git2internal.dir/diff_xdiff.c.o.requires:
 
@@ -875,16 +875,16 @@ src/CMakeFiles/git2internal.dir/diff_xdiff.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/errors.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/errors.c.o: src/errors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/git2internal.dir/errors.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/errors.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/errors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object src/CMakeFiles/git2internal.dir/errors.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/errors.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/errors.c
 
 src/CMakeFiles/git2internal.dir/errors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/errors.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/errors.c > CMakeFiles/git2internal.dir/errors.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/errors.c > CMakeFiles/git2internal.dir/errors.c.i
 
 src/CMakeFiles/git2internal.dir/errors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/errors.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/errors.c -o CMakeFiles/git2internal.dir/errors.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/errors.c -o CMakeFiles/git2internal.dir/errors.c.s
 
 src/CMakeFiles/git2internal.dir/errors.c.o.requires:
 
@@ -899,16 +899,16 @@ src/CMakeFiles/git2internal.dir/errors.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/fetch.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/fetch.c.o: src/fetch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/git2internal.dir/fetch.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fetch.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fetch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object src/CMakeFiles/git2internal.dir/fetch.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fetch.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/fetch.c
 
 src/CMakeFiles/git2internal.dir/fetch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/fetch.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fetch.c > CMakeFiles/git2internal.dir/fetch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/fetch.c > CMakeFiles/git2internal.dir/fetch.c.i
 
 src/CMakeFiles/git2internal.dir/fetch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/fetch.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fetch.c -o CMakeFiles/git2internal.dir/fetch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/fetch.c -o CMakeFiles/git2internal.dir/fetch.c.s
 
 src/CMakeFiles/git2internal.dir/fetch.c.o.requires:
 
@@ -923,16 +923,16 @@ src/CMakeFiles/git2internal.dir/fetch.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/fetchhead.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/fetchhead.c.o: src/fetchhead.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/git2internal.dir/fetchhead.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fetchhead.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fetchhead.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object src/CMakeFiles/git2internal.dir/fetchhead.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fetchhead.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/fetchhead.c
 
 src/CMakeFiles/git2internal.dir/fetchhead.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/fetchhead.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fetchhead.c > CMakeFiles/git2internal.dir/fetchhead.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/fetchhead.c > CMakeFiles/git2internal.dir/fetchhead.c.i
 
 src/CMakeFiles/git2internal.dir/fetchhead.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/fetchhead.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fetchhead.c -o CMakeFiles/git2internal.dir/fetchhead.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/fetchhead.c -o CMakeFiles/git2internal.dir/fetchhead.c.s
 
 src/CMakeFiles/git2internal.dir/fetchhead.c.o.requires:
 
@@ -947,16 +947,16 @@ src/CMakeFiles/git2internal.dir/fetchhead.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/filebuf.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/filebuf.c.o: src/filebuf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/git2internal.dir/filebuf.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/filebuf.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/filebuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object src/CMakeFiles/git2internal.dir/filebuf.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/filebuf.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/filebuf.c
 
 src/CMakeFiles/git2internal.dir/filebuf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/filebuf.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/filebuf.c > CMakeFiles/git2internal.dir/filebuf.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/filebuf.c > CMakeFiles/git2internal.dir/filebuf.c.i
 
 src/CMakeFiles/git2internal.dir/filebuf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/filebuf.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/filebuf.c -o CMakeFiles/git2internal.dir/filebuf.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/filebuf.c -o CMakeFiles/git2internal.dir/filebuf.c.s
 
 src/CMakeFiles/git2internal.dir/filebuf.c.o.requires:
 
@@ -971,16 +971,16 @@ src/CMakeFiles/git2internal.dir/filebuf.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/fileops.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/fileops.c.o: src/fileops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/git2internal.dir/fileops.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fileops.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fileops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object src/CMakeFiles/git2internal.dir/fileops.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fileops.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/fileops.c
 
 src/CMakeFiles/git2internal.dir/fileops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/fileops.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fileops.c > CMakeFiles/git2internal.dir/fileops.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/fileops.c > CMakeFiles/git2internal.dir/fileops.c.i
 
 src/CMakeFiles/git2internal.dir/fileops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/fileops.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fileops.c -o CMakeFiles/git2internal.dir/fileops.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/fileops.c -o CMakeFiles/git2internal.dir/fileops.c.s
 
 src/CMakeFiles/git2internal.dir/fileops.c.o.requires:
 
@@ -995,16 +995,16 @@ src/CMakeFiles/git2internal.dir/fileops.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/filter.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/filter.c.o: src/filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/git2internal.dir/filter.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/filter.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object src/CMakeFiles/git2internal.dir/filter.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/filter.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/filter.c
 
 src/CMakeFiles/git2internal.dir/filter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/filter.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/filter.c > CMakeFiles/git2internal.dir/filter.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/filter.c > CMakeFiles/git2internal.dir/filter.c.i
 
 src/CMakeFiles/git2internal.dir/filter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/filter.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/filter.c -o CMakeFiles/git2internal.dir/filter.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/filter.c -o CMakeFiles/git2internal.dir/filter.c.s
 
 src/CMakeFiles/git2internal.dir/filter.c.o.requires:
 
@@ -1019,16 +1019,16 @@ src/CMakeFiles/git2internal.dir/filter.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/fnmatch.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/fnmatch.c.o: src/fnmatch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/git2internal.dir/fnmatch.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fnmatch.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fnmatch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object src/CMakeFiles/git2internal.dir/fnmatch.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/fnmatch.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/fnmatch.c
 
 src/CMakeFiles/git2internal.dir/fnmatch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/fnmatch.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fnmatch.c > CMakeFiles/git2internal.dir/fnmatch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/fnmatch.c > CMakeFiles/git2internal.dir/fnmatch.c.i
 
 src/CMakeFiles/git2internal.dir/fnmatch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/fnmatch.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/fnmatch.c -o CMakeFiles/git2internal.dir/fnmatch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/fnmatch.c -o CMakeFiles/git2internal.dir/fnmatch.c.s
 
 src/CMakeFiles/git2internal.dir/fnmatch.c.o.requires:
 
@@ -1043,16 +1043,16 @@ src/CMakeFiles/git2internal.dir/fnmatch.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/global.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/global.c.o: src/global.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/git2internal.dir/global.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/global.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/global.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object src/CMakeFiles/git2internal.dir/global.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/global.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/global.c
 
 src/CMakeFiles/git2internal.dir/global.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/global.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/global.c > CMakeFiles/git2internal.dir/global.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/global.c > CMakeFiles/git2internal.dir/global.c.i
 
 src/CMakeFiles/git2internal.dir/global.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/global.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/global.c -o CMakeFiles/git2internal.dir/global.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/global.c -o CMakeFiles/git2internal.dir/global.c.s
 
 src/CMakeFiles/git2internal.dir/global.c.o.requires:
 
@@ -1067,16 +1067,16 @@ src/CMakeFiles/git2internal.dir/global.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/graph.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/graph.c.o: src/graph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object src/CMakeFiles/git2internal.dir/graph.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/graph.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/graph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object src/CMakeFiles/git2internal.dir/graph.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/graph.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/graph.c
 
 src/CMakeFiles/git2internal.dir/graph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/graph.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/graph.c > CMakeFiles/git2internal.dir/graph.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/graph.c > CMakeFiles/git2internal.dir/graph.c.i
 
 src/CMakeFiles/git2internal.dir/graph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/graph.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/graph.c -o CMakeFiles/git2internal.dir/graph.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/graph.c -o CMakeFiles/git2internal.dir/graph.c.s
 
 src/CMakeFiles/git2internal.dir/graph.c.o.requires:
 
@@ -1091,16 +1091,16 @@ src/CMakeFiles/git2internal.dir/graph.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/hash.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/hash.c.o: src/hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object src/CMakeFiles/git2internal.dir/hash.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hash.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object src/CMakeFiles/git2internal.dir/hash.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hash.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash.c
 
 src/CMakeFiles/git2internal.dir/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/hash.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash.c > CMakeFiles/git2internal.dir/hash.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash.c > CMakeFiles/git2internal.dir/hash.c.i
 
 src/CMakeFiles/git2internal.dir/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/hash.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash.c -o CMakeFiles/git2internal.dir/hash.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash.c -o CMakeFiles/git2internal.dir/hash.c.s
 
 src/CMakeFiles/git2internal.dir/hash.c.o.requires:
 
@@ -1115,16 +1115,16 @@ src/CMakeFiles/git2internal.dir/hash.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/hashsig.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/hashsig.c.o: src/hashsig.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/git2internal.dir/hashsig.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hashsig.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hashsig.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object src/CMakeFiles/git2internal.dir/hashsig.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hashsig.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/hashsig.c
 
 src/CMakeFiles/git2internal.dir/hashsig.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/hashsig.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hashsig.c > CMakeFiles/git2internal.dir/hashsig.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/hashsig.c > CMakeFiles/git2internal.dir/hashsig.c.i
 
 src/CMakeFiles/git2internal.dir/hashsig.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/hashsig.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hashsig.c -o CMakeFiles/git2internal.dir/hashsig.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/hashsig.c -o CMakeFiles/git2internal.dir/hashsig.c.s
 
 src/CMakeFiles/git2internal.dir/hashsig.c.o.requires:
 
@@ -1139,16 +1139,16 @@ src/CMakeFiles/git2internal.dir/hashsig.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/ident.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/ident.c.o: src/ident.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/git2internal.dir/ident.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/ident.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/ident.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object src/CMakeFiles/git2internal.dir/ident.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/ident.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/ident.c
 
 src/CMakeFiles/git2internal.dir/ident.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/ident.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/ident.c > CMakeFiles/git2internal.dir/ident.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/ident.c > CMakeFiles/git2internal.dir/ident.c.i
 
 src/CMakeFiles/git2internal.dir/ident.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/ident.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/ident.c -o CMakeFiles/git2internal.dir/ident.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/ident.c -o CMakeFiles/git2internal.dir/ident.c.s
 
 src/CMakeFiles/git2internal.dir/ident.c.o.requires:
 
@@ -1163,16 +1163,16 @@ src/CMakeFiles/git2internal.dir/ident.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/idxmap.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/idxmap.c.o: src/idxmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/git2internal.dir/idxmap.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/idxmap.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/idxmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object src/CMakeFiles/git2internal.dir/idxmap.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/idxmap.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/idxmap.c
 
 src/CMakeFiles/git2internal.dir/idxmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/idxmap.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/idxmap.c > CMakeFiles/git2internal.dir/idxmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/idxmap.c > CMakeFiles/git2internal.dir/idxmap.c.i
 
 src/CMakeFiles/git2internal.dir/idxmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/idxmap.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/idxmap.c -o CMakeFiles/git2internal.dir/idxmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/idxmap.c -o CMakeFiles/git2internal.dir/idxmap.c.s
 
 src/CMakeFiles/git2internal.dir/idxmap.c.o.requires:
 
@@ -1187,16 +1187,16 @@ src/CMakeFiles/git2internal.dir/idxmap.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/ignore.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/ignore.c.o: src/ignore.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/git2internal.dir/ignore.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/ignore.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/ignore.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object src/CMakeFiles/git2internal.dir/ignore.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/ignore.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/ignore.c
 
 src/CMakeFiles/git2internal.dir/ignore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/ignore.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/ignore.c > CMakeFiles/git2internal.dir/ignore.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/ignore.c > CMakeFiles/git2internal.dir/ignore.c.i
 
 src/CMakeFiles/git2internal.dir/ignore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/ignore.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/ignore.c -o CMakeFiles/git2internal.dir/ignore.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/ignore.c -o CMakeFiles/git2internal.dir/ignore.c.s
 
 src/CMakeFiles/git2internal.dir/ignore.c.o.requires:
 
@@ -1211,16 +1211,16 @@ src/CMakeFiles/git2internal.dir/ignore.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/index.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/index.c.o: src/index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/git2internal.dir/index.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/index.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object src/CMakeFiles/git2internal.dir/index.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/index.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/index.c
 
 src/CMakeFiles/git2internal.dir/index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/index.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/index.c > CMakeFiles/git2internal.dir/index.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/index.c > CMakeFiles/git2internal.dir/index.c.i
 
 src/CMakeFiles/git2internal.dir/index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/index.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/index.c -o CMakeFiles/git2internal.dir/index.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/index.c -o CMakeFiles/git2internal.dir/index.c.s
 
 src/CMakeFiles/git2internal.dir/index.c.o.requires:
 
@@ -1235,16 +1235,16 @@ src/CMakeFiles/git2internal.dir/index.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/indexer.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/indexer.c.o: src/indexer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/git2internal.dir/indexer.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/indexer.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/indexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object src/CMakeFiles/git2internal.dir/indexer.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/indexer.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/indexer.c
 
 src/CMakeFiles/git2internal.dir/indexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/indexer.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/indexer.c > CMakeFiles/git2internal.dir/indexer.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/indexer.c > CMakeFiles/git2internal.dir/indexer.c.i
 
 src/CMakeFiles/git2internal.dir/indexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/indexer.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/indexer.c -o CMakeFiles/git2internal.dir/indexer.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/indexer.c -o CMakeFiles/git2internal.dir/indexer.c.s
 
 src/CMakeFiles/git2internal.dir/indexer.c.o.requires:
 
@@ -1259,16 +1259,16 @@ src/CMakeFiles/git2internal.dir/indexer.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/iterator.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/iterator.c.o: src/iterator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/git2internal.dir/iterator.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/iterator.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/iterator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object src/CMakeFiles/git2internal.dir/iterator.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/iterator.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/iterator.c
 
 src/CMakeFiles/git2internal.dir/iterator.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/iterator.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/iterator.c > CMakeFiles/git2internal.dir/iterator.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/iterator.c > CMakeFiles/git2internal.dir/iterator.c.i
 
 src/CMakeFiles/git2internal.dir/iterator.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/iterator.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/iterator.c -o CMakeFiles/git2internal.dir/iterator.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/iterator.c -o CMakeFiles/git2internal.dir/iterator.c.s
 
 src/CMakeFiles/git2internal.dir/iterator.c.o.requires:
 
@@ -1283,16 +1283,16 @@ src/CMakeFiles/git2internal.dir/iterator.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/merge.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/merge.c.o: src/merge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/git2internal.dir/merge.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/merge.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object src/CMakeFiles/git2internal.dir/merge.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/merge.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge.c
 
 src/CMakeFiles/git2internal.dir/merge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/merge.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge.c > CMakeFiles/git2internal.dir/merge.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge.c > CMakeFiles/git2internal.dir/merge.c.i
 
 src/CMakeFiles/git2internal.dir/merge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/merge.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge.c -o CMakeFiles/git2internal.dir/merge.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge.c -o CMakeFiles/git2internal.dir/merge.c.s
 
 src/CMakeFiles/git2internal.dir/merge.c.o.requires:
 
@@ -1307,16 +1307,16 @@ src/CMakeFiles/git2internal.dir/merge.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/merge_driver.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/merge_driver.c.o: src/merge_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/git2internal.dir/merge_driver.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/merge_driver.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge_driver.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object src/CMakeFiles/git2internal.dir/merge_driver.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/merge_driver.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge_driver.c
 
 src/CMakeFiles/git2internal.dir/merge_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/merge_driver.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge_driver.c > CMakeFiles/git2internal.dir/merge_driver.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge_driver.c > CMakeFiles/git2internal.dir/merge_driver.c.i
 
 src/CMakeFiles/git2internal.dir/merge_driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/merge_driver.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge_driver.c -o CMakeFiles/git2internal.dir/merge_driver.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge_driver.c -o CMakeFiles/git2internal.dir/merge_driver.c.s
 
 src/CMakeFiles/git2internal.dir/merge_driver.c.o.requires:
 
@@ -1331,16 +1331,16 @@ src/CMakeFiles/git2internal.dir/merge_driver.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/merge_file.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/merge_file.c.o: src/merge_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/git2internal.dir/merge_file.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/merge_file.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge_file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object src/CMakeFiles/git2internal.dir/merge_file.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/merge_file.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge_file.c
 
 src/CMakeFiles/git2internal.dir/merge_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/merge_file.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge_file.c > CMakeFiles/git2internal.dir/merge_file.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge_file.c > CMakeFiles/git2internal.dir/merge_file.c.i
 
 src/CMakeFiles/git2internal.dir/merge_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/merge_file.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/merge_file.c -o CMakeFiles/git2internal.dir/merge_file.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/merge_file.c -o CMakeFiles/git2internal.dir/merge_file.c.s
 
 src/CMakeFiles/git2internal.dir/merge_file.c.o.requires:
 
@@ -1355,16 +1355,16 @@ src/CMakeFiles/git2internal.dir/merge_file.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/message.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/message.c.o: src/message.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/git2internal.dir/message.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/message.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/message.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object src/CMakeFiles/git2internal.dir/message.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/message.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/message.c
 
 src/CMakeFiles/git2internal.dir/message.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/message.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/message.c > CMakeFiles/git2internal.dir/message.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/message.c > CMakeFiles/git2internal.dir/message.c.i
 
 src/CMakeFiles/git2internal.dir/message.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/message.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/message.c -o CMakeFiles/git2internal.dir/message.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/message.c -o CMakeFiles/git2internal.dir/message.c.s
 
 src/CMakeFiles/git2internal.dir/message.c.o.requires:
 
@@ -1379,16 +1379,16 @@ src/CMakeFiles/git2internal.dir/message.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/mwindow.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/mwindow.c.o: src/mwindow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/git2internal.dir/mwindow.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/mwindow.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/mwindow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object src/CMakeFiles/git2internal.dir/mwindow.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/mwindow.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/mwindow.c
 
 src/CMakeFiles/git2internal.dir/mwindow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/mwindow.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/mwindow.c > CMakeFiles/git2internal.dir/mwindow.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/mwindow.c > CMakeFiles/git2internal.dir/mwindow.c.i
 
 src/CMakeFiles/git2internal.dir/mwindow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/mwindow.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/mwindow.c -o CMakeFiles/git2internal.dir/mwindow.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/mwindow.c -o CMakeFiles/git2internal.dir/mwindow.c.s
 
 src/CMakeFiles/git2internal.dir/mwindow.c.o.requires:
 
@@ -1403,16 +1403,16 @@ src/CMakeFiles/git2internal.dir/mwindow.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/netops.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/netops.c.o: src/netops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/git2internal.dir/netops.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/netops.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/netops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object src/CMakeFiles/git2internal.dir/netops.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/netops.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/netops.c
 
 src/CMakeFiles/git2internal.dir/netops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/netops.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/netops.c > CMakeFiles/git2internal.dir/netops.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/netops.c > CMakeFiles/git2internal.dir/netops.c.i
 
 src/CMakeFiles/git2internal.dir/netops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/netops.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/netops.c -o CMakeFiles/git2internal.dir/netops.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/netops.c -o CMakeFiles/git2internal.dir/netops.c.s
 
 src/CMakeFiles/git2internal.dir/netops.c.o.requires:
 
@@ -1427,16 +1427,16 @@ src/CMakeFiles/git2internal.dir/netops.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/notes.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/notes.c.o: src/notes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/git2internal.dir/notes.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/notes.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/notes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object src/CMakeFiles/git2internal.dir/notes.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/notes.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/notes.c
 
 src/CMakeFiles/git2internal.dir/notes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/notes.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/notes.c > CMakeFiles/git2internal.dir/notes.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/notes.c > CMakeFiles/git2internal.dir/notes.c.i
 
 src/CMakeFiles/git2internal.dir/notes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/notes.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/notes.c -o CMakeFiles/git2internal.dir/notes.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/notes.c -o CMakeFiles/git2internal.dir/notes.c.s
 
 src/CMakeFiles/git2internal.dir/notes.c.o.requires:
 
@@ -1451,16 +1451,16 @@ src/CMakeFiles/git2internal.dir/notes.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/object.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/object.c.o: src/object.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/git2internal.dir/object.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/object.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object src/CMakeFiles/git2internal.dir/object.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/object.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/object.c
 
 src/CMakeFiles/git2internal.dir/object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/object.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/object.c > CMakeFiles/git2internal.dir/object.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/object.c > CMakeFiles/git2internal.dir/object.c.i
 
 src/CMakeFiles/git2internal.dir/object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/object.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/object.c -o CMakeFiles/git2internal.dir/object.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/object.c -o CMakeFiles/git2internal.dir/object.c.s
 
 src/CMakeFiles/git2internal.dir/object.c.o.requires:
 
@@ -1475,16 +1475,16 @@ src/CMakeFiles/git2internal.dir/object.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/object_api.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/object_api.c.o: src/object_api.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/git2internal.dir/object_api.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/object_api.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/object_api.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object src/CMakeFiles/git2internal.dir/object_api.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/object_api.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/object_api.c
 
 src/CMakeFiles/git2internal.dir/object_api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/object_api.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/object_api.c > CMakeFiles/git2internal.dir/object_api.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/object_api.c > CMakeFiles/git2internal.dir/object_api.c.i
 
 src/CMakeFiles/git2internal.dir/object_api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/object_api.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/object_api.c -o CMakeFiles/git2internal.dir/object_api.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/object_api.c -o CMakeFiles/git2internal.dir/object_api.c.s
 
 src/CMakeFiles/git2internal.dir/object_api.c.o.requires:
 
@@ -1499,16 +1499,16 @@ src/CMakeFiles/git2internal.dir/object_api.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/odb.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/odb.c.o: src/odb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/git2internal.dir/odb.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object src/CMakeFiles/git2internal.dir/odb.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb.c
 
 src/CMakeFiles/git2internal.dir/odb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/odb.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb.c > CMakeFiles/git2internal.dir/odb.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb.c > CMakeFiles/git2internal.dir/odb.c.i
 
 src/CMakeFiles/git2internal.dir/odb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/odb.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb.c -o CMakeFiles/git2internal.dir/odb.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb.c -o CMakeFiles/git2internal.dir/odb.c.s
 
 src/CMakeFiles/git2internal.dir/odb.c.o.requires:
 
@@ -1523,16 +1523,16 @@ src/CMakeFiles/git2internal.dir/odb.c.o.provides.build: src/CMakeFiles/git2inter
 
 src/CMakeFiles/git2internal.dir/odb_loose.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/odb_loose.c.o: src/odb_loose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/git2internal.dir/odb_loose.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb_loose.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_loose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object src/CMakeFiles/git2internal.dir/odb_loose.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb_loose.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_loose.c
 
 src/CMakeFiles/git2internal.dir/odb_loose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/odb_loose.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_loose.c > CMakeFiles/git2internal.dir/odb_loose.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_loose.c > CMakeFiles/git2internal.dir/odb_loose.c.i
 
 src/CMakeFiles/git2internal.dir/odb_loose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/odb_loose.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_loose.c -o CMakeFiles/git2internal.dir/odb_loose.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_loose.c -o CMakeFiles/git2internal.dir/odb_loose.c.s
 
 src/CMakeFiles/git2internal.dir/odb_loose.c.o.requires:
 
@@ -1547,16 +1547,16 @@ src/CMakeFiles/git2internal.dir/odb_loose.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/odb_mempack.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/odb_mempack.c.o: src/odb_mempack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/git2internal.dir/odb_mempack.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb_mempack.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_mempack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object src/CMakeFiles/git2internal.dir/odb_mempack.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb_mempack.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_mempack.c
 
 src/CMakeFiles/git2internal.dir/odb_mempack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/odb_mempack.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_mempack.c > CMakeFiles/git2internal.dir/odb_mempack.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_mempack.c > CMakeFiles/git2internal.dir/odb_mempack.c.i
 
 src/CMakeFiles/git2internal.dir/odb_mempack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/odb_mempack.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_mempack.c -o CMakeFiles/git2internal.dir/odb_mempack.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_mempack.c -o CMakeFiles/git2internal.dir/odb_mempack.c.s
 
 src/CMakeFiles/git2internal.dir/odb_mempack.c.o.requires:
 
@@ -1571,16 +1571,16 @@ src/CMakeFiles/git2internal.dir/odb_mempack.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/odb_pack.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/odb_pack.c.o: src/odb_pack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/git2internal.dir/odb_pack.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb_pack.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_pack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object src/CMakeFiles/git2internal.dir/odb_pack.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/odb_pack.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_pack.c
 
 src/CMakeFiles/git2internal.dir/odb_pack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/odb_pack.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_pack.c > CMakeFiles/git2internal.dir/odb_pack.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_pack.c > CMakeFiles/git2internal.dir/odb_pack.c.i
 
 src/CMakeFiles/git2internal.dir/odb_pack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/odb_pack.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/odb_pack.c -o CMakeFiles/git2internal.dir/odb_pack.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/odb_pack.c -o CMakeFiles/git2internal.dir/odb_pack.c.s
 
 src/CMakeFiles/git2internal.dir/odb_pack.c.o.requires:
 
@@ -1595,16 +1595,16 @@ src/CMakeFiles/git2internal.dir/odb_pack.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/offmap.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/offmap.c.o: src/offmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/git2internal.dir/offmap.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/offmap.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/offmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object src/CMakeFiles/git2internal.dir/offmap.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/offmap.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/offmap.c
 
 src/CMakeFiles/git2internal.dir/offmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/offmap.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/offmap.c > CMakeFiles/git2internal.dir/offmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/offmap.c > CMakeFiles/git2internal.dir/offmap.c.i
 
 src/CMakeFiles/git2internal.dir/offmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/offmap.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/offmap.c -o CMakeFiles/git2internal.dir/offmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/offmap.c -o CMakeFiles/git2internal.dir/offmap.c.s
 
 src/CMakeFiles/git2internal.dir/offmap.c.o.requires:
 
@@ -1619,16 +1619,16 @@ src/CMakeFiles/git2internal.dir/offmap.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/oid.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/oid.c.o: src/oid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/git2internal.dir/oid.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/oid.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object src/CMakeFiles/git2internal.dir/oid.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/oid.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/oid.c
 
 src/CMakeFiles/git2internal.dir/oid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/oid.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oid.c > CMakeFiles/git2internal.dir/oid.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/oid.c > CMakeFiles/git2internal.dir/oid.c.i
 
 src/CMakeFiles/git2internal.dir/oid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/oid.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oid.c -o CMakeFiles/git2internal.dir/oid.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/oid.c -o CMakeFiles/git2internal.dir/oid.c.s
 
 src/CMakeFiles/git2internal.dir/oid.c.o.requires:
 
@@ -1643,16 +1643,16 @@ src/CMakeFiles/git2internal.dir/oid.c.o.provides.build: src/CMakeFiles/git2inter
 
 src/CMakeFiles/git2internal.dir/oidarray.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/oidarray.c.o: src/oidarray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/git2internal.dir/oidarray.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/oidarray.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oidarray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object src/CMakeFiles/git2internal.dir/oidarray.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/oidarray.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/oidarray.c
 
 src/CMakeFiles/git2internal.dir/oidarray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/oidarray.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oidarray.c > CMakeFiles/git2internal.dir/oidarray.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/oidarray.c > CMakeFiles/git2internal.dir/oidarray.c.i
 
 src/CMakeFiles/git2internal.dir/oidarray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/oidarray.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oidarray.c -o CMakeFiles/git2internal.dir/oidarray.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/oidarray.c -o CMakeFiles/git2internal.dir/oidarray.c.s
 
 src/CMakeFiles/git2internal.dir/oidarray.c.o.requires:
 
@@ -1667,16 +1667,16 @@ src/CMakeFiles/git2internal.dir/oidarray.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/oidmap.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/oidmap.c.o: src/oidmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/git2internal.dir/oidmap.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/oidmap.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oidmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object src/CMakeFiles/git2internal.dir/oidmap.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/oidmap.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/oidmap.c
 
 src/CMakeFiles/git2internal.dir/oidmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/oidmap.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oidmap.c > CMakeFiles/git2internal.dir/oidmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/oidmap.c > CMakeFiles/git2internal.dir/oidmap.c.i
 
 src/CMakeFiles/git2internal.dir/oidmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/oidmap.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/oidmap.c -o CMakeFiles/git2internal.dir/oidmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/oidmap.c -o CMakeFiles/git2internal.dir/oidmap.c.s
 
 src/CMakeFiles/git2internal.dir/oidmap.c.o.requires:
 
@@ -1691,16 +1691,16 @@ src/CMakeFiles/git2internal.dir/oidmap.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/pack-objects.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/pack-objects.c.o: src/pack-objects.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/git2internal.dir/pack-objects.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pack-objects.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pack-objects.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object src/CMakeFiles/git2internal.dir/pack-objects.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pack-objects.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/pack-objects.c
 
 src/CMakeFiles/git2internal.dir/pack-objects.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/pack-objects.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pack-objects.c > CMakeFiles/git2internal.dir/pack-objects.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/pack-objects.c > CMakeFiles/git2internal.dir/pack-objects.c.i
 
 src/CMakeFiles/git2internal.dir/pack-objects.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/pack-objects.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pack-objects.c -o CMakeFiles/git2internal.dir/pack-objects.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/pack-objects.c -o CMakeFiles/git2internal.dir/pack-objects.c.s
 
 src/CMakeFiles/git2internal.dir/pack-objects.c.o.requires:
 
@@ -1715,16 +1715,16 @@ src/CMakeFiles/git2internal.dir/pack-objects.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/pack.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/pack.c.o: src/pack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/git2internal.dir/pack.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pack.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object src/CMakeFiles/git2internal.dir/pack.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pack.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/pack.c
 
 src/CMakeFiles/git2internal.dir/pack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/pack.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pack.c > CMakeFiles/git2internal.dir/pack.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/pack.c > CMakeFiles/git2internal.dir/pack.c.i
 
 src/CMakeFiles/git2internal.dir/pack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/pack.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pack.c -o CMakeFiles/git2internal.dir/pack.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/pack.c -o CMakeFiles/git2internal.dir/pack.c.s
 
 src/CMakeFiles/git2internal.dir/pack.c.o.requires:
 
@@ -1739,16 +1739,16 @@ src/CMakeFiles/git2internal.dir/pack.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/parse.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/parse.c.o: src/parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/git2internal.dir/parse.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/parse.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object src/CMakeFiles/git2internal.dir/parse.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/parse.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/parse.c
 
 src/CMakeFiles/git2internal.dir/parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/parse.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/parse.c > CMakeFiles/git2internal.dir/parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/parse.c > CMakeFiles/git2internal.dir/parse.c.i
 
 src/CMakeFiles/git2internal.dir/parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/parse.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/parse.c -o CMakeFiles/git2internal.dir/parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/parse.c -o CMakeFiles/git2internal.dir/parse.c.s
 
 src/CMakeFiles/git2internal.dir/parse.c.o.requires:
 
@@ -1763,16 +1763,16 @@ src/CMakeFiles/git2internal.dir/parse.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/patch.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/patch.c.o: src/patch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/git2internal.dir/patch.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/patch.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object src/CMakeFiles/git2internal.dir/patch.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/patch.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch.c
 
 src/CMakeFiles/git2internal.dir/patch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/patch.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch.c > CMakeFiles/git2internal.dir/patch.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch.c > CMakeFiles/git2internal.dir/patch.c.i
 
 src/CMakeFiles/git2internal.dir/patch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/patch.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch.c -o CMakeFiles/git2internal.dir/patch.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch.c -o CMakeFiles/git2internal.dir/patch.c.s
 
 src/CMakeFiles/git2internal.dir/patch.c.o.requires:
 
@@ -1787,16 +1787,16 @@ src/CMakeFiles/git2internal.dir/patch.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/patch_generate.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/patch_generate.c.o: src/patch_generate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/git2internal.dir/patch_generate.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/patch_generate.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch_generate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object src/CMakeFiles/git2internal.dir/patch_generate.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/patch_generate.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch_generate.c
 
 src/CMakeFiles/git2internal.dir/patch_generate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/patch_generate.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch_generate.c > CMakeFiles/git2internal.dir/patch_generate.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch_generate.c > CMakeFiles/git2internal.dir/patch_generate.c.i
 
 src/CMakeFiles/git2internal.dir/patch_generate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/patch_generate.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch_generate.c -o CMakeFiles/git2internal.dir/patch_generate.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch_generate.c -o CMakeFiles/git2internal.dir/patch_generate.c.s
 
 src/CMakeFiles/git2internal.dir/patch_generate.c.o.requires:
 
@@ -1811,16 +1811,16 @@ src/CMakeFiles/git2internal.dir/patch_generate.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/git2internal.dir/patch_parse.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/patch_parse.c.o: src/patch_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/git2internal.dir/patch_parse.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/patch_parse.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch_parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object src/CMakeFiles/git2internal.dir/patch_parse.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/patch_parse.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch_parse.c
 
 src/CMakeFiles/git2internal.dir/patch_parse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/patch_parse.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch_parse.c > CMakeFiles/git2internal.dir/patch_parse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch_parse.c > CMakeFiles/git2internal.dir/patch_parse.c.i
 
 src/CMakeFiles/git2internal.dir/patch_parse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/patch_parse.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/patch_parse.c -o CMakeFiles/git2internal.dir/patch_parse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/patch_parse.c -o CMakeFiles/git2internal.dir/patch_parse.c.s
 
 src/CMakeFiles/git2internal.dir/patch_parse.c.o.requires:
 
@@ -1835,16 +1835,16 @@ src/CMakeFiles/git2internal.dir/patch_parse.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/path.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/path.c.o: src/path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/git2internal.dir/path.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/path.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/path.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object src/CMakeFiles/git2internal.dir/path.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/path.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/path.c
 
 src/CMakeFiles/git2internal.dir/path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/path.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/path.c > CMakeFiles/git2internal.dir/path.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/path.c > CMakeFiles/git2internal.dir/path.c.i
 
 src/CMakeFiles/git2internal.dir/path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/path.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/path.c -o CMakeFiles/git2internal.dir/path.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/path.c -o CMakeFiles/git2internal.dir/path.c.s
 
 src/CMakeFiles/git2internal.dir/path.c.o.requires:
 
@@ -1859,16 +1859,16 @@ src/CMakeFiles/git2internal.dir/path.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/pathspec.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/pathspec.c.o: src/pathspec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/git2internal.dir/pathspec.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pathspec.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pathspec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object src/CMakeFiles/git2internal.dir/pathspec.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pathspec.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/pathspec.c
 
 src/CMakeFiles/git2internal.dir/pathspec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/pathspec.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pathspec.c > CMakeFiles/git2internal.dir/pathspec.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/pathspec.c > CMakeFiles/git2internal.dir/pathspec.c.i
 
 src/CMakeFiles/git2internal.dir/pathspec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/pathspec.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pathspec.c -o CMakeFiles/git2internal.dir/pathspec.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/pathspec.c -o CMakeFiles/git2internal.dir/pathspec.c.s
 
 src/CMakeFiles/git2internal.dir/pathspec.c.o.requires:
 
@@ -1883,16 +1883,16 @@ src/CMakeFiles/git2internal.dir/pathspec.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/pool.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/pool.c.o: src/pool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/git2internal.dir/pool.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pool.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object src/CMakeFiles/git2internal.dir/pool.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pool.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/pool.c
 
 src/CMakeFiles/git2internal.dir/pool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/pool.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pool.c > CMakeFiles/git2internal.dir/pool.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/pool.c > CMakeFiles/git2internal.dir/pool.c.i
 
 src/CMakeFiles/git2internal.dir/pool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/pool.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pool.c -o CMakeFiles/git2internal.dir/pool.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/pool.c -o CMakeFiles/git2internal.dir/pool.c.s
 
 src/CMakeFiles/git2internal.dir/pool.c.o.requires:
 
@@ -1907,16 +1907,16 @@ src/CMakeFiles/git2internal.dir/pool.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/posix.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/posix.c.o: src/posix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/git2internal.dir/posix.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/posix.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/posix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object src/CMakeFiles/git2internal.dir/posix.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/posix.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/posix.c
 
 src/CMakeFiles/git2internal.dir/posix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/posix.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/posix.c > CMakeFiles/git2internal.dir/posix.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/posix.c > CMakeFiles/git2internal.dir/posix.c.i
 
 src/CMakeFiles/git2internal.dir/posix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/posix.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/posix.c -o CMakeFiles/git2internal.dir/posix.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/posix.c -o CMakeFiles/git2internal.dir/posix.c.s
 
 src/CMakeFiles/git2internal.dir/posix.c.o.requires:
 
@@ -1931,16 +1931,16 @@ src/CMakeFiles/git2internal.dir/posix.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/pqueue.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/pqueue.c.o: src/pqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/git2internal.dir/pqueue.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pqueue.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pqueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object src/CMakeFiles/git2internal.dir/pqueue.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/pqueue.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/pqueue.c
 
 src/CMakeFiles/git2internal.dir/pqueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/pqueue.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pqueue.c > CMakeFiles/git2internal.dir/pqueue.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/pqueue.c > CMakeFiles/git2internal.dir/pqueue.c.i
 
 src/CMakeFiles/git2internal.dir/pqueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/pqueue.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/pqueue.c -o CMakeFiles/git2internal.dir/pqueue.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/pqueue.c -o CMakeFiles/git2internal.dir/pqueue.c.s
 
 src/CMakeFiles/git2internal.dir/pqueue.c.o.requires:
 
@@ -1955,16 +1955,16 @@ src/CMakeFiles/git2internal.dir/pqueue.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/proxy.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/proxy.c.o: src/proxy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/git2internal.dir/proxy.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/proxy.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/proxy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object src/CMakeFiles/git2internal.dir/proxy.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/proxy.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/proxy.c
 
 src/CMakeFiles/git2internal.dir/proxy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/proxy.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/proxy.c > CMakeFiles/git2internal.dir/proxy.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/proxy.c > CMakeFiles/git2internal.dir/proxy.c.i
 
 src/CMakeFiles/git2internal.dir/proxy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/proxy.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/proxy.c -o CMakeFiles/git2internal.dir/proxy.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/proxy.c -o CMakeFiles/git2internal.dir/proxy.c.s
 
 src/CMakeFiles/git2internal.dir/proxy.c.o.requires:
 
@@ -1979,16 +1979,16 @@ src/CMakeFiles/git2internal.dir/proxy.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/push.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/push.c.o: src/push.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/git2internal.dir/push.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/push.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/push.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object src/CMakeFiles/git2internal.dir/push.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/push.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/push.c
 
 src/CMakeFiles/git2internal.dir/push.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/push.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/push.c > CMakeFiles/git2internal.dir/push.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/push.c > CMakeFiles/git2internal.dir/push.c.i
 
 src/CMakeFiles/git2internal.dir/push.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/push.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/push.c -o CMakeFiles/git2internal.dir/push.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/push.c -o CMakeFiles/git2internal.dir/push.c.s
 
 src/CMakeFiles/git2internal.dir/push.c.o.requires:
 
@@ -2003,16 +2003,16 @@ src/CMakeFiles/git2internal.dir/push.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/rebase.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/rebase.c.o: src/rebase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/git2internal.dir/rebase.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/rebase.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/rebase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object src/CMakeFiles/git2internal.dir/rebase.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/rebase.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/rebase.c
 
 src/CMakeFiles/git2internal.dir/rebase.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/rebase.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/rebase.c > CMakeFiles/git2internal.dir/rebase.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/rebase.c > CMakeFiles/git2internal.dir/rebase.c.i
 
 src/CMakeFiles/git2internal.dir/rebase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/rebase.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/rebase.c -o CMakeFiles/git2internal.dir/rebase.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/rebase.c -o CMakeFiles/git2internal.dir/rebase.c.s
 
 src/CMakeFiles/git2internal.dir/rebase.c.o.requires:
 
@@ -2027,16 +2027,16 @@ src/CMakeFiles/git2internal.dir/rebase.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/refdb.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/refdb.c.o: src/refdb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/git2internal.dir/refdb.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refdb.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refdb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object src/CMakeFiles/git2internal.dir/refdb.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refdb.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/refdb.c
 
 src/CMakeFiles/git2internal.dir/refdb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/refdb.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refdb.c > CMakeFiles/git2internal.dir/refdb.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/refdb.c > CMakeFiles/git2internal.dir/refdb.c.i
 
 src/CMakeFiles/git2internal.dir/refdb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/refdb.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refdb.c -o CMakeFiles/git2internal.dir/refdb.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/refdb.c -o CMakeFiles/git2internal.dir/refdb.c.s
 
 src/CMakeFiles/git2internal.dir/refdb.c.o.requires:
 
@@ -2051,16 +2051,16 @@ src/CMakeFiles/git2internal.dir/refdb.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/refdb_fs.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/refdb_fs.c.o: src/refdb_fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/git2internal.dir/refdb_fs.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refdb_fs.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refdb_fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object src/CMakeFiles/git2internal.dir/refdb_fs.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refdb_fs.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/refdb_fs.c
 
 src/CMakeFiles/git2internal.dir/refdb_fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/refdb_fs.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refdb_fs.c > CMakeFiles/git2internal.dir/refdb_fs.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/refdb_fs.c > CMakeFiles/git2internal.dir/refdb_fs.c.i
 
 src/CMakeFiles/git2internal.dir/refdb_fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/refdb_fs.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refdb_fs.c -o CMakeFiles/git2internal.dir/refdb_fs.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/refdb_fs.c -o CMakeFiles/git2internal.dir/refdb_fs.c.s
 
 src/CMakeFiles/git2internal.dir/refdb_fs.c.o.requires:
 
@@ -2075,16 +2075,16 @@ src/CMakeFiles/git2internal.dir/refdb_fs.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/reflog.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/reflog.c.o: src/reflog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/git2internal.dir/reflog.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/reflog.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/reflog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object src/CMakeFiles/git2internal.dir/reflog.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/reflog.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/reflog.c
 
 src/CMakeFiles/git2internal.dir/reflog.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/reflog.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/reflog.c > CMakeFiles/git2internal.dir/reflog.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/reflog.c > CMakeFiles/git2internal.dir/reflog.c.i
 
 src/CMakeFiles/git2internal.dir/reflog.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/reflog.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/reflog.c -o CMakeFiles/git2internal.dir/reflog.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/reflog.c -o CMakeFiles/git2internal.dir/reflog.c.s
 
 src/CMakeFiles/git2internal.dir/reflog.c.o.requires:
 
@@ -2099,16 +2099,16 @@ src/CMakeFiles/git2internal.dir/reflog.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/refs.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/refs.c.o: src/refs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/git2internal.dir/refs.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refs.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object src/CMakeFiles/git2internal.dir/refs.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refs.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/refs.c
 
 src/CMakeFiles/git2internal.dir/refs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/refs.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refs.c > CMakeFiles/git2internal.dir/refs.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/refs.c > CMakeFiles/git2internal.dir/refs.c.i
 
 src/CMakeFiles/git2internal.dir/refs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/refs.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refs.c -o CMakeFiles/git2internal.dir/refs.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/refs.c -o CMakeFiles/git2internal.dir/refs.c.s
 
 src/CMakeFiles/git2internal.dir/refs.c.o.requires:
 
@@ -2123,16 +2123,16 @@ src/CMakeFiles/git2internal.dir/refs.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/refspec.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/refspec.c.o: src/refspec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/git2internal.dir/refspec.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refspec.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refspec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object src/CMakeFiles/git2internal.dir/refspec.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/refspec.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/refspec.c
 
 src/CMakeFiles/git2internal.dir/refspec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/refspec.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refspec.c > CMakeFiles/git2internal.dir/refspec.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/refspec.c > CMakeFiles/git2internal.dir/refspec.c.i
 
 src/CMakeFiles/git2internal.dir/refspec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/refspec.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/refspec.c -o CMakeFiles/git2internal.dir/refspec.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/refspec.c -o CMakeFiles/git2internal.dir/refspec.c.s
 
 src/CMakeFiles/git2internal.dir/refspec.c.o.requires:
 
@@ -2147,16 +2147,16 @@ src/CMakeFiles/git2internal.dir/refspec.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/remote.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/remote.c.o: src/remote.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/git2internal.dir/remote.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/remote.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/remote.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object src/CMakeFiles/git2internal.dir/remote.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/remote.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/remote.c
 
 src/CMakeFiles/git2internal.dir/remote.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/remote.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/remote.c > CMakeFiles/git2internal.dir/remote.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/remote.c > CMakeFiles/git2internal.dir/remote.c.i
 
 src/CMakeFiles/git2internal.dir/remote.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/remote.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/remote.c -o CMakeFiles/git2internal.dir/remote.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/remote.c -o CMakeFiles/git2internal.dir/remote.c.s
 
 src/CMakeFiles/git2internal.dir/remote.c.o.requires:
 
@@ -2171,16 +2171,16 @@ src/CMakeFiles/git2internal.dir/remote.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/repository.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/repository.c.o: src/repository.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/git2internal.dir/repository.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/repository.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/repository.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object src/CMakeFiles/git2internal.dir/repository.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/repository.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/repository.c
 
 src/CMakeFiles/git2internal.dir/repository.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/repository.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/repository.c > CMakeFiles/git2internal.dir/repository.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/repository.c > CMakeFiles/git2internal.dir/repository.c.i
 
 src/CMakeFiles/git2internal.dir/repository.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/repository.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/repository.c -o CMakeFiles/git2internal.dir/repository.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/repository.c -o CMakeFiles/git2internal.dir/repository.c.s
 
 src/CMakeFiles/git2internal.dir/repository.c.o.requires:
 
@@ -2195,16 +2195,16 @@ src/CMakeFiles/git2internal.dir/repository.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/reset.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/reset.c.o: src/reset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/git2internal.dir/reset.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/reset.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/reset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object src/CMakeFiles/git2internal.dir/reset.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/reset.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/reset.c
 
 src/CMakeFiles/git2internal.dir/reset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/reset.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/reset.c > CMakeFiles/git2internal.dir/reset.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/reset.c > CMakeFiles/git2internal.dir/reset.c.i
 
 src/CMakeFiles/git2internal.dir/reset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/reset.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/reset.c -o CMakeFiles/git2internal.dir/reset.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/reset.c -o CMakeFiles/git2internal.dir/reset.c.s
 
 src/CMakeFiles/git2internal.dir/reset.c.o.requires:
 
@@ -2219,16 +2219,16 @@ src/CMakeFiles/git2internal.dir/reset.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/revert.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/revert.c.o: src/revert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/git2internal.dir/revert.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/revert.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revert.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object src/CMakeFiles/git2internal.dir/revert.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/revert.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/revert.c
 
 src/CMakeFiles/git2internal.dir/revert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/revert.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revert.c > CMakeFiles/git2internal.dir/revert.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/revert.c > CMakeFiles/git2internal.dir/revert.c.i
 
 src/CMakeFiles/git2internal.dir/revert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/revert.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revert.c -o CMakeFiles/git2internal.dir/revert.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/revert.c -o CMakeFiles/git2internal.dir/revert.c.s
 
 src/CMakeFiles/git2internal.dir/revert.c.o.requires:
 
@@ -2243,16 +2243,16 @@ src/CMakeFiles/git2internal.dir/revert.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/revparse.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/revparse.c.o: src/revparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/git2internal.dir/revparse.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/revparse.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revparse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object src/CMakeFiles/git2internal.dir/revparse.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/revparse.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/revparse.c
 
 src/CMakeFiles/git2internal.dir/revparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/revparse.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revparse.c > CMakeFiles/git2internal.dir/revparse.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/revparse.c > CMakeFiles/git2internal.dir/revparse.c.i
 
 src/CMakeFiles/git2internal.dir/revparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/revparse.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revparse.c -o CMakeFiles/git2internal.dir/revparse.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/revparse.c -o CMakeFiles/git2internal.dir/revparse.c.s
 
 src/CMakeFiles/git2internal.dir/revparse.c.o.requires:
 
@@ -2267,16 +2267,16 @@ src/CMakeFiles/git2internal.dir/revparse.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/revwalk.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/revwalk.c.o: src/revwalk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/git2internal.dir/revwalk.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/revwalk.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revwalk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object src/CMakeFiles/git2internal.dir/revwalk.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/revwalk.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/revwalk.c
 
 src/CMakeFiles/git2internal.dir/revwalk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/revwalk.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revwalk.c > CMakeFiles/git2internal.dir/revwalk.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/revwalk.c > CMakeFiles/git2internal.dir/revwalk.c.i
 
 src/CMakeFiles/git2internal.dir/revwalk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/revwalk.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/revwalk.c -o CMakeFiles/git2internal.dir/revwalk.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/revwalk.c -o CMakeFiles/git2internal.dir/revwalk.c.s
 
 src/CMakeFiles/git2internal.dir/revwalk.c.o.requires:
 
@@ -2291,16 +2291,16 @@ src/CMakeFiles/git2internal.dir/revwalk.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/settings.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/settings.c.o: src/settings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/git2internal.dir/settings.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/settings.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/settings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object src/CMakeFiles/git2internal.dir/settings.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/settings.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/settings.c
 
 src/CMakeFiles/git2internal.dir/settings.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/settings.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/settings.c > CMakeFiles/git2internal.dir/settings.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/settings.c > CMakeFiles/git2internal.dir/settings.c.i
 
 src/CMakeFiles/git2internal.dir/settings.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/settings.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/settings.c -o CMakeFiles/git2internal.dir/settings.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/settings.c -o CMakeFiles/git2internal.dir/settings.c.s
 
 src/CMakeFiles/git2internal.dir/settings.c.o.requires:
 
@@ -2315,16 +2315,16 @@ src/CMakeFiles/git2internal.dir/settings.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/sha1_lookup.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/sha1_lookup.c.o: src/sha1_lookup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/git2internal.dir/sha1_lookup.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/sha1_lookup.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sha1_lookup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object src/CMakeFiles/git2internal.dir/sha1_lookup.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/sha1_lookup.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/sha1_lookup.c
 
 src/CMakeFiles/git2internal.dir/sha1_lookup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/sha1_lookup.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sha1_lookup.c > CMakeFiles/git2internal.dir/sha1_lookup.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/sha1_lookup.c > CMakeFiles/git2internal.dir/sha1_lookup.c.i
 
 src/CMakeFiles/git2internal.dir/sha1_lookup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/sha1_lookup.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sha1_lookup.c -o CMakeFiles/git2internal.dir/sha1_lookup.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/sha1_lookup.c -o CMakeFiles/git2internal.dir/sha1_lookup.c.s
 
 src/CMakeFiles/git2internal.dir/sha1_lookup.c.o.requires:
 
@@ -2339,16 +2339,16 @@ src/CMakeFiles/git2internal.dir/sha1_lookup.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/signature.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/signature.c.o: src/signature.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/git2internal.dir/signature.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/signature.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/signature.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object src/CMakeFiles/git2internal.dir/signature.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/signature.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/signature.c
 
 src/CMakeFiles/git2internal.dir/signature.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/signature.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/signature.c > CMakeFiles/git2internal.dir/signature.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/signature.c > CMakeFiles/git2internal.dir/signature.c.i
 
 src/CMakeFiles/git2internal.dir/signature.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/signature.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/signature.c -o CMakeFiles/git2internal.dir/signature.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/signature.c -o CMakeFiles/git2internal.dir/signature.c.s
 
 src/CMakeFiles/git2internal.dir/signature.c.o.requires:
 
@@ -2363,16 +2363,16 @@ src/CMakeFiles/git2internal.dir/signature.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/sortedcache.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/sortedcache.c.o: src/sortedcache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/git2internal.dir/sortedcache.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/sortedcache.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sortedcache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object src/CMakeFiles/git2internal.dir/sortedcache.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/sortedcache.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/sortedcache.c
 
 src/CMakeFiles/git2internal.dir/sortedcache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/sortedcache.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sortedcache.c > CMakeFiles/git2internal.dir/sortedcache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/sortedcache.c > CMakeFiles/git2internal.dir/sortedcache.c.i
 
 src/CMakeFiles/git2internal.dir/sortedcache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/sortedcache.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sortedcache.c -o CMakeFiles/git2internal.dir/sortedcache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/sortedcache.c -o CMakeFiles/git2internal.dir/sortedcache.c.s
 
 src/CMakeFiles/git2internal.dir/sortedcache.c.o.requires:
 
@@ -2387,16 +2387,16 @@ src/CMakeFiles/git2internal.dir/sortedcache.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/stash.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/stash.c.o: src/stash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/git2internal.dir/stash.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/stash.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/stash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object src/CMakeFiles/git2internal.dir/stash.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/stash.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/stash.c
 
 src/CMakeFiles/git2internal.dir/stash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/stash.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/stash.c > CMakeFiles/git2internal.dir/stash.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/stash.c > CMakeFiles/git2internal.dir/stash.c.i
 
 src/CMakeFiles/git2internal.dir/stash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/stash.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/stash.c -o CMakeFiles/git2internal.dir/stash.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/stash.c -o CMakeFiles/git2internal.dir/stash.c.s
 
 src/CMakeFiles/git2internal.dir/stash.c.o.requires:
 
@@ -2411,16 +2411,16 @@ src/CMakeFiles/git2internal.dir/stash.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/status.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/status.c.o: src/status.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/git2internal.dir/status.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/status.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/status.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object src/CMakeFiles/git2internal.dir/status.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/status.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/status.c
 
 src/CMakeFiles/git2internal.dir/status.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/status.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/status.c > CMakeFiles/git2internal.dir/status.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/status.c > CMakeFiles/git2internal.dir/status.c.i
 
 src/CMakeFiles/git2internal.dir/status.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/status.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/status.c -o CMakeFiles/git2internal.dir/status.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/status.c -o CMakeFiles/git2internal.dir/status.c.s
 
 src/CMakeFiles/git2internal.dir/status.c.o.requires:
 
@@ -2435,16 +2435,16 @@ src/CMakeFiles/git2internal.dir/status.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/strmap.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/strmap.c.o: src/strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/git2internal.dir/strmap.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/strmap.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/CMakeFiles/git2internal.dir/strmap.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/strmap.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/strmap.c
 
 src/CMakeFiles/git2internal.dir/strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/strmap.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/strmap.c > CMakeFiles/git2internal.dir/strmap.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/strmap.c > CMakeFiles/git2internal.dir/strmap.c.i
 
 src/CMakeFiles/git2internal.dir/strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/strmap.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/strmap.c -o CMakeFiles/git2internal.dir/strmap.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/strmap.c -o CMakeFiles/git2internal.dir/strmap.c.s
 
 src/CMakeFiles/git2internal.dir/strmap.c.o.requires:
 
@@ -2459,16 +2459,16 @@ src/CMakeFiles/git2internal.dir/strmap.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/submodule.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/submodule.c.o: src/submodule.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/git2internal.dir/submodule.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/submodule.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/submodule.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/CMakeFiles/git2internal.dir/submodule.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/submodule.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/submodule.c
 
 src/CMakeFiles/git2internal.dir/submodule.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/submodule.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/submodule.c > CMakeFiles/git2internal.dir/submodule.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/submodule.c > CMakeFiles/git2internal.dir/submodule.c.i
 
 src/CMakeFiles/git2internal.dir/submodule.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/submodule.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/submodule.c -o CMakeFiles/git2internal.dir/submodule.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/submodule.c -o CMakeFiles/git2internal.dir/submodule.c.s
 
 src/CMakeFiles/git2internal.dir/submodule.c.o.requires:
 
@@ -2483,16 +2483,16 @@ src/CMakeFiles/git2internal.dir/submodule.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/sysdir.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/sysdir.c.o: src/sysdir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/git2internal.dir/sysdir.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/sysdir.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sysdir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/CMakeFiles/git2internal.dir/sysdir.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/sysdir.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/sysdir.c
 
 src/CMakeFiles/git2internal.dir/sysdir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/sysdir.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sysdir.c > CMakeFiles/git2internal.dir/sysdir.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/sysdir.c > CMakeFiles/git2internal.dir/sysdir.c.i
 
 src/CMakeFiles/git2internal.dir/sysdir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/sysdir.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/sysdir.c -o CMakeFiles/git2internal.dir/sysdir.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/sysdir.c -o CMakeFiles/git2internal.dir/sysdir.c.s
 
 src/CMakeFiles/git2internal.dir/sysdir.c.o.requires:
 
@@ -2507,16 +2507,16 @@ src/CMakeFiles/git2internal.dir/sysdir.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/tag.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/tag.c.o: src/tag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/git2internal.dir/tag.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tag.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/CMakeFiles/git2internal.dir/tag.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tag.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/tag.c
 
 src/CMakeFiles/git2internal.dir/tag.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/tag.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tag.c > CMakeFiles/git2internal.dir/tag.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/tag.c > CMakeFiles/git2internal.dir/tag.c.i
 
 src/CMakeFiles/git2internal.dir/tag.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/tag.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tag.c -o CMakeFiles/git2internal.dir/tag.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/tag.c -o CMakeFiles/git2internal.dir/tag.c.s
 
 src/CMakeFiles/git2internal.dir/tag.c.o.requires:
 
@@ -2531,16 +2531,16 @@ src/CMakeFiles/git2internal.dir/tag.c.o.provides.build: src/CMakeFiles/git2inter
 
 src/CMakeFiles/git2internal.dir/thread-utils.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/thread-utils.c.o: src/thread-utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/git2internal.dir/thread-utils.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/thread-utils.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/thread-utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/CMakeFiles/git2internal.dir/thread-utils.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/thread-utils.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/thread-utils.c
 
 src/CMakeFiles/git2internal.dir/thread-utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/thread-utils.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/thread-utils.c > CMakeFiles/git2internal.dir/thread-utils.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/thread-utils.c > CMakeFiles/git2internal.dir/thread-utils.c.i
 
 src/CMakeFiles/git2internal.dir/thread-utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/thread-utils.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/thread-utils.c -o CMakeFiles/git2internal.dir/thread-utils.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/thread-utils.c -o CMakeFiles/git2internal.dir/thread-utils.c.s
 
 src/CMakeFiles/git2internal.dir/thread-utils.c.o.requires:
 
@@ -2555,16 +2555,16 @@ src/CMakeFiles/git2internal.dir/thread-utils.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/trace.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/trace.c.o: src/trace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/git2internal.dir/trace.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/trace.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/CMakeFiles/git2internal.dir/trace.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/trace.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/trace.c
 
 src/CMakeFiles/git2internal.dir/trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/trace.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/trace.c > CMakeFiles/git2internal.dir/trace.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/trace.c > CMakeFiles/git2internal.dir/trace.c.i
 
 src/CMakeFiles/git2internal.dir/trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/trace.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/trace.c -o CMakeFiles/git2internal.dir/trace.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/trace.c -o CMakeFiles/git2internal.dir/trace.c.s
 
 src/CMakeFiles/git2internal.dir/trace.c.o.requires:
 
@@ -2579,16 +2579,16 @@ src/CMakeFiles/git2internal.dir/trace.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/trailer.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/trailer.c.o: src/trailer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/git2internal.dir/trailer.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/trailer.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/trailer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/CMakeFiles/git2internal.dir/trailer.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/trailer.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/trailer.c
 
 src/CMakeFiles/git2internal.dir/trailer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/trailer.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/trailer.c > CMakeFiles/git2internal.dir/trailer.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/trailer.c > CMakeFiles/git2internal.dir/trailer.c.i
 
 src/CMakeFiles/git2internal.dir/trailer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/trailer.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/trailer.c -o CMakeFiles/git2internal.dir/trailer.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/trailer.c -o CMakeFiles/git2internal.dir/trailer.c.s
 
 src/CMakeFiles/git2internal.dir/trailer.c.o.requires:
 
@@ -2603,16 +2603,16 @@ src/CMakeFiles/git2internal.dir/trailer.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/transaction.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transaction.c.o: src/transaction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/git2internal.dir/transaction.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transaction.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transaction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/CMakeFiles/git2internal.dir/transaction.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transaction.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transaction.c
 
 src/CMakeFiles/git2internal.dir/transaction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transaction.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transaction.c > CMakeFiles/git2internal.dir/transaction.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transaction.c > CMakeFiles/git2internal.dir/transaction.c.i
 
 src/CMakeFiles/git2internal.dir/transaction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transaction.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transaction.c -o CMakeFiles/git2internal.dir/transaction.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transaction.c -o CMakeFiles/git2internal.dir/transaction.c.s
 
 src/CMakeFiles/git2internal.dir/transaction.c.o.requires:
 
@@ -2627,16 +2627,16 @@ src/CMakeFiles/git2internal.dir/transaction.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/transport.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transport.c.o: src/transport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/git2internal.dir/transport.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transport.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transport.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/CMakeFiles/git2internal.dir/transport.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transport.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transport.c
 
 src/CMakeFiles/git2internal.dir/transport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transport.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transport.c > CMakeFiles/git2internal.dir/transport.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transport.c > CMakeFiles/git2internal.dir/transport.c.i
 
 src/CMakeFiles/git2internal.dir/transport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transport.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transport.c -o CMakeFiles/git2internal.dir/transport.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transport.c -o CMakeFiles/git2internal.dir/transport.c.s
 
 src/CMakeFiles/git2internal.dir/transport.c.o.requires:
 
@@ -2651,16 +2651,16 @@ src/CMakeFiles/git2internal.dir/transport.c.o.provides.build: src/CMakeFiles/git
 
 src/CMakeFiles/git2internal.dir/tree-cache.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/tree-cache.c.o: src/tree-cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/git2internal.dir/tree-cache.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tree-cache.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tree-cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/CMakeFiles/git2internal.dir/tree-cache.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tree-cache.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/tree-cache.c
 
 src/CMakeFiles/git2internal.dir/tree-cache.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/tree-cache.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tree-cache.c > CMakeFiles/git2internal.dir/tree-cache.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/tree-cache.c > CMakeFiles/git2internal.dir/tree-cache.c.i
 
 src/CMakeFiles/git2internal.dir/tree-cache.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/tree-cache.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tree-cache.c -o CMakeFiles/git2internal.dir/tree-cache.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/tree-cache.c -o CMakeFiles/git2internal.dir/tree-cache.c.s
 
 src/CMakeFiles/git2internal.dir/tree-cache.c.o.requires:
 
@@ -2675,16 +2675,16 @@ src/CMakeFiles/git2internal.dir/tree-cache.c.o.provides.build: src/CMakeFiles/gi
 
 src/CMakeFiles/git2internal.dir/tree.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/tree.c.o: src/tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/git2internal.dir/tree.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tree.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/CMakeFiles/git2internal.dir/tree.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tree.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/tree.c
 
 src/CMakeFiles/git2internal.dir/tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/tree.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tree.c > CMakeFiles/git2internal.dir/tree.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/tree.c > CMakeFiles/git2internal.dir/tree.c.i
 
 src/CMakeFiles/git2internal.dir/tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/tree.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tree.c -o CMakeFiles/git2internal.dir/tree.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/tree.c -o CMakeFiles/git2internal.dir/tree.c.s
 
 src/CMakeFiles/git2internal.dir/tree.c.o.requires:
 
@@ -2699,16 +2699,16 @@ src/CMakeFiles/git2internal.dir/tree.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/tsort.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/tsort.c.o: src/tsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/git2internal.dir/tsort.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tsort.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tsort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/CMakeFiles/git2internal.dir/tsort.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/tsort.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/tsort.c
 
 src/CMakeFiles/git2internal.dir/tsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/tsort.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tsort.c > CMakeFiles/git2internal.dir/tsort.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/tsort.c > CMakeFiles/git2internal.dir/tsort.c.i
 
 src/CMakeFiles/git2internal.dir/tsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/tsort.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/tsort.c -o CMakeFiles/git2internal.dir/tsort.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/tsort.c -o CMakeFiles/git2internal.dir/tsort.c.s
 
 src/CMakeFiles/git2internal.dir/tsort.c.o.requires:
 
@@ -2723,16 +2723,16 @@ src/CMakeFiles/git2internal.dir/tsort.c.o.provides.build: src/CMakeFiles/git2int
 
 src/CMakeFiles/git2internal.dir/util.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/util.c.o: src/util.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/git2internal.dir/util.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/util.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/CMakeFiles/git2internal.dir/util.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/util.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/util.c
 
 src/CMakeFiles/git2internal.dir/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/util.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/util.c > CMakeFiles/git2internal.dir/util.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/util.c > CMakeFiles/git2internal.dir/util.c.i
 
 src/CMakeFiles/git2internal.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/util.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/util.c -o CMakeFiles/git2internal.dir/util.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/util.c -o CMakeFiles/git2internal.dir/util.c.s
 
 src/CMakeFiles/git2internal.dir/util.c.o.requires:
 
@@ -2747,16 +2747,16 @@ src/CMakeFiles/git2internal.dir/util.c.o.provides.build: src/CMakeFiles/git2inte
 
 src/CMakeFiles/git2internal.dir/varint.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/varint.c.o: src/varint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/git2internal.dir/varint.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/varint.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/varint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/CMakeFiles/git2internal.dir/varint.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/varint.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/varint.c
 
 src/CMakeFiles/git2internal.dir/varint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/varint.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/varint.c > CMakeFiles/git2internal.dir/varint.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/varint.c > CMakeFiles/git2internal.dir/varint.c.i
 
 src/CMakeFiles/git2internal.dir/varint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/varint.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/varint.c -o CMakeFiles/git2internal.dir/varint.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/varint.c -o CMakeFiles/git2internal.dir/varint.c.s
 
 src/CMakeFiles/git2internal.dir/varint.c.o.requires:
 
@@ -2771,16 +2771,16 @@ src/CMakeFiles/git2internal.dir/varint.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/vector.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/vector.c.o: src/vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/git2internal.dir/vector.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/vector.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/CMakeFiles/git2internal.dir/vector.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/vector.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/vector.c
 
 src/CMakeFiles/git2internal.dir/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/vector.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/vector.c > CMakeFiles/git2internal.dir/vector.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/vector.c > CMakeFiles/git2internal.dir/vector.c.i
 
 src/CMakeFiles/git2internal.dir/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/vector.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/vector.c -o CMakeFiles/git2internal.dir/vector.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/vector.c -o CMakeFiles/git2internal.dir/vector.c.s
 
 src/CMakeFiles/git2internal.dir/vector.c.o.requires:
 
@@ -2795,16 +2795,16 @@ src/CMakeFiles/git2internal.dir/vector.c.o.provides.build: src/CMakeFiles/git2in
 
 src/CMakeFiles/git2internal.dir/worktree.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/worktree.c.o: src/worktree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/git2internal.dir/worktree.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/worktree.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/worktree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/CMakeFiles/git2internal.dir/worktree.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/worktree.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/worktree.c
 
 src/CMakeFiles/git2internal.dir/worktree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/worktree.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/worktree.c > CMakeFiles/git2internal.dir/worktree.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/worktree.c > CMakeFiles/git2internal.dir/worktree.c.i
 
 src/CMakeFiles/git2internal.dir/worktree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/worktree.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/worktree.c -o CMakeFiles/git2internal.dir/worktree.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/worktree.c -o CMakeFiles/git2internal.dir/worktree.c.s
 
 src/CMakeFiles/git2internal.dir/worktree.c.o.requires:
 
@@ -2819,16 +2819,16 @@ src/CMakeFiles/git2internal.dir/worktree.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/zstream.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/zstream.c.o: src/zstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/git2internal.dir/zstream.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/zstream.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/zstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/CMakeFiles/git2internal.dir/zstream.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/zstream.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/zstream.c
 
 src/CMakeFiles/git2internal.dir/zstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/zstream.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/zstream.c > CMakeFiles/git2internal.dir/zstream.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/zstream.c > CMakeFiles/git2internal.dir/zstream.c.i
 
 src/CMakeFiles/git2internal.dir/zstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/zstream.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/zstream.c -o CMakeFiles/git2internal.dir/zstream.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/zstream.c -o CMakeFiles/git2internal.dir/zstream.c.s
 
 src/CMakeFiles/git2internal.dir/zstream.c.o.requires:
 
@@ -2843,16 +2843,16 @@ src/CMakeFiles/git2internal.dir/zstream.c.o.provides.build: src/CMakeFiles/git2i
 
 src/CMakeFiles/git2internal.dir/streams/curl.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/streams/curl.c.o: src/streams/curl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/git2internal.dir/streams/curl.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/curl.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/curl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/CMakeFiles/git2internal.dir/streams/curl.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/curl.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/curl.c
 
 src/CMakeFiles/git2internal.dir/streams/curl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/streams/curl.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/curl.c > CMakeFiles/git2internal.dir/streams/curl.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/curl.c > CMakeFiles/git2internal.dir/streams/curl.c.i
 
 src/CMakeFiles/git2internal.dir/streams/curl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/streams/curl.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/curl.c -o CMakeFiles/git2internal.dir/streams/curl.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/curl.c -o CMakeFiles/git2internal.dir/streams/curl.c.s
 
 src/CMakeFiles/git2internal.dir/streams/curl.c.o.requires:
 
@@ -2867,16 +2867,16 @@ src/CMakeFiles/git2internal.dir/streams/curl.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/streams/openssl.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/streams/openssl.c.o: src/streams/openssl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/git2internal.dir/streams/openssl.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/openssl.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/openssl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/CMakeFiles/git2internal.dir/streams/openssl.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/openssl.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/openssl.c
 
 src/CMakeFiles/git2internal.dir/streams/openssl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/streams/openssl.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/openssl.c > CMakeFiles/git2internal.dir/streams/openssl.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/openssl.c > CMakeFiles/git2internal.dir/streams/openssl.c.i
 
 src/CMakeFiles/git2internal.dir/streams/openssl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/streams/openssl.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/openssl.c -o CMakeFiles/git2internal.dir/streams/openssl.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/openssl.c -o CMakeFiles/git2internal.dir/streams/openssl.c.s
 
 src/CMakeFiles/git2internal.dir/streams/openssl.c.o.requires:
 
@@ -2891,16 +2891,16 @@ src/CMakeFiles/git2internal.dir/streams/openssl.c.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/git2internal.dir/streams/socket.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/streams/socket.c.o: src/streams/socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/git2internal.dir/streams/socket.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/socket.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/CMakeFiles/git2internal.dir/streams/socket.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/socket.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/socket.c
 
 src/CMakeFiles/git2internal.dir/streams/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/streams/socket.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/socket.c > CMakeFiles/git2internal.dir/streams/socket.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/socket.c > CMakeFiles/git2internal.dir/streams/socket.c.i
 
 src/CMakeFiles/git2internal.dir/streams/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/streams/socket.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/socket.c -o CMakeFiles/git2internal.dir/streams/socket.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/socket.c -o CMakeFiles/git2internal.dir/streams/socket.c.s
 
 src/CMakeFiles/git2internal.dir/streams/socket.c.o.requires:
 
@@ -2915,16 +2915,16 @@ src/CMakeFiles/git2internal.dir/streams/socket.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/git2internal.dir/streams/stransport.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/streams/stransport.c.o: src/streams/stransport.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/git2internal.dir/streams/stransport.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/stransport.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/stransport.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/CMakeFiles/git2internal.dir/streams/stransport.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/stransport.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/stransport.c
 
 src/CMakeFiles/git2internal.dir/streams/stransport.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/streams/stransport.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/stransport.c > CMakeFiles/git2internal.dir/streams/stransport.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/stransport.c > CMakeFiles/git2internal.dir/streams/stransport.c.i
 
 src/CMakeFiles/git2internal.dir/streams/stransport.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/streams/stransport.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/stransport.c -o CMakeFiles/git2internal.dir/streams/stransport.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/stransport.c -o CMakeFiles/git2internal.dir/streams/stransport.c.s
 
 src/CMakeFiles/git2internal.dir/streams/stransport.c.o.requires:
 
@@ -2939,16 +2939,16 @@ src/CMakeFiles/git2internal.dir/streams/stransport.c.o.provides.build: src/CMake
 
 src/CMakeFiles/git2internal.dir/streams/tls.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/streams/tls.c.o: src/streams/tls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/git2internal.dir/streams/tls.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/tls.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/tls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/CMakeFiles/git2internal.dir/streams/tls.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/streams/tls.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/tls.c
 
 src/CMakeFiles/git2internal.dir/streams/tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/streams/tls.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/tls.c > CMakeFiles/git2internal.dir/streams/tls.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/tls.c > CMakeFiles/git2internal.dir/streams/tls.c.i
 
 src/CMakeFiles/git2internal.dir/streams/tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/streams/tls.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/streams/tls.c -o CMakeFiles/git2internal.dir/streams/tls.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/streams/tls.c -o CMakeFiles/git2internal.dir/streams/tls.c.s
 
 src/CMakeFiles/git2internal.dir/streams/tls.c.o.requires:
 
@@ -2963,16 +2963,16 @@ src/CMakeFiles/git2internal.dir/streams/tls.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/transports/auth.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/auth.c.o: src/transports/auth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/git2internal.dir/transports/auth.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/auth.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/auth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/CMakeFiles/git2internal.dir/transports/auth.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/auth.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/auth.c
 
 src/CMakeFiles/git2internal.dir/transports/auth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/auth.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/auth.c > CMakeFiles/git2internal.dir/transports/auth.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/auth.c > CMakeFiles/git2internal.dir/transports/auth.c.i
 
 src/CMakeFiles/git2internal.dir/transports/auth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/auth.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/auth.c -o CMakeFiles/git2internal.dir/transports/auth.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/auth.c -o CMakeFiles/git2internal.dir/transports/auth.c.s
 
 src/CMakeFiles/git2internal.dir/transports/auth.c.o.requires:
 
@@ -2987,16 +2987,16 @@ src/CMakeFiles/git2internal.dir/transports/auth.c.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o: src/transports/auth_negotiate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/auth_negotiate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/auth_negotiate.c
 
 src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/auth_negotiate.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/auth_negotiate.c > CMakeFiles/git2internal.dir/transports/auth_negotiate.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/auth_negotiate.c > CMakeFiles/git2internal.dir/transports/auth_negotiate.c.i
 
 src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/auth_negotiate.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/auth_negotiate.c -o CMakeFiles/git2internal.dir/transports/auth_negotiate.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/auth_negotiate.c -o CMakeFiles/git2internal.dir/transports/auth_negotiate.c.s
 
 src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o.requires:
 
@@ -3011,16 +3011,16 @@ src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o.provides.build: sr
 
 src/CMakeFiles/git2internal.dir/transports/cred.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/cred.c.o: src/transports/cred.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/git2internal.dir/transports/cred.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/cred.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/cred.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/CMakeFiles/git2internal.dir/transports/cred.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/cred.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/cred.c
 
 src/CMakeFiles/git2internal.dir/transports/cred.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/cred.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/cred.c > CMakeFiles/git2internal.dir/transports/cred.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/cred.c > CMakeFiles/git2internal.dir/transports/cred.c.i
 
 src/CMakeFiles/git2internal.dir/transports/cred.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/cred.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/cred.c -o CMakeFiles/git2internal.dir/transports/cred.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/cred.c -o CMakeFiles/git2internal.dir/transports/cred.c.s
 
 src/CMakeFiles/git2internal.dir/transports/cred.c.o.requires:
 
@@ -3035,16 +3035,16 @@ src/CMakeFiles/git2internal.dir/transports/cred.c.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o: src/transports/cred_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/cred_helpers.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/cred_helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/cred_helpers.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/cred_helpers.c
 
 src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/cred_helpers.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/cred_helpers.c > CMakeFiles/git2internal.dir/transports/cred_helpers.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/cred_helpers.c > CMakeFiles/git2internal.dir/transports/cred_helpers.c.i
 
 src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/cred_helpers.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/cred_helpers.c -o CMakeFiles/git2internal.dir/transports/cred_helpers.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/cred_helpers.c -o CMakeFiles/git2internal.dir/transports/cred_helpers.c.s
 
 src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o.requires:
 
@@ -3059,16 +3059,16 @@ src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o.provides.build: src/
 
 src/CMakeFiles/git2internal.dir/transports/git.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/git.c.o: src/transports/git.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/git2internal.dir/transports/git.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/git.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/git.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/CMakeFiles/git2internal.dir/transports/git.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/git.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/git.c
 
 src/CMakeFiles/git2internal.dir/transports/git.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/git.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/git.c > CMakeFiles/git2internal.dir/transports/git.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/git.c > CMakeFiles/git2internal.dir/transports/git.c.i
 
 src/CMakeFiles/git2internal.dir/transports/git.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/git.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/git.c -o CMakeFiles/git2internal.dir/transports/git.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/git.c -o CMakeFiles/git2internal.dir/transports/git.c.s
 
 src/CMakeFiles/git2internal.dir/transports/git.c.o.requires:
 
@@ -3083,16 +3083,16 @@ src/CMakeFiles/git2internal.dir/transports/git.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/git2internal.dir/transports/http.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/http.c.o: src/transports/http.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/git2internal.dir/transports/http.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/http.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/http.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/CMakeFiles/git2internal.dir/transports/http.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/http.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/http.c
 
 src/CMakeFiles/git2internal.dir/transports/http.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/http.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/http.c > CMakeFiles/git2internal.dir/transports/http.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/http.c > CMakeFiles/git2internal.dir/transports/http.c.i
 
 src/CMakeFiles/git2internal.dir/transports/http.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/http.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/http.c -o CMakeFiles/git2internal.dir/transports/http.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/http.c -o CMakeFiles/git2internal.dir/transports/http.c.s
 
 src/CMakeFiles/git2internal.dir/transports/http.c.o.requires:
 
@@ -3107,16 +3107,16 @@ src/CMakeFiles/git2internal.dir/transports/http.c.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/git2internal.dir/transports/local.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/local.c.o: src/transports/local.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/git2internal.dir/transports/local.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/local.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/local.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/CMakeFiles/git2internal.dir/transports/local.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/local.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/local.c
 
 src/CMakeFiles/git2internal.dir/transports/local.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/local.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/local.c > CMakeFiles/git2internal.dir/transports/local.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/local.c > CMakeFiles/git2internal.dir/transports/local.c.i
 
 src/CMakeFiles/git2internal.dir/transports/local.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/local.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/local.c -o CMakeFiles/git2internal.dir/transports/local.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/local.c -o CMakeFiles/git2internal.dir/transports/local.c.s
 
 src/CMakeFiles/git2internal.dir/transports/local.c.o.requires:
 
@@ -3131,16 +3131,16 @@ src/CMakeFiles/git2internal.dir/transports/local.c.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/git2internal.dir/transports/smart.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/smart.c.o: src/transports/smart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/CMakeFiles/git2internal.dir/transports/smart.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/smart.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/CMakeFiles/git2internal.dir/transports/smart.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/smart.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart.c
 
 src/CMakeFiles/git2internal.dir/transports/smart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/smart.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart.c > CMakeFiles/git2internal.dir/transports/smart.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart.c > CMakeFiles/git2internal.dir/transports/smart.c.i
 
 src/CMakeFiles/git2internal.dir/transports/smart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/smart.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart.c -o CMakeFiles/git2internal.dir/transports/smart.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart.c -o CMakeFiles/git2internal.dir/transports/smart.c.s
 
 src/CMakeFiles/git2internal.dir/transports/smart.c.o.requires:
 
@@ -3155,16 +3155,16 @@ src/CMakeFiles/git2internal.dir/transports/smart.c.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o: src/transports/smart_pkt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/smart_pkt.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart_pkt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/smart_pkt.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart_pkt.c
 
 src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/smart_pkt.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart_pkt.c > CMakeFiles/git2internal.dir/transports/smart_pkt.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart_pkt.c > CMakeFiles/git2internal.dir/transports/smart_pkt.c.i
 
 src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/smart_pkt.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart_pkt.c -o CMakeFiles/git2internal.dir/transports/smart_pkt.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart_pkt.c -o CMakeFiles/git2internal.dir/transports/smart_pkt.c.s
 
 src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o.requires:
 
@@ -3179,16 +3179,16 @@ src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o.provides.build: src/CMa
 
 src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o: src/transports/smart_protocol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/smart_protocol.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart_protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/smart_protocol.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart_protocol.c
 
 src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/smart_protocol.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart_protocol.c > CMakeFiles/git2internal.dir/transports/smart_protocol.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart_protocol.c > CMakeFiles/git2internal.dir/transports/smart_protocol.c.i
 
 src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/smart_protocol.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/smart_protocol.c -o CMakeFiles/git2internal.dir/transports/smart_protocol.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/smart_protocol.c -o CMakeFiles/git2internal.dir/transports/smart_protocol.c.s
 
 src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o.requires:
 
@@ -3203,16 +3203,16 @@ src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o.provides.build: sr
 
 src/CMakeFiles/git2internal.dir/transports/ssh.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/ssh.c.o: src/transports/ssh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/git2internal.dir/transports/ssh.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/ssh.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/ssh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/CMakeFiles/git2internal.dir/transports/ssh.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/ssh.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/ssh.c
 
 src/CMakeFiles/git2internal.dir/transports/ssh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/ssh.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/ssh.c > CMakeFiles/git2internal.dir/transports/ssh.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/ssh.c > CMakeFiles/git2internal.dir/transports/ssh.c.i
 
 src/CMakeFiles/git2internal.dir/transports/ssh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/ssh.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/ssh.c -o CMakeFiles/git2internal.dir/transports/ssh.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/ssh.c -o CMakeFiles/git2internal.dir/transports/ssh.c.s
 
 src/CMakeFiles/git2internal.dir/transports/ssh.c.o.requires:
 
@@ -3227,16 +3227,16 @@ src/CMakeFiles/git2internal.dir/transports/ssh.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/git2internal.dir/transports/winhttp.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/transports/winhttp.c.o: src/transports/winhttp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/git2internal.dir/transports/winhttp.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/winhttp.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/winhttp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/CMakeFiles/git2internal.dir/transports/winhttp.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/transports/winhttp.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/winhttp.c
 
 src/CMakeFiles/git2internal.dir/transports/winhttp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/transports/winhttp.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/winhttp.c > CMakeFiles/git2internal.dir/transports/winhttp.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/winhttp.c > CMakeFiles/git2internal.dir/transports/winhttp.c.i
 
 src/CMakeFiles/git2internal.dir/transports/winhttp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/transports/winhttp.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/transports/winhttp.c -o CMakeFiles/git2internal.dir/transports/winhttp.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/transports/winhttp.c -o CMakeFiles/git2internal.dir/transports/winhttp.c.s
 
 src/CMakeFiles/git2internal.dir/transports/winhttp.c.o.requires:
 
@@ -3251,16 +3251,16 @@ src/CMakeFiles/git2internal.dir/transports/winhttp.c.o.provides.build: src/CMake
 
 src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o: src/xdiff/xdiffi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xdiffi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xdiffi.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xdiffi.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xdiffi.c > CMakeFiles/git2internal.dir/xdiff/xdiffi.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xdiffi.c > CMakeFiles/git2internal.dir/xdiff/xdiffi.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xdiffi.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xdiffi.c -o CMakeFiles/git2internal.dir/xdiff/xdiffi.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xdiffi.c -o CMakeFiles/git2internal.dir/xdiff/xdiffi.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o.requires:
 
@@ -3275,16 +3275,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o: src/xdiff/xemit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xemit.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xemit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xemit.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xemit.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xemit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xemit.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xemit.c > CMakeFiles/git2internal.dir/xdiff/xemit.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xemit.c > CMakeFiles/git2internal.dir/xdiff/xemit.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xemit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xemit.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xemit.c -o CMakeFiles/git2internal.dir/xdiff/xemit.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xemit.c -o CMakeFiles/git2internal.dir/xdiff/xemit.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o.requires:
 
@@ -3299,16 +3299,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o.provides.build: src/CMakeFiles/g
 
 src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o: src/xdiff/xhistogram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xhistogram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xhistogram.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xhistogram.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xhistogram.c > CMakeFiles/git2internal.dir/xdiff/xhistogram.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xhistogram.c > CMakeFiles/git2internal.dir/xdiff/xhistogram.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xhistogram.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xhistogram.c -o CMakeFiles/git2internal.dir/xdiff/xhistogram.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xhistogram.c -o CMakeFiles/git2internal.dir/xdiff/xhistogram.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o.requires:
 
@@ -3323,16 +3323,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o: src/xdiff/xmerge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xmerge.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xmerge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xmerge.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xmerge.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xmerge.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xmerge.c > CMakeFiles/git2internal.dir/xdiff/xmerge.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xmerge.c > CMakeFiles/git2internal.dir/xdiff/xmerge.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xmerge.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xmerge.c -o CMakeFiles/git2internal.dir/xdiff/xmerge.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xmerge.c -o CMakeFiles/git2internal.dir/xdiff/xmerge.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o.requires:
 
@@ -3347,16 +3347,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o: src/xdiff/xpatience.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xpatience.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xpatience.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xpatience.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xpatience.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xpatience.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xpatience.c > CMakeFiles/git2internal.dir/xdiff/xpatience.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xpatience.c > CMakeFiles/git2internal.dir/xdiff/xpatience.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xpatience.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xpatience.c -o CMakeFiles/git2internal.dir/xdiff/xpatience.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xpatience.c -o CMakeFiles/git2internal.dir/xdiff/xpatience.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o.requires:
 
@@ -3371,16 +3371,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o.provides.build: src/CMakeFil
 
 src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o: src/xdiff/xprepare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xprepare.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xprepare.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xprepare.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xprepare.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xprepare.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xprepare.c > CMakeFiles/git2internal.dir/xdiff/xprepare.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xprepare.c > CMakeFiles/git2internal.dir/xdiff/xprepare.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xprepare.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xprepare.c -o CMakeFiles/git2internal.dir/xdiff/xprepare.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xprepare.c -o CMakeFiles/git2internal.dir/xdiff/xprepare.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o.requires:
 
@@ -3395,16 +3395,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o: src/xdiff/xutils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xutils.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xutils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/xdiff/xutils.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xutils.c
 
 src/CMakeFiles/git2internal.dir/xdiff/xutils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/xdiff/xutils.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xutils.c > CMakeFiles/git2internal.dir/xdiff/xutils.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xutils.c > CMakeFiles/git2internal.dir/xdiff/xutils.c.i
 
 src/CMakeFiles/git2internal.dir/xdiff/xutils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/xdiff/xutils.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/xdiff/xutils.c -o CMakeFiles/git2internal.dir/xdiff/xutils.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/xdiff/xutils.c -o CMakeFiles/git2internal.dir/xdiff/xutils.c.s
 
 src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o.requires:
 
@@ -3419,16 +3419,16 @@ src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o.provides.build: src/CMakeFiles/
 
 src/CMakeFiles/git2internal.dir/unix/map.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/unix/map.c.o: src/unix/map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/git2internal.dir/unix/map.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/unix/map.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/unix/map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/CMakeFiles/git2internal.dir/unix/map.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/unix/map.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/unix/map.c
 
 src/CMakeFiles/git2internal.dir/unix/map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/unix/map.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/unix/map.c > CMakeFiles/git2internal.dir/unix/map.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/unix/map.c > CMakeFiles/git2internal.dir/unix/map.c.i
 
 src/CMakeFiles/git2internal.dir/unix/map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/unix/map.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/unix/map.c -o CMakeFiles/git2internal.dir/unix/map.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/unix/map.c -o CMakeFiles/git2internal.dir/unix/map.c.s
 
 src/CMakeFiles/git2internal.dir/unix/map.c.o.requires:
 
@@ -3443,16 +3443,16 @@ src/CMakeFiles/git2internal.dir/unix/map.c.o.provides.build: src/CMakeFiles/git2
 
 src/CMakeFiles/git2internal.dir/unix/realpath.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/unix/realpath.c.o: src/unix/realpath.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/git2internal.dir/unix/realpath.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/unix/realpath.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/unix/realpath.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/CMakeFiles/git2internal.dir/unix/realpath.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/unix/realpath.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/unix/realpath.c
 
 src/CMakeFiles/git2internal.dir/unix/realpath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/unix/realpath.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/unix/realpath.c > CMakeFiles/git2internal.dir/unix/realpath.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/unix/realpath.c > CMakeFiles/git2internal.dir/unix/realpath.c.i
 
 src/CMakeFiles/git2internal.dir/unix/realpath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/unix/realpath.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/unix/realpath.c -o CMakeFiles/git2internal.dir/unix/realpath.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/unix/realpath.c -o CMakeFiles/git2internal.dir/unix/realpath.c.s
 
 src/CMakeFiles/git2internal.dir/unix/realpath.c.o.requires:
 
@@ -3467,16 +3467,16 @@ src/CMakeFiles/git2internal.dir/unix/realpath.c.o.provides.build: src/CMakeFiles
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o: src/hash/sha1dc/sha1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/sha1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/sha1.c
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/sha1.c > CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/sha1.c > CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.i
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/sha1.c -o CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/sha1.c -o CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.s
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o.requires:
 
@@ -3491,16 +3491,16 @@ src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o.provides.build: src/CMakeFi
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o: src/CMakeFiles/git2internal.dir/flags.make
 src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o: src/hash/sha1dc/ubc_check.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o   -c /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/ubc_check.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o   -c /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/ubc_check.c
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.i"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/ubc_check.c > CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.i
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/ubc_check.c > CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.i
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.s"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/henrik/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/ubc_check.c -o CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.s
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nero/Programming/backup_client/libgit2-0.27.0/src/hash/sha1dc/ubc_check.c -o CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.s
 
 src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o.requires:
 
@@ -3814,10 +3814,10 @@ src/CMakeFiles/git2internal.dir/requires: src/CMakeFiles/git2internal.dir/hash/s
 .PHONY : src/CMakeFiles/git2internal.dir/requires
 
 src/CMakeFiles/git2internal.dir/clean:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -P CMakeFiles/git2internal.dir/cmake_clean.cmake
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -P CMakeFiles/git2internal.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/git2internal.dir/clean
 
 src/CMakeFiles/git2internal.dir/depend:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/henrik/Programming/backup_client/libgit2-0.27.0 /home/henrik/Programming/backup_client/libgit2-0.27.0/src /home/henrik/Programming/backup_client/libgit2-0.27.0 /home/henrik/Programming/backup_client/libgit2-0.27.0/src /home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nero/Programming/backup_client/libgit2-0.27.0 /home/nero/Programming/backup_client/libgit2-0.27.0/src /home/nero/Programming/backup_client/libgit2-0.27.0 /home/nero/Programming/backup_client/libgit2-0.27.0/src /home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/git2internal.dir/depend
 

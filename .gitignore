@@ -5,3 +5,4 @@ __pycache__
 *.pyc
 obj/
 test/test_repo
+libgit2-0.27.0

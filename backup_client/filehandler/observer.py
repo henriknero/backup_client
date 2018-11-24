@@ -8,7 +8,7 @@ import logging
 
 from watchdog import observers
 from watchdog import events
-from backup_client.network import gitcom
+import backup_client.network as gitcom
 
 
 logger = logging.getLogger(__name__)
@@ -18,8 +18,6 @@ logging.basicConfig(level=loglevel)
 UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 
 class FileObserver(object):
-    """Observer Class
-    """
 
     def __init__(self, username, password):
         self.patterns = {}
@@ -30,17 +28,11 @@ class FileObserver(object):
         self.credentials = (username, password)
 
     def add_dir(self, dirname, git_name):
-        """Add dir function
-
-        Arguments:
-            dirname {string} -- Path to dir that is to be observed recursively
-        """
-
         if os.path.isdir(dirname):
             if not gitcom.is_repo(dirname):
-                gitcom.create_new_repository(dirname, git_name, self.credentials)
+                gitcom.create_new_repo(dirname, git_name, self.credentials)
             else:
-                repository = gitcom.find_repository(dirname)
+                repository = gitcom.find_repo(dirname)
                 gitcom.commit_and_push_all(repository, self.credentials)
             self.patterns[dirname] = datetime.datetime.now()
             self.file_observer.schedule(self.event_handler, dirname, recursive=True)
@@ -55,44 +47,31 @@ class FileObserver(object):
             for watch in self.file_observer._watches: #pylint: disable=W0212
                 if watch.path == path:
                     self.file_observer.remove_handler_for_watch(self.event_handler, watch)
+                    del self.patterns[path]
                     logger.info("Successfully removed {} from observer.".format(repo_name))
             gitcom.remove_local_repo_data(path)
-        except NameError: #pylint: disable=W0706
+        except NameError:
             raise
         except BaseException:
             pass
 
     def start(self):
-        """Start
-        """
         self.file_observer.start()
 
     def stop(self):
-        """Stop
-        """
         self.file_observer.stop()
         self.file_observer.join()
 
     def on_modified(self, event):
-        """Event handling Function
-
-        Arguments:
-            event {event} -- Contains information about changes done to file
-        """
         mod_path = event.key[1]
         for substring in self.patterns:
             if substring in mod_path and '/.git' not in mod_path:
                 logger.info("Modified event: %s", event)
                 if datetime.datetime.now() - self.patterns[substring] > UPDATE_INTERVAL:
-                    repo = gitcom.find_repository(substring)
+                    repo = gitcom.find_repo(substring)
                     gitcom.commit_and_push_all(repo, self.credentials)
                     self.patterns[substring] = datetime.datetime.now()
                 break
 
     def on_moved(self, event):
-        """Event handling Function
-
-        Arguments:
-            event {event} -- Contains information about changes done to file
-        """
         pass

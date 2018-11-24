@@ -6,5 +6,5 @@ C_FLAGS = -D_GNU_SOURCE  -Wall -Wextra -fvisibility=hidden -fPIC -Wno-missing-fi
 
 C_DEFINES = -DHAVE_QSORT_R -DSHA1DC_CUSTOM_INCLUDE_SHA1_C=\"common.h\" -DSHA1DC_CUSTOM_INCLUDE_UBC_CHECK_C=\"common.h\" -DSHA1DC_NO_STANDARD_INCLUDES=1 -D_FILE_OFFSET_BITS=64
 
-C_INCLUDES = -I/home/henrik/Programming/backup_client/libgit2-0.27.0/src -I/home/henrik/Programming/backup_client/libgit2-0.27.0/include -I/usr/include/x86_64-linux-gnu 
+C_INCLUDES = -I/home/nero/Programming/backup_client/libgit2-0.27.0/src -I/home/nero/Programming/backup_client/libgit2-0.27.0/include -I/usr/include/x86_64-linux-gnu 
 

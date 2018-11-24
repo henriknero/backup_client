@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_SOURCE_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_BINARY_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/git2.dir/depend.make
@@ -62,150 +62,150 @@ git2_OBJECTS =
 
 # External object files for target git2
 git2_EXTERNAL_OBJECTS = \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/annotated_commit.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/apply.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/attr.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/attr_file.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/attrcache.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/blame.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/blame_git.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/blob.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/branch.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/buf_text.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/buffer.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/cache.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/checkout.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/cherrypick.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/clone.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/commit.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/commit_list.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config_cache.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config_file.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config_parse.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/crlf.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/date.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/delta.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/describe.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_driver.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_file.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_generate.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_parse.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_print.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_stats.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_tform.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_xdiff.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/errors.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fetch.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fetchhead.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/filebuf.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fileops.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/filter.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fnmatch.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/global.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/graph.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hash.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hashsig.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/ident.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/idxmap.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/ignore.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/index.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/indexer.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/iterator.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/merge.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/merge_driver.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/merge_file.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/message.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/mwindow.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/netops.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/notes.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/object.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/object_api.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb_loose.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb_mempack.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb_pack.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/offmap.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/oid.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/oidarray.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/oidmap.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pack-objects.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pack.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/parse.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/patch.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/patch_generate.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/patch_parse.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/path.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pathspec.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pool.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/posix.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pqueue.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/proxy.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/push.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/rebase.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refdb.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refdb_fs.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/reflog.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refs.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refspec.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/remote.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/repository.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/reset.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/revert.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/revparse.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/revwalk.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/settings.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/sha1_lookup.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/signature.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/sortedcache.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/stash.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/status.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/strmap.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/submodule.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/sysdir.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tag.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/thread-utils.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/trace.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/trailer.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transaction.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transport.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tree-cache.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tree.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tsort.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/util.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/varint.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/vector.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/worktree.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/zstream.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/curl.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/openssl.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/socket.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/stransport.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/tls.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/auth.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/cred.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/git.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/http.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/local.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/smart.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/ssh.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/winhttp.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/unix/map.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/unix/realpath.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o" \
-"/home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o"
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/annotated_commit.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/apply.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/attr.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/attr_file.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/attrcache.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/blame.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/blame_git.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/blob.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/branch.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/buf_text.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/buffer.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/cache.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/checkout.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/cherrypick.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/clone.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/commit.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/commit_list.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config_cache.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config_file.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/config_parse.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/crlf.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/date.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/delta.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/describe.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_driver.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_file.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_generate.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_parse.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_print.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_stats.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_tform.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/diff_xdiff.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/errors.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fetch.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fetchhead.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/filebuf.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fileops.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/filter.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/fnmatch.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/global.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/graph.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hash.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hashsig.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/ident.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/idxmap.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/ignore.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/index.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/indexer.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/iterator.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/merge.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/merge_driver.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/merge_file.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/message.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/mwindow.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/netops.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/notes.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/object.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/object_api.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb_loose.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb_mempack.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/odb_pack.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/offmap.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/oid.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/oidarray.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/oidmap.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pack-objects.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pack.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/parse.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/patch.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/patch_generate.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/patch_parse.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/path.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pathspec.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pool.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/posix.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/pqueue.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/proxy.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/push.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/rebase.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refdb.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refdb_fs.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/reflog.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refs.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/refspec.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/remote.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/repository.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/reset.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/revert.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/revparse.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/revwalk.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/settings.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/sha1_lookup.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/signature.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/sortedcache.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/stash.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/status.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/strmap.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/submodule.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/sysdir.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tag.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/thread-utils.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/trace.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/trailer.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transaction.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transport.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tree-cache.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tree.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/tsort.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/util.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/varint.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/vector.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/worktree.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/zstream.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/curl.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/openssl.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/socket.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/stransport.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/streams/tls.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/auth.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/auth_negotiate.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/cred.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/cred_helpers.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/git.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/http.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/local.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/smart.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/smart_pkt.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/smart_protocol.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/ssh.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/transports/winhttp.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xdiffi.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xemit.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xhistogram.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xmerge.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xpatience.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xprepare.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/xdiff/xutils.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/unix/map.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/unix/realpath.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hash/sha1dc/sha1.c.o" \
+"/home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2internal.dir/hash/sha1dc/ubc_check.c.o"
 
 libgit2.so.0.27.0: src/CMakeFiles/git2internal.dir/annotated_commit.c.o
 libgit2.so.0.27.0: src/CMakeFiles/git2internal.dir/apply.c.o
@@ -357,9 +357,9 @@ libgit2.so.0.27.0: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libgit2.so.0.27.0: /usr/lib/x86_64-linux-gnu/libhttp_parser.so
 libgit2.so.0.27.0: /usr/lib/x86_64-linux-gnu/libz.so
 libgit2.so.0.27.0: src/CMakeFiles/git2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C shared library ../libgit2.so"
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/git2.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -E cmake_symlink_library ../libgit2.so.0.27.0 ../libgit2.so.27 ../libgit2.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking C shared library ../libgit2.so"
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/git2.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -E cmake_symlink_library ../libgit2.so.0.27.0 ../libgit2.so.27 ../libgit2.so
 
 libgit2.so.27: libgit2.so.0.27.0
 	@$(CMAKE_COMMAND) -E touch_nocreate libgit2.so.27
@@ -377,10 +377,10 @@ src/CMakeFiles/git2.dir/requires:
 .PHONY : src/CMakeFiles/git2.dir/requires
 
 src/CMakeFiles/git2.dir/clean:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -P CMakeFiles/git2.dir/cmake_clean.cmake
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0/src && $(CMAKE_COMMAND) -P CMakeFiles/git2.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/git2.dir/clean
 
 src/CMakeFiles/git2.dir/depend:
-	cd /home/henrik/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/henrik/Programming/backup_client/libgit2-0.27.0 /home/henrik/Programming/backup_client/libgit2-0.27.0/src /home/henrik/Programming/backup_client/libgit2-0.27.0 /home/henrik/Programming/backup_client/libgit2-0.27.0/src /home/henrik/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nero/Programming/backup_client/libgit2-0.27.0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nero/Programming/backup_client/libgit2-0.27.0 /home/nero/Programming/backup_client/libgit2-0.27.0/src /home/nero/Programming/backup_client/libgit2-0.27.0 /home/nero/Programming/backup_client/libgit2-0.27.0/src /home/nero/Programming/backup_client/libgit2-0.27.0/src/CMakeFiles/git2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/git2.dir/depend
 

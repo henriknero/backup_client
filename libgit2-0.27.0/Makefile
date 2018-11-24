@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_SOURCE_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/henrik/Programming/backup_client/libgit2-0.27.0
+CMAKE_BINARY_DIR = /home/nero/Programming/backup_client/libgit2-0.27.0
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/henrik/Programming/backup_client/libgit2-0.27.0/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nero/Programming/backup_client/libgit2-0.27.0/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

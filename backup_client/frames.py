@@ -2,36 +2,23 @@
 """
 import tkinter
 from tkinter import filedialog, simpledialog, messagebox
-import pickle
 import os
 import logging
 
 import requests
 
-from backup_client.network.gitcom import get_reponame_from_path, is_repo, add_remote_repository, pull, find_repository, verify_remote, update_remote, remove_local_repo_data
+from backup_client.network import get_reponame_from_path, is_repo, update_remote, remove_local_repo_data, verify_remote, add_remote_repo, find_repo
+from backup_client.network.gogs import is_authorized, get_signature
+from backup_client.network.git import pull #TODO: Try to get rid of this one call
 from backup_client.filehandler import observer
+from backup_client.filehandler.pickles import load_obj, save_obj
 
 logger = logging.getLogger(__name__)
 loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
 logging.basicConfig(level=loglevel)
 
-def save_obj(obj, name):
-    if not os.path.exists('obj'):
-        os.makedirs('obj')
-    with open('obj/'+ name + '.pkl', 'wb') as file:
-        pickle.dump(obj, file, pickle.HIGHEST_PROTOCOL)
-
-def load_obj(name):
-    with open('obj/' + name + '.pkl', 'rb') as file:
-        return pickle.load(file)
 
 class Loginwindow(object):
-    """Gui Class
-
-    Arguments:
-        tkinter {Frame} --
-    """
-
     def __init__(self, parent):
         self.result = None
         self.parent = parent
@@ -62,9 +49,7 @@ class Loginwindow(object):
         """Check against server
         """
         credentials = (self.username_entry.get(), self.password_entry.get())
-        response = requests.get(
-            'https://www.nerobp.xyz/gogs/user/login', auth=credentials)
-        if response.url == 'https://www.nerobp.xyz/gogs/':
+        if is_authorized(credentials):
             self.result = (self.username_entry.get(),
                            self.password_entry.get())
             if self.store_password.get():
@@ -162,11 +147,6 @@ class Mainwindow(tkinter.Frame):
             pass
 
     def on_selected_dir(self, event):
-        """Function to redraw current_window when changing monitored_files list item.
-
-        Arguments:
-            event {Virtualevent} -- Event containing Listobject
-        """
         pass
         #path = event.widget.get(event.widget.curselection()[0])
 
@@ -179,6 +159,7 @@ class Mainwindow(tkinter.Frame):
         file_menu.add_command(label="Connect to existing Remote", command=self.connect_remote)
         file_menu.add_separator()
         file_menu.add_command(label="Logout and Quit", command=self.logout)
+        file_menu.add_command(label="Quit", command=self.quit)
 
         menu.add_cascade(label="File", menu=file_menu)
 
@@ -233,12 +214,12 @@ class Mainwindow(tkinter.Frame):
                 "Add Remote Folder",
                 "The folder you have entered does not contain any remote, please enter the name of remote folder"
                 )
-            add_remote_repository(dir_path, repo_name, self.observer.credentials)
+            add_remote_repo(dir_path, repo_name, self.observer.credentials)
             self.observer.add_dir(dir_path, repo_name)
             self.monitored_files.insert(tkinter.END, repo_name)
         else: # If choosen folder is existing repository, try to pull it to update local repository
             repo_name = get_reponame_from_path(dir_path)
-            pull(find_repository(dir_path), self.observer.credentials)
+            pull(find_repo(dir_path), self.observer.credentials, get_signature(self.observer.credentials))
             self.observer.add_dir(dir_path, repo_name)
             self.monitored_files.insert(tkinter.END, repo_name)
 
