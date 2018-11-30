@@ -75,7 +75,7 @@ def verify_remote(path, repo_name, credentials):
     response = []
     if not repo_name in os.path.basename(repo.remotes[0].url):
         response.append(1)
-    if remote_exist(repo_name, credentials):
+    if not remote_exist(repo_name, credentials):
         response.append(2)
     return response
 
