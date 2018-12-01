@@ -6,7 +6,7 @@ import requests as req
 import pygit2 as git
 
 API = 'https://nerobp.xyz/gogs/api/v1'
-ROOT= 'https://nerobp.xyz/'
+ROOT= 'https://nerobp.xyz/gogs'
 CREATE = os.path.join(API, 'user/repos')
 GET_USER_DATA = os.path.join(API, 'users')
 GET_DELETE = os.path.join(API, 'repos')
