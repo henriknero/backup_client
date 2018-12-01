@@ -3,7 +3,9 @@
 """
     docstring here
 """
+import os
 import tkinter
+import logging
 from backup_client.frames import Loginwindow, Mainwindow
 from backup_client.filehandler.pickles import load_obj
 
@@ -26,6 +28,8 @@ def main():
 
 
 if __name__ == "__main__":
+    loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
+    logging.basicConfig(level=loglevel)
     main()
 #Hyfsat bra doc
 #http://effbot.org/tkinterbook/wm.htm

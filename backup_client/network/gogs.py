@@ -1,19 +1,21 @@
-import requests as req
 import logging
-import os
-
+import os.path
 from json import loads
+
+import requests as req
 import pygit2 as git
 
-API_CREATE_REPO_URL = 'https://nerobp.xyz/gogs/api/v1/user/repos'
-API_GET_USER_DATA = 'https://nerobp.xyz/gogs/api/v1/users/'
+API = 'https://nerobp.xyz/gogs/api/v1'
+ROOT= 'https://nerobp.xyz/'
+CREATE = os.path.join(API, 'user/repos')
+GET_USER_DATA = os.path.join(API, 'users')
+GET_DELETE = os.path.join(API, 'repos')
+LOGIN = os.path.join(ROOT, 'user/login')
 
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
-logging.basicConfig(level=loglevel)
 
 def remove_remote_repo(repo_name, credentials):
-    response = req.delete(os.path.join('https://nerobp.xyz/gogs/api/v1/repos/', credentials[0], repo_name), auth=credentials)
+    response = req.delete(os.path.join(GET_DELETE, credentials[0], repo_name), auth=credentials)
     if response.status_code == 404:
         raise NameError("Repository not found")
     elif response.status_code != 204:
@@ -23,7 +25,7 @@ def remove_remote_repo(repo_name, credentials):
 
 def create_remote_repo(git_name, credentials):
     response = req.post(
-        API_CREATE_REPO_URL, data={
+        CREATE, data={
             'name': git_name,
             'private': True
         },
@@ -38,7 +40,7 @@ def create_remote_repo(git_name, credentials):
 
 def get_signature(credentials):
     request = req.get(
-        API_GET_USER_DATA + credentials[0],
+        GET_USER_DATA + credentials[0],
         auth=credentials)
     if 'full_name' in loads(request.text):
         full_name = loads(request.text)['full_name']
@@ -49,10 +51,10 @@ def get_signature(credentials):
     return git.Signature(full_name, email)  #pylint: disable=E1101
 
 def remote_exist(repo_name, credentials):
-    httpresponse = req.get(os.path.join("https://nerobp.xyz/gogs/api/v1/repos", credentials[0], repo_name), auth=credentials)
+    httpresponse = req.get(os.path.join(GET_DELETE, credentials[0], repo_name), auth=credentials)
     return not (httpresponse.status_code == 404)
 
 def is_authorized(credentials):
     response = req.get(
-        'https://www.nerobp.xyz/gogs/user/login', auth=credentials)
-    return response.url == 'https://www.nerobp.xyz/gogs/'
+        LOGIN, auth=credentials)
+    return response.url == ROOT

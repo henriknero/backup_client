@@ -7,8 +7,6 @@ from pygit2 import RemoteCallbacks, UserPass, clone_repository, init_repository
 
 
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
-logging.basicConfig(level=loglevel)
 
 GIT_SERVER = 'https://www.nerobp.xyz/gogs/'
 
@@ -74,7 +72,7 @@ def add_all(repository):
         else:
             repository.index.add(filename[:-1])
 
-def commit(repository, credentials, author, message, ref='refs/heads/master'):
+def commit(repository, author, message, ref='refs/heads/master'):
     repository.index.write()
     tree = repository.index.write_tree()
     try:
@@ -82,6 +80,7 @@ def commit(repository, credentials, author, message, ref='refs/heads/master'):
     except BaseException:
         master = repository.lookup_branch('master')
         repository.create_commit(ref, author, author, message, tree, [master.target])
+
 def clone(path, repo_name, credentials):
     clone_url = os.path.join(GIT_SERVER, credentials[0], repo_name)
     callbacks = RemoteCallbacks(UserPass(credentials[0], credentials[1]))

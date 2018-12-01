@@ -2,7 +2,6 @@
 """
 
 import os
-import shutil
 import datetime
 import logging
 
@@ -10,10 +9,7 @@ from watchdog import observers
 from watchdog import events
 import backup_client.network as gitcom
 
-
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
-logging.basicConfig(level=loglevel)
 
 UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 

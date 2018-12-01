@@ -5,8 +5,6 @@ from tkinter import filedialog, simpledialog, messagebox
 import os
 import logging
 
-import requests
-
 from backup_client.network import get_reponame_from_path, is_repo, update_remote, remove_local_repo_data, verify_remote, add_remote_repo, find_repo
 from backup_client.network.gogs import is_authorized, get_signature
 from backup_client.network.git import pull #TODO: Try to get rid of this one call
@@ -14,8 +12,6 @@ from backup_client.filehandler import observer
 from backup_client.filehandler.pickles import load_obj, save_obj
 
 logger = logging.getLogger(__name__)
-loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
-logging.basicConfig(level=loglevel)
 
 
 class Loginwindow(object):
