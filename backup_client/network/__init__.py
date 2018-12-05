@@ -1,55 +1,82 @@
 import time
+import datetime
 import os
 import shutil
 import logging
 from json import loads
-
+from .git import GitClient
+from .gogs import GitApi
 from pygit2 import Repository, discover_repository, init_repository  #pylint: disable=E0611
 import requests as req
 
-from .git import push, pull, add_all, commit, clone, init
-from .gogs import create_remote_repo, remove_remote_repo, get_signature, remote_exist
-
 logger = logging.getLogger(__name__)
 
-def create_new_repo(path, git_name, credentials):
-    try:
-        repo = init(path)
+UPDATE_INTERVAL = datetime.timedelta(minutes=0)
+class GitGogs():
+    def __init__(self, api, root, credentials):
+        self.api = GitApi(api, credentials)
+        self.root = root
+        self.repos = {}
+
+    def add_dir(self, dir_path, repo_name):
+        if os.path.isdir(dir_path):
+            if is_repo(dir_path):
+                self.create_existing_repo(dir_path, repo_name)
+            else:
+                self.create_new_repo(dir_path, repo_name)
+
+
+    def remove_remote_repo(self, repo_name):
+        repo_path = self.repos[repo_name].path
+        remove_local_repo_data(repo_path)
+        self.api.remove_remote_repo(repo_name)
+        del self.repos[repo_name]
+    def create_new_repo(self, path, git_name):
         try:
-            clone_url = create_remote_repo(git_name, credentials)
-            repo.remotes.set_push_url("origin", clone_url)
-            repo.remotes.set_url("origin", clone_url)
-            commit_and_push_all(repo, credentials)
-            return repo
-        except:
-            remove_remote_repo(git_name, credentials)
-            raise
-    except BaseException as e:
-        remove_local_repo_data(path)
-        logger.warning("Unable to create repository %s in %s because of %s" % (git_name, path, e))
+            repo = GitClient(self.api.get_signature(), path, self.root, credentials = self.api.credentials).init()
+            try:
+                clone_url = self.api.create_remote_repo(git_name)
+                repo.repo.remotes.set_push_url("origin", clone_url)
+                repo.repo.remotes.set_url("origin", clone_url)
+                self.repos[git_name] = repo
+                self.commit_and_push_all(git_name)
+                return repo
+            except:
+                self.api.remove_remote_repo(git_name)
+                raise
+        except BaseException as e:
+            remove_local_repo_data(path)
+            logger.warning("Unable to create repository %s in %s because of %s" % (git_name, path, e))
 
-def add_remote_repo(path, repo_name, credentials):
-    return clone(path, repo_name, credentials)
+    def create_existing_repo(self, path, git_name):
+        try:
+            repo = GitClient(self.api.get_signature(), path, self.root, credentials=self.api.credentials).find()
+            self.repos[git_name] = repo
+            self.commit_and_push_all(git_name)
+        except BaseException as e:
+            logger.warning("Unable to create repository %s in %s because of %s" % (git_name, path, e))
+    def add_remote_repo(self, path, repo_name):
+        return self.repos[repo_name].clone(path, repo_name, self.api.credentials)
 
-def is_repo(path):
-    repo = discover_repository(path)
-    if repo is not None:
-        if path in repo:
-            return True
-    return False
+    def commit_and_push_all(self, repo_name):
+        self.repos[repo_name].add_all()
+        self.repos[repo_name].commit(time.strftime("%d/%m/%Y-%H:%M:%S"))
+        self.repos[repo_name].push()
 
-def find_repo(path):
-    repo = discover_repository(path)
-    if repo is not None:
-        if path in repo:
-            return Repository(repo)
-        return None
-
-def commit_and_push_all(repository, credentials, ref='refs/heads/master'):
-    add_all(repository)
-    commit(repository, get_signature(credentials), time.strftime("%d/%m/%Y-%H:%M:%S"), ref)
-    push(repository, credentials)
-
+    def update_remote(self,repo_name):
+        self.repos[repo_name].pull()
+        self.commit_and_push_all(repo_name)
+    
+    def verify_remote(self, repo_name):
+        repo = self.repos[repo_name].repo
+        response = []
+        if not repo_name in os.path.basename(repo.remotes[0].url):
+            response.append(1)
+        if not self.api.remote_exist(repo_name):
+            response.append(2)
+        return response
+    def get_repo_path(self, repo_name):
+        return self.repos[repo_name].path
 
 def get_reponame_from_path(path):
     try:
@@ -62,18 +89,13 @@ def remove_local_repo_data(path):
     shutil.rmtree(os.path.join(path, ".git"))
     logger.info(" Successfully removed .git in {}".format(path))
 
-def update_remote(path, credentials):
-    repo = find_repo(path)
-    pull(repo, credentials, get_signature(credentials))
-    commit_and_push_all(repo, credentials)
-def verify_remote(path, repo_name, credentials):
-    repo = find_repo(path)
-    response = []
-    if not repo_name in os.path.basename(repo.remotes[0].url):
-        response.append(1)
-    if not remote_exist(repo_name, credentials):
-        response.append(2)
-    return response
+
+def is_repo(path):
+    repo = discover_repository(path)
+    if repo is not None:
+        if path in repo:
+            return True
+    return False
 
 
 #http://www.pygit2.org/repository.html

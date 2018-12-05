@@ -6,24 +6,27 @@
 import os
 import tkinter
 import logging
+import config
 from backup_client.frames import Loginwindow, Mainwindow
+from backup_client import Backend
+from backup_client.network import GitGogs
 from backup_client.filehandler.pickles import load_obj
 
 
 def main():
     try:
-        credentials = load_obj("udata")
+        credentials = GitGogs(config.API, config.ROOT,load_obj("udata"))
     except FileNotFoundError:
         login = tkinter.Tk()
         dialog = Loginwindow(login)
         login.wait_window()
-        credentials = dialog.result
+        credentials = GitGogs(config.API, config.ROOT, dialog.result)
 
     if credentials is not None:
         top = tkinter.Tk()
         top.geometry("250x350")
         top.title("Git Backup Client")
-        Mainwindow(top, credentials)
+        Mainwindow(top, Backend(gitgogs=credentials))
         top.mainloop()
 
 
