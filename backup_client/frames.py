@@ -94,36 +94,19 @@ class Mainwindow(tkinter.Frame):
         self.monitored_files.insert(tkinter.END, git_name)
 
     def load_stored_patterns(self):
-        logger.info("Patterns: Loading")
         try:
             temp = load_obj("patterns")
+            logger.info("Patterns: Loading") if temp else logger.info("No Patterns to Load")
             for obj in temp:
                 reponame = get_reponame_from_path(obj)
                 if reponame is None:
                     answer = messagebox.askyesno("Repository not found", "Local repository in {} does not exist, do you want to create it?".format(obj))
                     if answer:
                         self.add_folder(askdir=obj)
-                        break
-                    break
-                self.gitgogs.add_dir(obj, reponame)
-                error_codes = self.gitgogs.git.verify_remote(reponame)
-                if 1 in error_codes:
-                    answer = messagebox.askyesno("Wrong reponame", "The name of the repository does not correlate with the remote, do you want to change it to do so?")
-                    if answer:
-                        reponame = get_reponame_from_path(obj)
                     else:
-                        break
-                if 2 in error_codes:
-                    answer = messagebox.askyesno("No remote folder found", "Do you want to change reponame?")
-                    if answer:
-                        reponame = simpledialog.askstring("Renaming repo", "Enter new name for repository")
-                    else:
-                        answer = messagebox.askyesno("Wrong Reponame", "Do you want to delete local repository data?")
-                        if answer:
-                            remove_local_repo_data(obj)
-                if reponame is not None:
-                    self.monitored_files.insert(tkinter.END, reponame)
-            logger.debug("Patterns:Done Loading")
+                        self.gitgogs.add_dir(obj, reponame)
+                        self.monitored_files.insert(tkinter.END, reponame)
+            if temp : logger.info("Patterns:Done Loading")
         except FileNotFoundError:
             pass
 

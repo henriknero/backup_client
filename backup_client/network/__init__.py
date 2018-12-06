@@ -67,8 +67,8 @@ class GitGogs():
         self.repos[repo_name].pull()
         self.commit_and_push_all(repo_name)
     
-    def verify_remote(self, repo_name):
-        repo = self.repos[repo_name].repo
+    def verify_remote(self, path ,repo_name):
+        repo = Repository(path)
         response = []
         if not repo_name in os.path.basename(repo.remotes[0].url):
             response.append(1)
@@ -96,6 +96,7 @@ def is_repo(path):
         if path in repo:
             return True
     return False
+
 
 
 #http://www.pygit2.org/repository.html

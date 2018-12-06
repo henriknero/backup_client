@@ -3,7 +3,7 @@ import datetime
 import logging
 
 from backup_client.filehandler import FileObserver
-from backup_client.network import GitGogs, is_repo
+from backup_client.network import GitGogs, is_repo, get_reponame_from_path
 
 logger = logging.getLogger(__name__)
 
@@ -18,6 +18,7 @@ class Backend(FileObserver):
             self.git = gitgogs
         self.patterns = {}
         self.start()
+        self.event_handler.on_modified = self.on_modified
 
     def add_dir(self, dir_path, repo_name):
         try:
@@ -40,3 +41,13 @@ class Backend(FileObserver):
             raise
         except BaseException:
             pass
+    def on_modified(self, event):
+        mod_path = event.key[1]
+        for substring in self.patterns:
+            if substring in mod_path and '/.git' not in mod_path:
+                logger.info("Modified event: %s", event)
+                if datetime.datetime.now() - self.patterns[substring] > UPDATE_INTERVAL:
+                    repo_name = get_reponame_from_path(substring)
+                    self.git.commit_and_push_all(repo_name)
+                    self.patterns[substring] = datetime.datetime.now()
+                break
