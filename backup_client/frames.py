@@ -43,8 +43,6 @@ class Loginwindow(object):
         login.pack(pady=5)
 
     def apply(self, optional=None):
-        """Check against server
-        """
         self.result = (self.username_entry.get(), self.password_entry.get())
         if GitApi(config.API, self.result).is_authorized():
             if self.store_password.get():
@@ -53,12 +51,6 @@ class Loginwindow(object):
 
 
 class Mainwindow(tkinter.Frame):
-    """Gui Class
-
-    Arguments:
-        tkinter {Frame} --
-    """
-
     def __init__(self, parent, gitgogs, *args, **kwargs):
         tkinter.Frame.__init__(self, parent, *args, **kwargs)
         self.gitgogs = gitgogs
@@ -79,8 +71,6 @@ class Mainwindow(tkinter.Frame):
         self.parent.destroy()
 
     def add_folder(self, askdir=os.getcwd()):
-        """Add Folder function
-        """
         dir_path = filedialog.askdirectory(initialdir=askdir)
         if isinstance(dir_path, str) and dir_path != '':
             git_name = simpledialog.askstring(
@@ -103,9 +93,9 @@ class Mainwindow(tkinter.Frame):
                     answer = messagebox.askyesno("Repository not found", "Local repository in {} does not exist, do you want to create it?".format(obj))
                     if answer:
                         self.add_folder(askdir=obj)
-                    else:
-                        self.gitgogs.add_dir(obj, reponame)
-                        self.monitored_files.insert(tkinter.END, reponame)
+                else:
+                    self.gitgogs.add_dir(obj, reponame)
+                    self.monitored_files.insert(tkinter.END, reponame)
             if temp : logger.info("Patterns:Done Loading")
         except FileNotFoundError:
             pass
@@ -125,7 +115,11 @@ class Mainwindow(tkinter.Frame):
         file_menu.add_command(label="Logout and Quit", command=self.logout)
         file_menu.add_command(label="Quit", command=self.quit)
 
+        #window_menu = tkinter.Menu(menu)
+        #window_menu.add_command(label="Hide",command=self.iconify)
+        
         menu.add_cascade(label="File", menu=file_menu)
+        #menu.add_cascade(label="Window",menu=window_menu)
 
     def create_monitored_folders_box(self):
         self.monitored_files = tkinter.Listbox(
@@ -172,25 +166,22 @@ class Mainwindow(tkinter.Frame):
             logger.warning(" Repository {} was not found on remote server".format(repo_name)) # Create option to remove .git folder and clean up cause remote repository doesnt exist
 
     def connect_remote(self):
+        #TODO: This is wrong fix it idiot
         dir_path = filedialog.askdirectory(title="Folder to download repository too")
         if not is_repo(dir_path): # If local repository does not exist download repository to folder
             repo_name = simpledialog.askstring(
                 "Add Remote Folder",
                 "The folder you have entered does not contain any remote, please enter the name of remote folder"
                 )
-            add_remote_repo(dir_path, repo_name, self.observer.credentials)
-            self.observer.add_dir(dir_path, repo_name)
-            self.monitored_files.insert(tkinter.END, repo_name)
         else: # If choosen folder is existing repository, try to pull it to update local repository
             repo_name = get_reponame_from_path(dir_path)
-            pull(find_repo(dir_path), self.observer.credentials, get_signature(self.observer.credentials))
-            self.observer.add_dir(dir_path, repo_name)
-            self.monitored_files.insert(tkinter.END, repo_name)
+        self.gitgogs.add_dir(dir_path,repo_name)
+        self.monitored_files.insert(tkinter.END, repo_name)
+        logger.info("Successfully added connected to %s" % repo_name)
 
     def logout(self):
         os.remove('obj/udata.pkl')
         self.quit()
-
 # Hides window to the user and redraws it after 5 sec.
 #self.parent.wm_state("withdrawn")
 #time.sleep(5)

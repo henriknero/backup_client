@@ -7,10 +7,9 @@ from backup_client.network import GitGogs, is_repo, get_reponame_from_path
 
 logger = logging.getLogger(__name__)
 
-UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 
 class Backend(FileObserver):
-    def __init__(self, api=None, root=None, credentials=None, gitgogs=None):
+    def __init__(self, api=None, root=None, credentials=None, gitgogs=None, update_interval=0):
         super().__init__()
         if gitgogs is None:
             self.git = GitGogs(api, root , credentials)
@@ -19,6 +18,8 @@ class Backend(FileObserver):
         self.patterns = {}
         self.start()
         self.event_handler.on_modified = self.on_modified
+        
+        self._update_interval = datetime.timedelta(minutes=update_interval)
 
     def add_dir(self, dir_path, repo_name):
         try:
@@ -46,7 +47,7 @@ class Backend(FileObserver):
         for substring in self.patterns:
             if substring in mod_path and '/.git' not in mod_path:
                 logger.info("Modified event: %s", event)
-                if datetime.datetime.now() - self.patterns[substring] > UPDATE_INTERVAL:
+                if datetime.datetime.now() - self.patterns[substring] > self._update_interval:
                     repo_name = get_reponame_from_path(substring)
                     self.git.commit_and_push_all(repo_name)
                     self.patterns[substring] = datetime.datetime.now()
