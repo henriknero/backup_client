@@ -5,10 +5,11 @@ from tkinter import filedialog, simpledialog, messagebox
 import os
 import logging
 
-from backup_client.network import get_reponame_from_path, is_repo, update_remote, remove_local_repo_data, verify_remote, add_remote_repo, find_repo
-from backup_client.network.gogs import is_authorized, get_signature
-from backup_client.network.git import pull #TODO: Try to get rid of this one call
-from backup_client.filehandler import observer
+import requests as req
+import config
+from backup_client.network import get_reponame_from_path, is_repo, remove_local_repo_data
+from backup_client import Backend
+from backup_client.network.gogs import GitApi
 from backup_client.filehandler.pickles import load_obj, save_obj
 
 logger = logging.getLogger(__name__)
@@ -42,38 +43,19 @@ class Loginwindow(object):
         login.pack(pady=5)
 
     def apply(self, optional=None):
-        """Check against server
-        """
-        credentials = (self.username_entry.get(), self.password_entry.get())
-        if is_authorized(credentials):
-            self.result = (self.username_entry.get(),
-                           self.password_entry.get())
+        self.result = (self.username_entry.get(), self.password_entry.get())
+        if GitApi(config.API, self.result).is_authorized():
             if self.store_password.get():
-                save_obj(credentials, 'udata')
+                save_obj(self.result, "udata")
             self.parent.destroy()
 
 
 class Mainwindow(tkinter.Frame):
-    """Gui Class
-
-    Arguments:
-        tkinter {Frame} --
-    """
-
-    def __init__(self, parent, credentials, *args, **kwargs):
-        """Gui for app
-
-        Arguments:
-            tkinter {Frame} -- asd
-            parent {Frame} -- Root Window
-            observer {Observer} -- Fileobserver to handle files.
-        """
+    def __init__(self, parent, gitgogs, *args, **kwargs):
         tkinter.Frame.__init__(self, parent, *args, **kwargs)
+        self.gitgogs = gitgogs
         self.parent = parent
         self.parent.protocol("WM_DELETE_WINDOW", self.quit)
-        self.observer = observer.FileObserver(credentials[0], credentials[1])
-        self.observer.start()
-        self.listitems = {}
 
         self.create_menu()
         self.create_monitored_folders_box()
@@ -84,61 +66,37 @@ class Mainwindow(tkinter.Frame):
         self.parent.grid_rowconfigure(0, weight=1)
 
     def quit(self):
+        self.gitgogs.stop()
+        save_obj(self.gitgogs.patterns, "patterns")
         self.parent.destroy()
-        save_obj(self.observer.patterns, "patterns")
-        self.observer.stop()
 
     def add_folder(self, askdir=os.getcwd()):
-        """Add Folder function
-        """
         dir_path = filedialog.askdirectory(initialdir=askdir)
         if isinstance(dir_path, str) and dir_path != '':
             git_name = simpledialog.askstring(
                 "Alias for folder",
                 "Enter the name you want for the git repo and what you will see"
                 )
-            self.listitems[git_name] = dir_path
         if not os.path.isdir(dir_path):
             return
 
-        if isinstance(dir_path, str) and dir_path not in self.observer.patterns.values():
-            self.observer.add_dir(dir_path, git_name)
-            self.monitored_files.insert(tkinter.END, git_name)
+        self.gitgogs.add_dir(dir_path, git_name)
+        self.monitored_files.insert(tkinter.END, git_name)
 
     def load_stored_patterns(self):
-        logger.info("Patterns: Loading")
         try:
             temp = load_obj("patterns")
+            logger.info("Patterns: Loading") if temp else logger.info("No Patterns to Load")
             for obj in temp:
                 reponame = get_reponame_from_path(obj)
                 if reponame is None:
                     answer = messagebox.askyesno("Repository not found", "Local repository in {} does not exist, do you want to create it?".format(obj))
                     if answer:
                         self.add_folder(askdir=obj)
-                        break
-                    break
-                error_codes = verify_remote(obj, reponame, self.observer.credentials)
-                if 1 in error_codes:
-                    answer = messagebox.askyesno("Wrong reponame", "The name of the repository does not correlate with the remote, do you want to change it to do so?")
-                    if answer:
-                        reponame = get_reponame_from_path(obj)
-                    else:
-                        break
-                if 2 in error_codes:
-                    answer = messagebox.askyesno("No remote folder found", "Do you want to change reponame?")
-                    if answer:
-                        reponame = simpledialog.askstring("Renaming repo", "Enter new name for repository")
-                    else:
-                        answer = messagebox.askyesno("Wrong Reponame", "Do you want to delete local repository data?")
-                        if answer:
-                            remove_local_repo_data(obj)
-                update_remote(obj, self.observer.credentials)
-                if reponame is not None:
-                    self.observer.patterns[obj] = temp[obj]
-                    self.observer.file_observer.schedule(self.observer.event_handler, obj, recursive=True)
+                else:
+                    self.gitgogs.add_dir(obj, reponame)
                     self.monitored_files.insert(tkinter.END, reponame)
-                    self.listitems[reponame] = obj
-            logger.debug("Patterns:Done Loading")
+            if temp : logger.info("Patterns:Done Loading")
         except FileNotFoundError:
             pass
 
@@ -157,7 +115,11 @@ class Mainwindow(tkinter.Frame):
         file_menu.add_command(label="Logout and Quit", command=self.logout)
         file_menu.add_command(label="Quit", command=self.quit)
 
+        #window_menu = tkinter.Menu(menu)
+        #window_menu.add_command(label="Hide",command=self.iconify)
+        
         menu.add_cascade(label="File", menu=file_menu)
+        #menu.add_cascade(label="Window",menu=window_menu)
 
     def create_monitored_folders_box(self):
         self.monitored_files = tkinter.Listbox(
@@ -198,31 +160,28 @@ class Mainwindow(tkinter.Frame):
     def remove_folder_git(self):
         repo_name = self.monitored_files.get(self.monitored_files.curselection())
         try:
-            self.observer.unmonitor_folder(repo_name, self.listitems[repo_name])
+            self.gitgogs.remove_dir(repo_name)
             self.monitored_files.delete(self.monitored_files.curselection())
         except NameError:
             logger.warning(" Repository {} was not found on remote server".format(repo_name)) # Create option to remove .git folder and clean up cause remote repository doesnt exist
 
     def connect_remote(self):
+        #TODO: This is wrong fix it idiot
         dir_path = filedialog.askdirectory(title="Folder to download repository too")
         if not is_repo(dir_path): # If local repository does not exist download repository to folder
             repo_name = simpledialog.askstring(
                 "Add Remote Folder",
                 "The folder you have entered does not contain any remote, please enter the name of remote folder"
                 )
-            add_remote_repo(dir_path, repo_name, self.observer.credentials)
-            self.observer.add_dir(dir_path, repo_name)
-            self.monitored_files.insert(tkinter.END, repo_name)
         else: # If choosen folder is existing repository, try to pull it to update local repository
             repo_name = get_reponame_from_path(dir_path)
-            pull(find_repo(dir_path), self.observer.credentials, get_signature(self.observer.credentials))
-            self.observer.add_dir(dir_path, repo_name)
-            self.monitored_files.insert(tkinter.END, repo_name)
+        self.gitgogs.add_dir(dir_path,repo_name)
+        self.monitored_files.insert(tkinter.END, repo_name)
+        logger.info("Successfully added connected to %s" % repo_name)
 
     def logout(self):
         os.remove('obj/udata.pkl')
         self.quit()
-
 # Hides window to the user and redraws it after 5 sec.
 #self.parent.wm_state("withdrawn")
 #time.sleep(5)
