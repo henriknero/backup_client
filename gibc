@@ -6,35 +6,29 @@
 import os
 import tkinter
 import logging
-
-import config
 import backup_client
-from backup_client import frames
+from backup_client import login, MainWindow
 from backup_client.filehandler.pickles import load_obj
 
 
 def main():
     try:
-        credentials = backup_client.network.GitGogs(config.API, config.ROOT,load_obj("udata"))
+        gitgogs = backup_client.network.GitGogs(load_obj("udata"))
+        verified = True
     except FileNotFoundError:
-        login = tkinter.Tk()
-        dialog = frames.Loginwindow(login)
-        login.wait_window()
-        credentials = backup_client.network.GitGogs(config.API, config.ROOT, dialog.result)
+        logindialog = login.LoginWindow(0)
+        credentials = logindialog.credentials
+        verified = logindialog.verified
+        gitgogs = backup_client.network.GitGogs(credentials)
 
-    if credentials is not None:
-        top = tkinter.Tk()
-        top.geometry("250x350")
-        top.title("Git Backup Client")
-        backend = backup_client.Backend(gitgogs=credentials, update_interval=config.UPDATE_INTERVAL)
-        frames.Mainwindow(top, backend)
-        top.mainloop()
+    if verified:
+        backend = backup_client.Backend(gitgogs=gitgogs) 
+        top = MainWindow.MainWindow(0)
+        top.setGitGogs(backend)
+        top.MainLoop()
 
 
 if __name__ == "__main__":
     loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
     logging.basicConfig(level=loglevel)
     main()
-#Hyfsat bra doc
-#http://effbot.org/tkinterbook/wm.htm
-#Värdelös men vill ha ändå https://www.tutorialspoint.com/python/python_gui_programming.htm
