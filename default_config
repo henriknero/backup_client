@@ -1,0 +1,7 @@
+[NET]
+api = https://nerobp.xyz/gogs/api/v1
+root = https://nerobp.xyz/gogs/
+upd_interval = 0
+
+[FILE]
+icon = /opt/gibc/icon.png
