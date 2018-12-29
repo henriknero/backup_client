@@ -6,7 +6,6 @@ block_cipher = None
 a = Analysis(['gibc'],
              pathex=['/home/henrik/Programming/backup_client'],
              binaries=[],
-             datas=[],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
@@ -30,3 +29,7 @@ exe = EXE(pyz,
           upx=True,
           runtime_tmpdir=None,
           console=True )
+
+import shutil
+shutil.copyfile('default_config', 'dist/default_config')
+shutil.copyfile('icon.png', 'dist/icon.png')

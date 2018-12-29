@@ -2,6 +2,7 @@ import os
 import datetime
 import logging
 
+import config
 from backup_client.filehandler import FileObserver
 from backup_client.network import GitGogs, is_repo, get_reponame_from_path
 
@@ -9,17 +10,17 @@ logger = logging.getLogger(__name__)
 
 
 class Backend(FileObserver):
-    def __init__(self, api=None, root=None, credentials=None, gitgogs=None, update_interval=0):
+    def __init__(self, credentials=None, gitgogs=None):
         super().__init__()
         if gitgogs is None:
-            self.git = GitGogs(api, root , credentials)
+            self.git = GitGogs(credentials)
         else:
             self.git = gitgogs
         self.patterns = {}
         self.start()
         self.event_handler.on_modified = self.on_modified
         
-        self._update_interval = datetime.timedelta(minutes=update_interval)
+        self._update_interval = datetime.timedelta(minutes=config.UPDATE_INTERVAL)
 
     def add_dir(self, dir_path, repo_name):
         try:

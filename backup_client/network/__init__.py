@@ -4,18 +4,20 @@ import os
 import shutil
 import logging
 from json import loads
-from .git import GitClient
-from .gogs import GitApi
 from pygit2 import Repository, discover_repository, init_repository  #pylint: disable=E0611
 import requests as req
+import config
+
+from .git import GitClient
+from .gogs import GitApi
 
 logger = logging.getLogger(__name__)
 
 UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 class GitGogs():
-    def __init__(self, api, root, credentials):
-        self.api = GitApi(api, credentials)
-        self.root = root
+    def __init__(self, credentials):
+        self.api = GitApi(config.API, credentials)
+        self.root = config.ROOT
         self.repos = {}
 
     def add_dir(self, dir_path, repo_name):
@@ -91,11 +93,14 @@ def remove_local_repo_data(path):
 
 
 def is_repo(path):
-    repo = discover_repository(path)
-    if repo is not None:
-        if path in repo:
-            return True
-    return False
+    try:
+        repo = discover_repository(path)
+        if repo is not None:
+            if path in repo:
+                return True
+        return False
+    except KeyError:
+        return False
 
 
 
