@@ -16,5 +16,3 @@ class FileObserver(object):
     def stop(self):
         self.file_observer.stop()
         self.file_observer.join()
-
-

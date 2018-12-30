@@ -23,7 +23,7 @@ class MyDialog(wx.Dialog):
         kwds["style"] = kwds.get("style", 0) | wx.DEFAULT_DIALOG_STYLE
         wx.Dialog.__init__(self, *args, **kwds)
         self.config = None
-        self.result= None
+        self.result = None
         self.verified = False
         self.SetSize((200, 250))
         self.username_form = wx.TextCtrl(self, wx.ID_ANY, "")
@@ -67,10 +67,8 @@ class MyDialog(wx.Dialog):
             self.verified = True
             if self.checkbox_2.GetValue():
                 keyring.set_password('gibc', self.result[0], self.result[1])
-                save_obj(self.result[0],'udata')
+                save_obj(self.result[0], 'udata')
             self.EndModal(0)
-    def setConfig(self, config):
-        self.config = config
 # end of class MyDialog
 
 class LoginWindow(wx.App):

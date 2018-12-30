@@ -14,12 +14,12 @@ class Backend(FileObserver):
         if gitgogs:
             self.git = gitgogs
         else:
-            self.git = GitGogs(credentials)
-        
+            self.git = GitGogs(config, credentials)
+
         self.patterns = {}
         self.start()
         self.event_handler.on_modified = self.on_modified
-        
+
         self._update_interval = datetime.timedelta(minutes=config.UPDATE_INTERVAL)
 
     def add_dir(self, dir_path, repo_name):
@@ -27,8 +27,8 @@ class Backend(FileObserver):
             self.git.add_dir(dir_path, repo_name)
             self.patterns[dir_path] = datetime.datetime.now()
             self.file_observer.schedule(self.event_handler, dir_path, recursive=True)
-        except BaseException as e: #TODO: Add Error Handling for all steps?
-            logger.warning("Unable to add directory: %s" % e)
+        except BaseException as error: #TODO: Add Error Handling for all steps?
+            logger.warning("Unable to add directory: %s", error)
 
     def remove_dir(self, repo_name):
         try:
@@ -38,7 +38,7 @@ class Backend(FileObserver):
                 if watch.path == dir_path:
                     self.file_observer.remove_handler_for_watch(self.event_handler, watch)
                     del self.patterns[dir_path]
-                    logger.info("Successfully removed {} from observer.".format(repo_name))
+                    logger.info("Successfully removed %s from observer.", repo_name)
         except NameError:
             raise
         except BaseException:

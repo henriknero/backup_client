@@ -34,7 +34,7 @@ class GitGogs():
         del self.repos[repo_name]
     def create_new_repo(self, path, git_name):
         try:
-            repo = GitClient(self.api.get_signature(), path, self.root, credentials = self.api.credentials).init()
+            repo = GitClient(self.api.get_signature(), path, self.root, credentials=self.api.credentials).init()
             try:
                 clone_url = self.api.create_remote_repo(git_name)
                 repo.repo.remotes.set_push_url("origin", clone_url)
@@ -45,17 +45,17 @@ class GitGogs():
             except:
                 self.api.remove_remote_repo(git_name)
                 raise
-        except BaseException as e:
+        except BaseException as error:
             remove_local_repo_data(path)
-            logger.warning("Unable to create repository %s in %s because of %s" % (git_name, path, e))
+            logger.warning("Unable to create repository %s in %s because of %s", git_name, path, error)
 
     def create_existing_repo(self, path, git_name):
         try:
             repo = GitClient(self.api.get_signature(), path, self.root, credentials=self.api.credentials).find()
             self.repos[git_name] = repo
             self.commit_and_push_all(git_name)
-        except BaseException as e:
-            logger.warning("Unable to create repository %s in %s because of %s" % (git_name, path, e))
+        except BaseException as error:
+            logger.warning("Unable to create repository %s in %s because of %s", git_name, path, error)
     def add_remote_repo(self, path, repo_name):
         return self.repos[repo_name].clone(path, repo_name, self.api.credentials)
 
@@ -64,11 +64,11 @@ class GitGogs():
         self.repos[repo_name].commit(time.strftime("%d/%m/%Y-%H:%M:%S"))
         self.repos[repo_name].push()
 
-    def update_remote(self,repo_name):
+    def update_remote(self, repo_name):
         self.repos[repo_name].pull()
         self.commit_and_push_all(repo_name)
-    
-    def verify_remote(self, path ,repo_name):
+
+    def verify_remote(self, path, repo_name):
         repo = Repository(path)
         response = []
         if not repo_name in os.path.basename(repo.remotes[0].url):
@@ -88,7 +88,7 @@ def get_reponame_from_path(path):
 
 def remove_local_repo_data(path):
     shutil.rmtree(os.path.join(path, ".git"))
-    logger.info(" Successfully removed .git in {}".format(path))
+    logger.info(" Successfully removed .git in %s", path)
 
 
 def is_repo(path):

@@ -8,7 +8,7 @@ import pygit2 as git
 logger = logging.getLogger(__name__)
 
 class GitApi(object):
-    def __init__(self, api, credentials = None, root = None):
+    def __init__(self, api, credentials=None, root=None):
         self.api = api
         self.credentials = credentials
         if root:
@@ -26,7 +26,7 @@ class GitApi(object):
             raise NameError("Repository not found")
         elif response.status_code != 204:
             raise Exception("Unexpected Error, make sure that you have connection to the server.")
-        logger.info(" Successfully removed \"{}\" from remote server".format(repo_name))
+        logger.info(" Successfully removed \"%s\" from remote server", repo_name)
 
 
     def create_remote_repo(self, git_name):
@@ -58,7 +58,7 @@ class GitApi(object):
 
     def remote_exist(self, repo_name):
         httpresponse = req.get(os.path.join(self.get_delete, self.credentials[0], repo_name), auth=self.credentials)
-        return not (httpresponse.status_code == 404)
+        return not httpresponse.status_code == 404
 
     def is_authorized(self):
         response = req.get(

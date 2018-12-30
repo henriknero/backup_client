@@ -5,31 +5,31 @@
 """
 import os
 import logging
-import backup_client
 import keyring
 
+import backup_client
 import backup_client.config as config
-from backup_client import login, MainWindow
+from backup_client import login, mainwindow
 from backup_client.filehandler.pickles import load_obj
 
 
 def main():
     try:
         username = load_obj("udata")
-        password = keyring.get_password('gibc',username)
+        password = keyring.get_password('gibc', username)
         gitgogs = backup_client.network.GitGogs(config.Config, (username, password))
         verified = True
     except FileNotFoundError:
-        logindialog = login.LoginWindow(config.Config,redirect=0)
+        logindialog = login.LoginWindow(config.Config, redirect=0)
         credentials = logindialog.credentials
         verified = logindialog.verified
         gitgogs = backup_client.network.GitGogs(config.Config, credentials)
 
     if verified:
-        backend = backup_client.Backend(config.Config, gitgogs=gitgogs) 
-        top = MainWindow.MainWindow(0)
-        top.setGitGogs(backend)
-        top.createTaskBarIcon(config.Config.ICON)
+        backend = backup_client.Backend(config.Config, gitgogs=gitgogs)
+        top = mainwindow.Mainwindow(0)
+        top.set_gitgogs(backend)
+        top.create_taskbaricon(config.Config.ICON)
         top.MainLoop()
 
 
