@@ -5,6 +5,7 @@
 #
 
 import wx
+import keyring
 
 import config
 from backup_client.network.gogs import GitApi
@@ -65,7 +66,8 @@ class MyDialog(wx.Dialog):
         if GitApi(config.API, self.result).is_authorized():
             self.verified = True
             if self.checkbox_2.GetValue():
-                save_obj(self.result,'udata')
+                keyring.set_password('gibc', self.result[0], self.result[1])
+                save_obj(self.result[0],'udata')
             self.EndModal(0)
 # end of class MyDialog
 

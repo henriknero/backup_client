@@ -4,16 +4,18 @@
     docstring here
 """
 import os
-import tkinter
 import logging
 import backup_client
+import keyring
 from backup_client import login, MainWindow
 from backup_client.filehandler.pickles import load_obj
 
 
 def main():
     try:
-        gitgogs = backup_client.network.GitGogs(load_obj("udata"))
+        username = load_obj("udata")
+        password = keyring.get_password('gibc',username)
+        gitgogs = backup_client.network.GitGogs((username, password))
         verified = True
     except FileNotFoundError:
         logindialog = login.LoginWindow(0)
