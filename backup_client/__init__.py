@@ -2,7 +2,6 @@ import os
 import datetime
 import logging
 
-import config
 from backup_client.filehandler import FileObserver
 from backup_client.network import GitGogs, is_repo, get_reponame_from_path
 
@@ -10,12 +9,13 @@ logger = logging.getLogger(__name__)
 
 
 class Backend(FileObserver):
-    def __init__(self, credentials=None, gitgogs=None):
+    def __init__(self, config, credentials=None, gitgogs=None):
         super().__init__()
-        if gitgogs is None:
-            self.git = GitGogs(credentials)
-        else:
+        if gitgogs:
             self.git = gitgogs
+        else:
+            self.git = GitGogs(credentials)
+        
         self.patterns = {}
         self.start()
         self.event_handler.on_modified = self.on_modified

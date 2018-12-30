@@ -7,7 +7,6 @@
 import wx
 import keyring
 
-import config
 from backup_client.network.gogs import GitApi
 from backup_client.filehandler.pickles import save_obj
 
@@ -23,6 +22,7 @@ class MyDialog(wx.Dialog):
         # begin wxGlade: MyDialog.__init__
         kwds["style"] = kwds.get("style", 0) | wx.DEFAULT_DIALOG_STYLE
         wx.Dialog.__init__(self, *args, **kwds)
+        self.config = None
         self.result= None
         self.verified = False
         self.SetSize((200, 250))
@@ -63,17 +63,23 @@ class MyDialog(wx.Dialog):
 
     def apply(self, event):  # wxGlade: MyDialog.<event_handler>
         self.result = (self.username_form.GetLineText(0), self.password_form.GetLineText(0))
-        if GitApi(config.API, self.result).is_authorized():
+        if GitApi(self.config.API, self.result).is_authorized():
             self.verified = True
             if self.checkbox_2.GetValue():
                 keyring.set_password('gibc', self.result[0], self.result[1])
                 save_obj(self.result[0],'udata')
             self.EndModal(0)
+    def setConfig(self, config):
+        self.config = config
 # end of class MyDialog
 
 class LoginWindow(wx.App):
+    def __init__(self, config=None, redirect=False, filename=None, useBestVisual=False, clearSigInt=True):
+        self.__config = config
+        super().__init__(redirect=redirect, filename=filename, useBestVisual=useBestVisual, clearSigInt=clearSigInt)
     def OnInit(self):
         self.Gibc = MyDialog(None, wx.ID_ANY, "")
+        self.Gibc.config = self.__config
         self.SetTopWindow(self.Gibc)
         self.Gibc.ShowModal()
         self.credentials = (self.Gibc.username_form.GetLineText(0), self.Gibc.password_form.GetLineText(0))

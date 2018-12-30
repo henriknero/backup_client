@@ -55,7 +55,7 @@ class Root(wx.Frame):
 
         self.monitored_folders.Bind(wx.EVT_RIGHT_DOWN, self.RightClickEvent)
 
-        self.tray_item = TaskBarIcon(self)
+        self.tray_item = None
 
         self.__set_properties()
         self.__do_layout()
@@ -140,7 +140,7 @@ class Root(wx.Frame):
         logger.info("Successfully added connected to %s" % repo_name)
 
     def logout(self, event):  # wxGlade: Root.<event_handler>
-        os.remove('obj/udata.pkl')
+        os.remove(os.path.join(os.path.expanduser('~'), '.gibc/udata.pkl'))
         self.onClose(event)
 
     def onClose(self, event):  # wxGlade: Root.<event_handler>
@@ -162,3 +162,5 @@ class MainWindow(wx.App):
     def setGitGogs(self, gitgogs):
         self.frame.gitgogs = gitgogs
         self.frame.load_stored_patterns()
+    def createTaskBarIcon(self, icon):
+        self.frame.tray_item = TaskBarIcon(self.frame, icon)

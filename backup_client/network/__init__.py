@@ -6,7 +6,6 @@ import logging
 from json import loads
 from pygit2 import Repository, discover_repository, init_repository  #pylint: disable=E0611
 import requests as req
-import config
 
 from .git import GitClient
 from .gogs import GitApi
@@ -15,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 UPDATE_INTERVAL = datetime.timedelta(minutes=0)
 class GitGogs():
-    def __init__(self, credentials):
+    def __init__(self, config, credentials):
         self.api = GitApi(config.API, credentials)
         self.root = config.ROOT
         self.repos = {}
