@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import wx.adv
 class TaskBarIcon(wx.adv.TaskBarIcon):
     def __init__(self, frame, icon, iconType=wx.adv.TBI_DEFAULT_TYPE):

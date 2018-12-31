@@ -9,5 +9,5 @@ setup(
     packages=['backup_client','backup_client.filehandler', 'backup_client.network'],
     scripts=['gibc'],
     data_files=[('.', ['default.conf']),
-        ('backup_client', ['backup_client/icon.png'])]
+                ('data', ['data/icon.png'])]
 )

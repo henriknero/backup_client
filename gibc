@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-#coding=utf-8
-"""
-    docstring here
-"""
+#! /usr/bin/python3
 import os
 import logging
 import keyring
@@ -11,6 +7,8 @@ import backup_client
 import backup_client.config as config
 from backup_client import login, mainwindow
 from backup_client.filehandler.pickles import load_obj
+
+logger = logging.getLogger(__file__)
 
 
 def main():
@@ -29,11 +27,13 @@ def main():
         backend = backup_client.Backend(config.Config, gitgogs=gitgogs)
         top = mainwindow.Mainwindow(0)
         top.set_gitgogs(backend)
-        top.create_taskbaricon(config.Config.ICON)
+
+        top.create_taskbaricon(os.path.join(config.ROOT_DIR, 'data/icon.png'))
         top.MainLoop()
 
 
 if __name__ == "__main__":
     loglevel = int(os.getenv('LOG_LEVEL', str(logging.WARNING)))
     logging.basicConfig(level=loglevel)
+    logger.debug("ROOT_DIR is: %s", config.ROOT_DIR)
     main()
