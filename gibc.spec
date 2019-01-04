@@ -7,6 +7,7 @@ a = Analysis(['gibc'],
              pathex=['/home/henrik/Programming/backup_client'],
              binaries=[],
              hiddenimports=[],
+             datas=[('default.conf','.'), ('data','data')],
              hookspath=[],
              runtime_hooks=[],
              excludes=[],
@@ -30,6 +31,3 @@ exe = EXE(pyz,
           runtime_tmpdir=None,
           console=True )
 
-import shutil
-shutil.copyfile('default_config', 'dist/default_config')
-shutil.copyfile('icon.png', 'dist/icon.png')
