@@ -1,4 +1,8 @@
 # Git Backup Client
+This a backup_client that monitors folders for changes and automatically backups to a git-server running Gogs. The current setup I use for the server can be found in my repo [gogs-container](https://github.com/henriknero/gogs-container).
+
+The client uses python modules that are compatible with both Windows and Linux so it should be possible to run on both platforms. In the current version (0.4) the program is not verified to be working on Windows. ?
+
 ## Prerequisite
 * libgit2
 * pygit2 v0.27.3
@@ -8,7 +12,7 @@ On ubuntu it is possible to install wxPython using
 ```
 sudo apt-get install python3-wxgtk4.0
 ```
-When testing "apt" gave libgit2 0.26 which is not compatible with pygit2 v0.27.3. To install the correct use the following:
+At the time of testing "apt-get" downloads libgit2 0.26 which is not compatible with pygit2 v0.27.3. To install the correct version use the following:
 ```
 wget https://github.com/libgit2/libgit2/archive/v0.27.0.tar.gz
 tar xzf v0.27.0.tar.gz
